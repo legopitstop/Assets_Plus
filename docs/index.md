@@ -4,7 +4,13 @@ This is a resrouce pack library that adds all the vanilla minecraft block ids us
 ## Note
 This resrouce pack libarary does not contain the vanilla minecraft assets. It will use vanilla minecraft, or the highest tier resoruce pack, textures.
 
-## How to add to your pack!
+## Table of Contents
+- [Dependencies](#dependencies)
+- [Planned features](#planned-features)
+- Textures
+    - [Block Textures](/textures/blocks.md)
+
+## Dependencies
 In your Behavior packs dependencies append the following code:
 ```json
 {
