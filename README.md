@@ -1,14 +1,52 @@
 # Assets Plus
+
 This is a resrouce pack library that makes all the vanilla mincreaft block ids use better ID's to use these just add the `minecraft` namespace before the texture for example: `minecraft:lime_concrete` to use the lime concrete texture. This resrouce pack also adds a few new textures like java edition's debug textures
 
 ## Note
-This resrouce pack libarary does not contain the vanilla minecraft assets. It will use vanilla minecraft, or the highest tier resoruce pack, textures.
 
-## How to add to your pack!
+> This resrouce pack libarary does not contain the vanilla minecraft assets. It will use vanilla minecraft, or the highest tier resoruce pack, textures.
+
+## Downloads
+
+You can download any version via [legopitstop.weebly.com](https://legopitstop.weebly.com/assets-plus.html)
+
+- [1.19 - v1.2.0 (Latest)]()
+- [1.18 - v1.1.0](https://www.mediafire.com/file/te3v8k4ri0msk71/Assets_Plus_RP_v1.1.0.mcpack/file)
+- [1.17.3 - v1.0.0](https://www.mediafire.com/file/13j38byhg522sow/Assets_Plus_RP_v1.0.0.mcpack/file)
+
+## How to add to your pack
+
 In your Behavior packs dependencies append the following code:
+
 ```json
 {
     "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
-    "version": [1, 0, 0]
+    "version": [1, 2, 0]
 }
 ```
+
+## FAQ
+
+### Why a seperate resrouce pack?
+
+My last few add-ons use vanilla Minecraft assets, but the default texture id isn't the best, for example, It is impossible to use the White Concrete texture because it is inside an array of textures and thus not being able to use the texture in a data-driven block. So by making this a separate pack It means less copy-pasting of the same block textures.
+
+### How do I get this to work with my behavior pack?
+
+You can find information on how to add this library to yours via the [Documentation Page](https://legopitstop.github.io/Assets_Plus/)
+
+### What IDs are supported?
+
+You can find a list of all texture IDs via the [Documentation Page](https://legopitstop.github.io/Assets_Plus/)
+
+### What do I do if I found an issue with the library?
+
+You can submit all issues and suggestions via [GitHub](https://github.com/legopitstop/Assets_Plus/issues)
+
+### Where are the texture files inside the resource pack?
+
+The resource pack reads Minecraft's built-in textures soo there is no need to add all the vanilla textures, however, this does add both debug textures from Java Edition.
+
+### Why does this have a direct link when all your other Minecraft content uses Linkvertise?
+
+I figured it would be a little bit more of a pain having to go through invertase twice so to make things a bit easier I made this a direct link.
