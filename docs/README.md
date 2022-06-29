@@ -10,9 +10,9 @@ This resrouce pack libarary does not contain the vanilla minecraft assets. It wi
 
 - [Dependencies](#dependencies)
 - [Planned features](#planned-features)
-  - [Block Textures](/Block%20Textures.md)
-  - [Item Textures](/Item%20Textures.md)
-- [Models](/Models.md)
+  - [Block Textures](./Block%20Textures.md)
+  - [Item Textures](./Item%20Textures.md)
+- [Models](./Models.md)
 
 ## Dependencies
 
