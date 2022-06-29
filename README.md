@@ -1,6 +1,6 @@
 # Assets Plus
 
-This is a resrouce pack library that makes all the vanilla mincreaft block ids use better ID's to use these just add the `minecraft` namespace before the texture for example: `minecraft:lime_concrete` to use the lime concrete texture. This resrouce pack also adds a few new textures like java edition's debug textures
+This is a resource pack library that makes all the vanilla Minecraft block ids use better IDs to use these just add the `minecraft` namespace before the texture for example `minecraft:`lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like the java edition's debug textures
 
 ## Note
 
@@ -20,6 +20,7 @@ In your Behavior packs dependencies append the following code:
 
 ```json
 {
+    "description": "Assets Plus RP v1.2.0",
     "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
     "version": [1, 2, 0]
 }
