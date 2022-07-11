@@ -1,6 +1,6 @@
 # Models
 
-This page describes all the texture additions in the resrouce pack. Use the below Id's inside your block's materal instance.
+This page describes all the texture additions in the resource pack. Use the below Ids inside your block's material instance.
 
 ```json
 {
@@ -26,9 +26,9 @@ This page describes all the texture additions in the resrouce pack. Use the belo
 
 The below table lists all the models that are included in this version of Assets Plus
 
-- `Name` The name of the model used in a blocks geometry.
-- `Material Instances` If the model has any special material instances it will be defined here. If none is defined you can use the default instances (north, south, east, west, up, down, *)
-- `Bones` A list of all bone names. All models should have the `bb_main` bone. Bones with other names typically will be used in the block. (For making certain parts invisable)
+- `Name` The name of the model used in a block's geometry.
+- `Material Instances` If the model has any special material instances they will be defined here. If none is defined you can use the default instances (north, south, east, west, up, down, *)
+- `Bones` A list of all bone names. All models should have the `bb_main` bone. Bones with other names typically will be used in the block. (For making certain parts invisible)
 - `Path` The location of the model file
 
 | Name | Material Instances | Bones | Path |

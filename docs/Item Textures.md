@@ -1,6 +1,6 @@
 # Textures
 
-This page describes all the texture additions in the resrouce pack. Use the below Id's inside your block's materal instance.
+This page describes all the texture additions in the resource pack. Use the below Ids inside your block's material instance.
 
 ```json
 {
