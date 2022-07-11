@@ -10,9 +10,9 @@ This resource pack library does not contain the vanilla Minecraft assets. It wil
 
 - [Dependencies](#dependencies)
 - [Planned features](#planned-features)
-  - [Block Textures](./Block%20Textures.md)
-  - [Item Textures](./Item%20Textures.md)
-- [Models](./Models.md)
+  - [Block Textures](./Block%20Textures)
+  - [Item Textures](./Item%20Textures)
+- [Models](./Models)
 
 ## Dependencies
 
