@@ -34,13 +34,6 @@ The below table lists all the models that are included in this version of Assets
 | Name | Material Instances | Bones | Path |
 |--|--|--|--|
 | `geometry.template_azalea` | `top`<br> `side`<br> `plant` | `bone` | `models/blocks/template_azalea` |
-| `geometry.template_layer.layer0` |  | `bb_main` | `models/blocks/template_block_layer` |
-| `geometry.template_layer.layer1` |  | `bb_main` | `models/blocks/template_block_layer` |
-| `geometry.template_layer.layer2` |  | `bb_main` | `models/blocks/template_block_layer` |
-| `geometry.template_layer.layer3` |  | `bb_main` | `models/blocks/template_block_layer` |
-| `geometry.template_layer.layer4` |  | `bb_main` | `models/blocks/template_block_layer` |
-| `geometry.template_layer.layer5` |  | `bb_main` | `models/blocks/template_block_layer` |
-| `geometry.template_layer.layer6` |  | `bb_main` | `models/blocks/template_block_layer` |
 | `geometry.template_cake.slice0` | `side`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_cake` |
 | `geometry.template_cake.slice1` | `side`<br> `inside`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_cake` |
 | `geometry.template_cake.slice2` | `side`<br> `inside`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_cake` |
@@ -63,6 +56,13 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_fence_gate.wall` |  | `bb_main` | `models/blocks/template_fence_gate` |
 | `geometry.template_fence_gate.wall_open` |  | `bb_main` | `models/blocks/template_fence_gate` |
 | `geometry.template_glass_pane_side` | `edge` | `bb_main`<br> `post`<br> `north`<br> `east`<br> `south`<br> `west` | `models/blocks/template_glass_pane` |
+| `geometry.template_height0` |  | `bb_main` | `models/blocks/template_height` |
+| `geometry.template_height1` |  | `bb_main` | `models/blocks/template_height` |
+| `geometry.template_height2` |  | `bb_main` | `models/blocks/template_height` |
+| `geometry.template_height3` |  | `bb_main` | `models/blocks/template_height` |
+| `geometry.template_height4` |  | `bb_main` | `models/blocks/template_height` |
+| `geometry.template_height5` |  | `bb_main` | `models/blocks/template_height` |
+| `geometry.template_height6` |  | `bb_main` | `models/blocks/template_height` |
 | `geometry.template_lantern` |  | `bb_main` | `models/blocks/template_lantern` |
 | `geometry.template_hanging_lantern` |  | `bb_main` | `models/blocks/template_lantern` |
 | `geometry.template_pressure_plate.powered` |  | `bb_main` | `models/blocks/template_pressure_plate` |
