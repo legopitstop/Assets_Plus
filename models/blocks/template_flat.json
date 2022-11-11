@@ -1,110 +1,9 @@
 {
-    "credit": "Thanks to Legopitstop for creating this useful resource. https://legopitstop.weebly.com/media.html",
-    "format_version": "1.16.1",
+    "format_version": "1.12.0",
     "minecraft:geometry": [
         {
             "description": {
-                "identifier": "geometry.template_slab.bottom",
-                "texture_width": 16,
-                "texture_height": 16,
-                "visible_bounds_width": 2,
-                "visible_bounds_height": 1.5,
-                "visible_bounds_offset": [
-                    0,
-                    0.25,
-                    0
-                ]
-            },
-            "bones": [
-                {
-                    "name": "bb_main",
-                    "pivot": [
-                        0,
-                        0,
-                        0
-                    ],
-                    "cubes": [
-                        {
-                            "origin": [
-                                -8,
-                                0,
-                                -8
-                            ],
-                            "size": [
-                                16,
-                                8,
-                                16
-                            ],
-                            "uv": {
-                                "north": {
-                                    "uv": [
-                                        0,
-                                        8
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "east": {
-                                    "uv": [
-                                        0,
-                                        8
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "south": {
-                                    "uv": [
-                                        0,
-                                        8
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "west": {
-                                    "uv": [
-                                        0,
-                                        8
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "up": {
-                                    "uv": [
-                                        16,
-                                        16
-                                    ],
-                                    "uv_size": [
-                                        -16,
-                                        -16
-                                    ]
-                                },
-                                "down": {
-                                    "uv": [
-                                        16,
-                                        16
-                                    ],
-                                    "uv_size": [
-                                        -16,
-                                        -16
-                                    ]
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "description": {
-                "identifier": "geometry.template_slab.top",
+                "identifier": "geometry.template_flat_up",
                 "texture_width": 16,
                 "texture_height": 16,
                 "visible_bounds_width": 2,
@@ -117,7 +16,7 @@
             },
             "bones": [
                 {
-                    "name": "bb_main",
+                    "name": "bb_model",
                     "pivot": [
                         0,
                         0,
@@ -127,55 +26,15 @@
                         {
                             "origin": [
                                 -8,
-                                8,
+                                13.25,
                                 -8
                             ],
                             "size": [
                                 16,
-                                8,
+                                0,
                                 16
                             ],
                             "uv": {
-                                "north": {
-                                    "uv": [
-                                        0,
-                                        0
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "east": {
-                                    "uv": [
-                                        0,
-                                        0
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "south": {
-                                    "uv": [
-                                        0,
-                                        0
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
-                                "west": {
-                                    "uv": [
-                                        0,
-                                        0
-                                    ],
-                                    "uv_size": [
-                                        16,
-                                        8
-                                    ]
-                                },
                                 "up": {
                                     "uv": [
                                         16,
@@ -189,11 +48,131 @@
                                 "down": {
                                     "uv": [
                                         16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_flat_down",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 1.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.25,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "bb_model",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0.25,
+                                -8
+                            ],
+                            "size": [
+                                16,
+                                0,
+                                16
+                            ],
+                            "uv": {
+                                "up": {
+                                    "uv": [
+                                        16,
                                         16
                                     ],
                                     "uv_size": [
                                         -16,
                                         -16
+                                    ]
+                                },
+                                "down": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "description": {
+                "identifier": "geometry.template_flat_side",
+                "texture_width": 16,
+                "texture_height": 16,
+                "visible_bounds_width": 2,
+                "visible_bounds_height": 2.5,
+                "visible_bounds_offset": [
+                    0,
+                    0.75,
+                    0
+                ]
+            },
+            "bones": [
+                {
+                    "name": "bb_model",
+                    "pivot": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "cubes": [
+                        {
+                            "origin": [
+                                -8,
+                                0,
+                                7.75
+                            ],
+                            "size": [
+                                16,
+                                16,
+                                0
+                            ],
+                            "uv": {
+                                "north": {
+                                    "uv": [
+                                        0,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        16,
+                                        16
+                                    ]
+                                },
+                                "south": {
+                                    "uv": [
+                                        16,
+                                        0
+                                    ],
+                                    "uv_size": [
+                                        -16,
+                                        16
                                     ]
                                 }
                             }
