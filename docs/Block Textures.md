@@ -93,6 +93,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:black_candle_cake`<br> `minecraft:blue_candle_cake`<br> `minecraft:brown_candle_cake`<br> `minecraft:candle_cake`<br> `minecraft:cyan_candle_cake`<br> `minecraft:gray_candle_cake`<br> `minecraft:green_candle_cake`<br> `minecraft:light_gray_candle_cake`<br> `minecraft:lime_candle_cake`<br> `minecraft:pink_candle_cake`<br> `minecraft:purple_candle_cake`<br> `minecraft:red_candle_cake`<br> `minecraft:white_candle_cake`<br> `minecraft:yellow_candle_cake` | `textures/blocks/cake` |
 | `minecraft:black_glazed_terracotta` | `textures/blocks/glazed_terracotta_black` |
 | `minecraft:blackstone` | `textures/blocks/blackstone` |
+| `minecraft:blackstone_side` | `textures/blocks/blackstone_side` |
 | `minecraft:blackstone_top` | `textures/blocks/blackstone_top` |
 | `minecraft:blast_furnace_front_off` | `textures/blocks/blast_furnace_front_off` |
 | `minecraft:blast_furnace_front_on` | `textures/blocks/blast_furnace_front_on` |
@@ -327,9 +328,9 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:diorite` | `textures/blocks/stone_diorite` |
 | `minecraft:dirt`<br> `minecraft:farmland_side`<br> `minecraft:grass_carried_bottom`<br> `minecraft:mycelium_bottom` | `textures/blocks/dirt` |
 | `minecraft:coarse_dirt` | `textures/blocks/coarse_dirt` |
-| `minecraft:dirt_podzol_side` | `textures/blocks/dirt_podzol_side` |
-| `minecraft:dirt_podzol_top` | `textures/blocks/dirt_podzol_top` |
-| `minecraft:rooted_dirt` | `textures/blocks/dirt_with_roots` |
+| `minecraft:podzol_side`<br> `minecraft:dirt_podzol_side` | `textures/blocks/dirt_podzol_side` |
+| `minecraft:podzol_top`<br> `minecraft:dirt_podzol_top` | `textures/blocks/dirt_podzol_top` |
+| `minecraft:rooted_dirt`<br> `minecraft:dirt_with_roots` | `textures/blocks/dirt_with_roots` |
 | `minecraft:dispenser_front` | `textures/blocks/dispenser_front_horizontal` |
 | `minecraft:dispenser_front_vertical` | `textures/blocks/dispenser_front_vertical` |
 | `minecraft:dispenser_side`<br> `minecraft:dropper_side`<br> `minecraft:furnace_side` | `textures/blocks/furnace_side` |
@@ -403,7 +404,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:frosted_ice_2` | `textures/blocks/frosted_ice_2` |
 | `minecraft:frosted_ice_3` | `textures/blocks/frosted_ice_3` |
 | `minecraft:furnace_front_off` | `textures/blocks/furnace_front_off` |
-| `minecraft:furnace_front_on` | `textures/blocks/furnace_front_on` |
+| `minecraft:furnace_front_on`<br> `minecraft:furnace_front` | `textures/blocks/furnace_front_on` |
 | `minecraft:gilded_blackstone` | `textures/blocks/gilded_blackstone` |
 | `minecraft:glass_pane_top` | `textures/blocks/glass_pane_top` |
 | `minecraft:glow_item_frame` | `textures/blocks/glow_item_frame` |
@@ -415,8 +416,8 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:granite` | `textures/blocks/stone_granite` |
 | `minecraft:grass_carried`<br> `minecraft:grass_side` | `textures/blocks/grass_side` |
 | `minecraft:grass_carried_top` | `textures/blocks/grass_carried` |
-| `minecraft:grass_path_side` | `textures/blocks/grass_path_side` |
-| `minecraft:grass_path_top` | `textures/blocks/grass_path_top` |
+| `minecraft:dirt_path_side`<br> `minecraft:grass_path_side` | `textures/blocks/grass_path_side` |
+| `minecraft:dirt_path_top`<br> `minecraft:grass_path_top` | `textures/blocks/grass_path_top` |
 | `minecraft:grass_top` | `textures/blocks/grass_top` |
 | `minecraft:gravel` | `textures/blocks/gravel` |
 | `minecraft:gray_candle` | `textures/blocks/candles/gray_candle` |
@@ -535,8 +536,8 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:moss_block` | `textures/blocks/moss_block` |
 | `minecraft:mossy_stone_brick`<br> `minecraft:stonebrick_mossy`<br> `minecraft:mossy_stone_bricks` | `textures/blocks/stonebrick_mossy` |
 | `minecraft:mushroom_stem` | `textures/blocks/mushroom_stem` |
-| `minecraft:mushroom_brown` | `textures/blocks/mushroom_brown` |
-| `minecraft:mushroom_red` | `textures/blocks/mushroom_red` |
+| `minecraft:mushroom_brown`<br> `minecraft:brown_mushroom_block` | `textures/blocks/mushroom_brown` |
+| `minecraft:mushroom_red`<br> `minecraft:red_mushroom_block` | `textures/blocks/mushroom_red` |
 | `minecraft:mycelium_side` | `textures/blocks/mycelium_side` |
 | `minecraft:mycelium_top` | `textures/blocks/mycelium_top` |
 | `minecraft:nether_brick`<br> `minecraft:nether_bricks` | `textures/blocks/nether_brick` |
@@ -601,8 +602,8 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:powder_snow` | `textures/blocks/powder_snow` |
 | `minecraft:prismarine` | `textures/blocks/prismarine_rough` |
 | `minecraft:prismarine_bricks`<br> `minecraft:prismarine_brick` | `textures/blocks/prismarine_bricks` |
-| `minecraft:carved_pumpkin` | `textures/blocks/pumpkin_face_off` |
-| `minecraft:jack_o_lantern` | `textures/blocks/pumpkin_face_on` |
+| `minecraft:pumpkin_face_off`<br> `minecraft:carved_pumpkin` | `textures/blocks/pumpkin_face_off` |
+| `minecraft:jack_o_lantern`<br> `minecraft:pumpkin_face_on` | `textures/blocks/pumpkin_face_on` |
 | `minecraft:pumpkin_side` | `textures/blocks/pumpkin_side` |
 | `minecraft:pumpkin_stem` | `textures/blocks/pumpkin_stem_disconnected` |
 | `minecraft:attached_pumpkin_stem` | `textures/blocks/pumpkin_stem_connected` |
@@ -652,6 +653,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:chiseled_red_sandstone` | `textures/blocks/red_sandstone_carved` |
 | `minecraft:cut_red_sandstone` | `textures/blocks/red_sandstone_smooth` |
 | `minecraft:red_sandstone_top`<br> `minecraft:smooth_red_sandstone` | `textures/blocks/red_sandstone_top` |
+| `minecraft:red_sandstone_side`<br> `minecraft:red_sandstone` | `textures/blocks/red_sandstone_normal` |
 | `minecraft:redstone_block` | `textures/blocks/redstone_block` |
 | `minecraft:redstone_dust_cross` | `textures/blocks/redstone_dust_cross` |
 | `minecraft:redstone_dust_line` | `textures/blocks/redstone_dust_line` |
@@ -673,7 +675,6 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:respawn_anchor_top_off` | `textures/blocks/respawn_anchor_top_off` |
 | `minecraft:sand` | `textures/blocks/sand` |
 | `minecraft:red_sand` | `textures/blocks/red_sand` |
-| `minecraft:red_sandstone` | `textures/blocks/red_sandstone_normal` |
 | `minecraft:sandstone` | `textures/blocks/sandstone_normal` |
 | `minecraft:sandstone_bottom` | `textures/blocks/sandstone_bottom` |
 | `minecraft:chiseled_sandstone` | `textures/blocks/sandstone_carved` |
@@ -728,7 +729,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:smithing_table_side` | `textures/blocks/smithing_table_side` |
 | `minecraft:smithing_table_top` | `textures/blocks/smithing_table_top` |
 | `minecraft:smoker_bottom` | `textures/blocks/smoker_bottom` |
-| `minecraft:smoker_front_off` | `textures/blocks/smoker_front_off` |
+| `minecraft:smoker_front_off`<br> `minecraft:smoker_front` | `textures/blocks/smoker_front_off` |
 | `minecraft:smoker_front_on` | `textures/blocks/smoker_front_on` |
 | `minecraft:smoker_side` | `textures/blocks/smoker_side` |
 | `minecraft:smoker_top` | `textures/blocks/smoker_top` |

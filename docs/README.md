@@ -4,7 +4,7 @@ This is a resource pack library that adds all the vanilla Minecraft block ids us
 
 ## Note
 
-This resource pack library does not contain the vanilla Minecraft assets. It will use vanilla Minecraft, or the highest tier resource pack, textures.
+This resource pack library does not contain vanilla Minecraft assets. It will use vanilla Minecraft, or the highest-tier resource pack, textures.
 
 ## Table of Contents
 

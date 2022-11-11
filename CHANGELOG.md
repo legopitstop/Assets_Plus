@@ -1,6 +1,6 @@
 # Changelog
 
-## v1.2.0 - ????-??-??
+## v1.3.0 - 11/11/2022
 
 ### General
 - All JSON's are minimized to decrease file size.
@@ -9,7 +9,7 @@
 - Added new block models.
 - Added more block texture atlas names.
 
-## v1.2.0 - 2022-6-23
+## v1.2.0 - 6/23/2022
 
 ### Added
 

@@ -13,6 +13,44 @@
                 "plant"
             ]
         },
+        "geometry.template_bamboo_age0": {
+            "path": [
+                "models/blocks/template_bamboo"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_bamboo_age1": {
+            "path": [
+                "models/blocks/template_bamboo"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_bamboo_large_leaves": {
+            "path": [
+                "models/blocks/template_bamboo"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "stalk"
+            ]
+        },
+        "geometry.template_bamboo_small_leaves": {
+            "path": [
+                "models/blocks/template_bamboo"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "stalk"
+            ]
+        },
         "geometry.template_cake.slice0": {
             "path": [
                 "models/blocks/template_cake"
@@ -169,6 +207,61 @@
                 "bb_main"
             ]
         },
+        "geometry.template_cauldron": {
+            "path": [
+                "models/blocks/template_cauldron"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "top",
+                "inner",
+                "bottom"
+            ]
+        },
+        "geometry.template_cauldron_level2": {
+            "path": [
+                "models/blocks/template_cauldron"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "content",
+                "top",
+                "inner",
+                "bottom"
+            ]
+        },
+        "geometry.template_cauldron_level1": {
+            "path": [
+                "models/blocks/template_cauldron"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "content",
+                "top",
+                "inner",
+                "bottom"
+            ]
+        },
+        "geometry.template_cauldron_full": {
+            "path": [
+                "models/blocks/template_cauldron"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "content",
+                "top",
+                "inner",
+                "bottom"
+            ]
+        },
         "geometry.template_crop": {
             "path": [
                 "models/blocks/template_crop"
@@ -180,6 +273,14 @@
         "geometry.template_cross": {
             "path": [
                 "models/blocks/template_cross"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_door_top": {
+            "path": [
+                "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
@@ -263,6 +364,68 @@
             ],
             "bones": [
                 "bb_model"
+            ]
+        },
+        "geometry.template_flower_pot": {
+            "path": [
+                "models/blocks/template_flower_pot"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "inner"
+            ]
+        },
+        "geometry.template_flower_pot_cross": {
+            "path": [
+                "models/blocks/template_flower_pot"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "inner",
+                "plant"
+            ]
+        },
+        "geometry.template_potted_bamboo": {
+            "path": [
+                "models/blocks/template_flower_pot"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "inner",
+                "stalk",
+                "leaf"
+            ]
+        },
+        "geometry.template_potted_cactus": {
+            "path": [
+                "models/blocks/template_flower_pot"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "side",
+                "top"
+            ]
+        },
+        "geometry.template_potted_azalea_bush": {
+            "path": [
+                "models/blocks/template_flower_pot"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "inner",
+                "top",
+                "side",
+                "plant"
             ]
         },
         "geometry.template_glass_pane_side": {
@@ -369,6 +532,14 @@
                 "bb_main"
             ]
         },
+        "geometry.template_rail_raised": {
+            "path": [
+                "models/blocks/template_rail_raised"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
         "geometry.template_slab.bottom": {
             "path": [
                 "models/blocks/template_slab"
@@ -420,6 +591,54 @@
         "geometry.template_torch_wall": {
             "path": [
                 "models/blocks/template_torch"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_trapdoor_top": {
+            "path": [
+                "models/blocks/template_trapdoor"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_orientable_trapdoor_bottom": {
+            "path": [
+                "models/blocks/template_trapdoor"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_trapdoor_open": {
+            "path": [
+                "models/blocks/template_trapdoor"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_trapdoor_bottom": {
+            "path": [
+                "models/blocks/template_trapdoor"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_orientable_trapdoor_top": {
+            "path": [
+                "models/blocks/template_trapdoor"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_orientable_trapdoor_open": {
+            "path": [
+                "models/blocks/template_trapdoor"
             ],
             "bones": [
                 "bb_main"
