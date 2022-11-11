@@ -2,7 +2,6 @@
     "$schema": "./schemas/item.json",
     "format_version": "1.19.20",
     "minecraft:item": {
-        // armor
         "minecraft:leather_helmet": {
             "description": {
                 "identifier": "minecraft:null",
@@ -1079,7 +1078,6 @@
                 }
             }
         },
-        // tools
         "minecraft:golden_axe": {
             "description": {
                 "identifier": "minecraft:null",
@@ -2051,7 +2049,6 @@
                 }
             }
         },
-        // other
         "minecraft:acacia_chest_boat": {
             "description": {
                 "identifier": "minecraft:null",
@@ -3291,7 +3288,7 @@
                 "minecraft:food": {
                     "nutrition": 4,
                     "saturation_modifier": 2.4,
-                    "on_use_action": "chorus_teleport", // update
+                    "on_use_action": "chorus_teleport",
                     "on_use_range": [
                         8,
                         8,
@@ -5486,7 +5483,7 @@
                     "saturation_modifier": "low"
                 },
                 "minecraft:seed": {
-                    "crop_result": "cave_vines", // update
+                    "crop_result": "cave_vines",
                     "plant_at": [
                         "cave_vines",
                         "cave_vines_head_with_berries"
@@ -9013,7 +9010,7 @@
                     "nutrition": 6,
                     "saturation_modifier": 7.2,
                     "using_converts_to": "minecraft:bowl",
-                    "on_use_action": "suspicious_stew_effect" // update
+                    "on_use_action": "suspicious_stew_effect"
                 }
             }
         },
