@@ -241,6 +241,30 @@
                 "bb_main"
             ]
         },
+        "geometry.template_flat_up": {
+            "path": [
+                "models/blocks/template_flat"
+            ],
+            "bones": [
+                "bb_model"
+            ]
+        },
+        "geometry.template_flat_down": {
+            "path": [
+                "models/blocks/template_flat"
+            ],
+            "bones": [
+                "bb_model"
+            ]
+        },
+        "geometry.template_flat_side": {
+            "path": [
+                "models/blocks/template_flat"
+            ],
+            "bones": [
+                "bb_model"
+            ]
+        },
         "geometry.template_glass_pane_side": {
             "path": [
                 "models/blocks/template_glass_pane"
@@ -808,6 +832,11 @@
         "textures/blocks/blackstone": {
             "atlas": [
                 "minecraft:blackstone"
+            ]
+        },
+        "textures/blocks/blackstone_side": {
+            "atlas": [
+                "minecraft:blackstone_side"
             ]
         },
         "textures/blocks/blackstone_top": {
@@ -1991,17 +2020,20 @@
         },
         "textures/blocks/dirt_podzol_side": {
             "atlas": [
+                "minecraft:podzol_side",
                 "minecraft:dirt_podzol_side"
             ]
         },
         "textures/blocks/dirt_podzol_top": {
             "atlas": [
+                "minecraft:podzol_top",
                 "minecraft:dirt_podzol_top"
             ]
         },
         "textures/blocks/dirt_with_roots": {
             "atlas": [
-                "minecraft:rooted_dirt"
+                "minecraft:rooted_dirt",
+                "minecraft:dirt_with_roots"
             ]
         },
         "textures/blocks/dispenser_front_horizontal": {
@@ -2375,7 +2407,8 @@
         },
         "textures/blocks/furnace_front_on": {
             "atlas": [
-                "minecraft:furnace_front_on"
+                "minecraft:furnace_front_on",
+                "minecraft:furnace_front"
             ]
         },
         "textures/blocks/gilded_blackstone": {
@@ -2436,11 +2469,13 @@
         },
         "textures/blocks/grass_path_side": {
             "atlas": [
+                "minecraft:dirt_path_side",
                 "minecraft:grass_path_side"
             ]
         },
         "textures/blocks/grass_path_top": {
             "atlas": [
+                "minecraft:dirt_path_top",
                 "minecraft:grass_path_top"
             ]
         },
@@ -3043,12 +3078,14 @@
         },
         "textures/blocks/mushroom_brown": {
             "atlas": [
-                "minecraft:mushroom_brown"
+                "minecraft:mushroom_brown",
+                "minecraft:brown_mushroom_block"
             ]
         },
         "textures/blocks/mushroom_red": {
             "atlas": [
-                "minecraft:mushroom_red"
+                "minecraft:mushroom_red",
+                "minecraft:red_mushroom_block"
             ]
         },
         "textures/blocks/mycelium_side": {
@@ -3376,12 +3413,14 @@
         },
         "textures/blocks/pumpkin_face_off": {
             "atlas": [
+                "minecraft:pumpkin_face_off",
                 "minecraft:carved_pumpkin"
             ]
         },
         "textures/blocks/pumpkin_face_on": {
             "atlas": [
-                "minecraft:jack_o_lantern"
+                "minecraft:jack_o_lantern",
+                "minecraft:pumpkin_face_on"
             ]
         },
         "textures/blocks/pumpkin_side": {
@@ -3636,6 +3675,12 @@
                 "minecraft:smooth_red_sandstone"
             ]
         },
+        "textures/blocks/red_sandstone_normal": {
+            "atlas": [
+                "minecraft:red_sandstone_side",
+                "minecraft:red_sandstone"
+            ]
+        },
         "textures/blocks/redstone_block": {
             "atlas": [
                 "minecraft:redstone_block"
@@ -3739,11 +3784,6 @@
         "textures/blocks/red_sand": {
             "atlas": [
                 "minecraft:red_sand"
-            ]
-        },
-        "textures/blocks/red_sandstone_normal": {
-            "atlas": [
-                "minecraft:red_sandstone"
             ]
         },
         "textures/blocks/sandstone_normal": {
@@ -4020,7 +4060,8 @@
         },
         "textures/blocks/smoker_front_off": {
             "atlas": [
-                "minecraft:smoker_front_off"
+                "minecraft:smoker_front_off",
+                "minecraft:smoker_front"
             ]
         },
         "textures/blocks/smoker_front_on": {

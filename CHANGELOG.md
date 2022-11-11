@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.2.0 - ????-??-??
+
+### General
+- All JSON's are minimized to decrease file size.
+
+### Added
+
 ## v1.2.0 - 2022-6-23
 
 ### Added
