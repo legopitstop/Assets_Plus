@@ -6,6 +6,8 @@
 - All JSON's are minimized to decrease file size.
 
 ### Added
+- Added new block models.
+- Added more block texture atlas names.
 
 ## v1.2.0 - 2022-6-23
 
