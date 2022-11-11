@@ -211,6 +211,9 @@
         "minecraft:blackstone": {
             "textures": "textures/blocks/blackstone"
         },
+        "minecraft:blackstone_side": {
+            "textures": "textures/blocks/blackstone_side"
+        },
         "minecraft:blackstone_top": {
             "textures": "textures/blocks/blackstone_top"
         },
@@ -946,6 +949,12 @@
         "minecraft:coarse_dirt": {
             "textures": "textures/blocks/coarse_dirt"
         },
+        "minecraft:podzol_side": {
+            "textures": "textures/blocks/dirt_podzol_side"
+        },
+        "minecraft:podzol_top": {
+            "textures": "textures/blocks/dirt_podzol_top"
+        },
         "minecraft:dirt_podzol_side": {
             "textures": "textures/blocks/dirt_podzol_side"
         },
@@ -953,6 +962,9 @@
             "textures": "textures/blocks/dirt_podzol_top"
         },
         "minecraft:rooted_dirt": {
+            "textures": "textures/blocks/dirt_with_roots"
+        },
+        "minecraft:dirt_with_roots": {
             "textures": "textures/blocks/dirt_with_roots"
         },
         "minecraft:dispenser_front": {
@@ -1189,6 +1201,9 @@
         "minecraft:furnace_front_on": {
             "textures": "textures/blocks/furnace_front_on"
         },
+        "minecraft:furnace_front": {
+            "textures": "textures/blocks/furnace_front_on"
+        },
         "minecraft:furnace_side": {
             "textures": "textures/blocks/furnace_side"
         },
@@ -1236,6 +1251,12 @@
         },
         "minecraft:grass_carried_top": {
             "textures": "textures/blocks/grass_carried"
+        },
+        "minecraft:dirt_path_side": {
+            "textures": "textures/blocks/grass_path_side"
+        },
+        "minecraft:dirt_path_top": {
+            "textures": "textures/blocks/grass_path_top"
         },
         "minecraft:grass_path_side": {
             "textures": "textures/blocks/grass_path_side"
@@ -1636,6 +1657,12 @@
         "minecraft:mushroom_red": {
             "textures": "textures/blocks/mushroom_red"
         },
+        "minecraft:brown_mushroom_block": {
+            "textures": "textures/blocks/mushroom_brown"
+        },
+        "minecraft:red_mushroom_block": {
+            "textures": "textures/blocks/mushroom_red"
+        },
         "minecraft:mycelium_bottom": {
             "textures": "textures/blocks/dirt"
         },
@@ -1849,10 +1876,16 @@
         "minecraft:prismarine_brick": {
             "textures": "textures/blocks/prismarine_bricks"
         },
+        "minecraft:pumpkin_face_off": {
+            "textures": "textures/blocks/pumpkin_face_off"
+        },
         "minecraft:carved_pumpkin": {
             "textures": "textures/blocks/pumpkin_face_off"
         },
         "minecraft:jack_o_lantern": {
+            "textures": "textures/blocks/pumpkin_face_on"
+        },
+        "minecraft:pumpkin_face_on": {
             "textures": "textures/blocks/pumpkin_face_on"
         },
         "minecraft:pumpkin_side": {
@@ -2025,6 +2058,9 @@
         },
         "minecraft:red_sandstone_top": {
             "textures": "textures/blocks/red_sandstone_top"
+        },
+        "minecraft:red_sandstone_side": {
+            "textures": "textures/blocks/red_sandstone_normal"
         },
         "minecraft:redstone_block": {
             "textures": "textures/blocks/redstone_block"
@@ -2259,6 +2295,9 @@
         },
         "minecraft:smoker_front_on": {
             "textures": "textures/blocks/smoker_front_on"
+        },
+        "minecraft:smoker_front": {
+            "textures": "textures/blocks/smoker_front_off"
         },
         "minecraft:smoker_side": {
             "textures": "textures/blocks/smoker_side"
