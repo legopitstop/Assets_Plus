@@ -55,6 +55,9 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_fence_gate.open` |  | `bb_main` | `models/blocks/template_fence_gate` |
 | `geometry.template_fence_gate.wall` |  | `bb_main` | `models/blocks/template_fence_gate` |
 | `geometry.template_fence_gate.wall_open` |  | `bb_main` | `models/blocks/template_fence_gate` |
+| `geometry.template_flat_up` |  | `bb_model` | `models/blocks/template_flat` |
+| `geometry.template_flat_down` |  | `bb_model` | `models/blocks/template_flat` |
+| `geometry.template_flat_side` |  | `bb_model` | `models/blocks/template_flat` |
 | `geometry.template_glass_pane_side` | `edge` | `bb_main`<br> `post`<br> `north`<br> `east`<br> `south`<br> `west` | `models/blocks/template_glass_pane` |
 | `geometry.template_height0` |  | `bb_main` | `models/blocks/template_height` |
 | `geometry.template_height1` |  | `bb_main` | `models/blocks/template_height` |
