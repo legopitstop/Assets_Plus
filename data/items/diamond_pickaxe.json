@@ -1,0 +1,34 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:diamond_pickaxe"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:durability": {
+                "max_durability": 1561
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:enchantable": {
+                "slot": "pickaxe",
+                "value": 1
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_pickaxe"
+                        ],
+                        "repair_amount": ""
+                    }
+                ]
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:diamond_pickaxe"
+            }
+        }
+    }
+}

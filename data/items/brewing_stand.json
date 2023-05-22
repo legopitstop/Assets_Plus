@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:brewing_stand"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:brewing_stand"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:brewing_stand"
+            }
+        }
+    }
+}

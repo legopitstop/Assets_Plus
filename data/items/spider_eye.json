@@ -1,0 +1,32 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:spider_eye"
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:spider_eye"
+            },
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 3.2
+            }
+        },
+        "events": {
+            "minecraft:effects": {
+                "add_mob_effect": {
+                    "effect": "minecraft:poison",
+                    "chance": 1.0,
+                    "duration": 5,
+                    "amplifier": 0
+                }
+            }
+        }
+    }
+}

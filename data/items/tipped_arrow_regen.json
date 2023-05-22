@@ -1,0 +1,16 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:tipped_arrow_regen"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:tipped_arrow_regen"
+            }
+        }
+    }
+}

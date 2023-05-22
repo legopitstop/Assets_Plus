@@ -1,6 +1,11 @@
 # Assets Plus
 
-This is a resource pack library that makes all the vanilla Minecraft block ids use better IDs to use these just add the `minecraft` namespace before the texture for example `minecraft:`lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like the java edition's debug textures
+This is a resource pack library that makes all the vanilla Minecraft block ids use better IDs to use these just add the `minecraft` namespace before the texture for example `minecraft:lime_concrete` to use the lime concrete texture. This resource pack also adds a few new textures like the java edition's debug textures
+
+## Links
+- [Download](https://legopitstop.weebly.com/assets-plus.html)
+- [Documentation](https://legopitstop.github.io/Assets_Plus/)
+- [MCPEDL](https://mcpedl.com/assets-plus-pack-1/)
 
 ## Note
 
@@ -10,7 +15,9 @@ This is a resource pack library that makes all the vanilla Minecraft block ids u
 
 You can download any version via [legopitstop.weebly.com](https://legopitstop.weebly.com/assets-plus.html)
 
-- [1.19 - v1.2.0 (Latest)](https://www.mediafire.com/file/xhk2r1zioi9ref2/Assets_Plus_RP_v1.2.0.mcpack/file)
+<!-- https://www.mediafire.com/file/kz52wgspday9w0y/Assets+Plus+v1.4.0.mcpack/file -->
+- [1.19.80 - v1.4.0 (latest)](https://github.com/legopitstop/Assets_Plus/releases/download/v1.4.0/Assets.Plus.v1.4.0.mcpack)
+- [1.19 - v1.2.0](https://www.mediafire.com/file/xhk2r1zioi9ref2/Assets_Plus_RP_v1.2.0.mcpack/file)
 - [1.18 - v1.1.0](https://www.mediafire.com/file/te3v8k4ri0msk71/Assets_Plus_RP_v1.1.0.mcpack/file)
 - [1.17.3 - v1.0.0](https://www.mediafire.com/file/13j38byhg522sow/Assets_Plus_RP_v1.0.0.mcpack/file)
 
@@ -20,15 +27,14 @@ In your Behavior packs dependencies append the following code:
 
 ```json
 {
-    "description": "Assets Plus RP v1.2.0",
+    "description": "Assets Plus RP v1.4.0",
     "uuid": "c86dd7d9-e84e-456f-a84f-1993e353da4c",
-    "version": [1, 2, 0]
+    "version": [1, 4, 0] // Needed Version
 }
 ```
 
 ## FAQ
-
-### Why a seperate resrouce pack?
+### Why a separate resource pack?
 
 My last few add-ons use vanilla Minecraft assets, but the default texture id isn't the best, for example, It is impossible to use the White Concrete texture because it is inside an array of textures and thus not being able to use the texture in a data-driven block. So by making this a separate pack It means less copy-pasting of the same block textures.
 

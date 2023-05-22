@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:door_birch"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:door_birch"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:door_birch"
+            }
+        }
+    }
+}

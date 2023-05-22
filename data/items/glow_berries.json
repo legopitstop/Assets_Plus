@@ -1,0 +1,31 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:glow_berries"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:glow_berries"
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": "low"
+            },
+            "minecraft:seed": {
+                "crop_result": "cave_vines",
+                "plant_at": [
+                    "cave_vines",
+                    "cave_vines_head_with_berries"
+                ],
+                "plant_at_any_solid_surface": true,
+                "plant_at_face": "DOWN"
+            }
+        }
+    }
+}

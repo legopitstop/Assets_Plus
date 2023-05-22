@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:sign"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:sign"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:sign"
+            }
+        }
+    }
+}

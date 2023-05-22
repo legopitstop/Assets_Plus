@@ -1,0 +1,54 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:pufferfish"
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:pufferfish"
+            },
+            "minecraft:chargeable": {
+                "on_complete": {
+                    "event": "minecraft:effects"
+                }
+            },
+            "minecraft:food": {
+                "nutrition": 1,
+                "saturation_modifier": 0.2
+            }
+        },
+        "events": {
+            "minecraft:effects": {
+                "sequence": [
+                    {
+                        "add_mob_effect": {
+                            "effect": "minecraft:poison",
+                            "duration": 60,
+                            "amplifier": 1
+                        }
+                    },
+                    {
+                        "add_mob_effect": {
+                            "effect": "minecraft:nausea",
+                            "duration": 15,
+                            "amplifier": 1
+                        }
+                    },
+                    {
+                        "add_mob_effect": {
+                            "effect": "minecraft:hunger",
+                            "duration": 15,
+                            "amplifier": 2
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

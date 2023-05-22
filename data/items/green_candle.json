@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:green_candle"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:green_candle"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:green_candle"
+            }
+        }
+    }
+}

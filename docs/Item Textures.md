@@ -1,6 +1,6 @@
-# Textures
+# Item Textures
 
-This page describes all the texture additions in the resource pack. Use the below Ids inside your block's material instance.
+This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 
 ```json
 {
@@ -25,6 +25,10 @@ The below table lists all the texture definitions that are included in this vers
 
 | Name(s) | Path |
 |--|--|
+| `minecraft:brush` | `textures/items/brush` |
+| `minecraft:camel_spawn_egg` | `textures/items/camel_spawn_egg` |
+| `minecraft:sniffer_spawn_egg` | `textures/items/sniffer_spawn_egg` |
+| `minecraft:music_disc_relic`<br> `minecraft:pitcher_pod`<br> `minecraft:record_relic` | `textures/items/record_relic` |
 | `minecraft:debug` | `textures/blocks/debug` |
 | `minecraft:debug2` | `textures/blocks/debug2` |
 | `minecraft:bamboo` | `textures/items/bamboo` |
@@ -391,21 +395,21 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:raw_copper` | `textures/items/raw_copper` |
 | `minecraft:raw_gold` | `textures/items/raw_gold` |
 | `minecraft:raw_iron` | `textures/items/raw_iron` |
-| `minecraft:record_11` | `textures/items/record_11` |
-| `minecraft:record_13` | `textures/items/record_13` |
-| `minecraft:record_5` | `textures/items/record_5` |
-| `minecraft:record_blocks` | `textures/items/record_blocks` |
-| `minecraft:record_cat` | `textures/items/record_cat` |
-| `minecraft:record_chirp` | `textures/items/record_chirp` |
-| `minecraft:record_far` | `textures/items/record_far` |
-| `minecraft:record_mall` | `textures/items/record_mall` |
-| `minecraft:record_mellohi` | `textures/items/record_mellohi` |
-| `minecraft:record_otherside` | `textures/items/record_otherside` |
-| `minecraft:record_pigstep` | `textures/items/record_pigstep` |
-| `minecraft:record_stal` | `textures/items/record_stal` |
-| `minecraft:record_strad` | `textures/items/record_strad` |
-| `minecraft:record_wait` | `textures/items/record_wait` |
-| `minecraft:record_ward` | `textures/items/record_ward` |
+| `minecraft:music_disc_11`<br> `minecraft:record_11` | `textures/items/record_11` |
+| `minecraft:music_disc_13`<br> `minecraft:record_13` | `textures/items/record_13` |
+| `minecraft:music_disc_5`<br> `minecraft:record_5` | `textures/items/record_5` |
+| `minecraft:music_disc_blocks`<br> `minecraft:record_blocks` | `textures/items/record_blocks` |
+| `minecraft:music_disc_cat`<br> `minecraft:record_cat` | `textures/items/record_cat` |
+| `minecraft:music_disc_chirp`<br> `minecraft:record_chirp` | `textures/items/record_chirp` |
+| `minecraft:music_disc_far`<br> `minecraft:record_far` | `textures/items/record_far` |
+| `minecraft:music_disc_mall`<br> `minecraft:record_mall` | `textures/items/record_mall` |
+| `minecraft:music_disc_mellohi`<br> `minecraft:record_mellohi` | `textures/items/record_mellohi` |
+| `minecraft:music_disc_otherside`<br> `minecraft:record_otherside` | `textures/items/record_otherside` |
+| `minecraft:music_disc_pigstep`<br> `minecraft:record_pigstep` | `textures/items/record_pigstep` |
+| `minecraft:music_discd_stal`<br> `minecraft:record_stal` | `textures/items/record_stal` |
+| `minecraft:music_disc_strad`<br> `minecraft:record_strad` | `textures/items/record_strad` |
+| `minecraft:music_disc_wait`<br> `minecraft:record_wait` | `textures/items/record_wait` |
+| `minecraft:music_discd_ward`<br> `minecraft:record_ward` | `textures/items/record_ward` |
 | `minecraft:recovery_compass` | `textures/items/recovery_compass_item` |
 | `minecraft:redstone_dust`<br> `minecraft:redstone` | `textures/items/redstone_dust` |
 | `minecraft:reeds`<br> `minecraft:sugar_cane` | `textures/items/reeds` |
@@ -537,3 +541,4 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:warped_sign_item` | `textures/items/sign_warped` |
 | `minecraft:wheat` | `textures/items/wheat` |
 | `minecraft:wooden_door`<br> `minecraft:oak_door` | `textures/items/door_wood` |
+

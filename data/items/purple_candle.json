@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:purple_candle"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:purple_candle"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:purple_candle"
+            }
+        }
+    }
+}

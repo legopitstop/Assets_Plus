@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:black_candle"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:black_candle"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:black_candle"
+            }
+        }
+    }
+}

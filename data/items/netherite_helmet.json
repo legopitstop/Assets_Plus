@@ -1,0 +1,42 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:netherite_helmet"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:durability": {
+                "max_durability": 407
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:enchantable": {
+                "slot": "armor_head",
+                "value": 1
+            },
+            "minecraft:armor": {
+                "protection": 3,
+                "texture_type": "netherite"
+            },
+            "minecraft:wearable": {
+                "dispensable": true,
+                "slot": "slot.armor.head"
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_helmet"
+                        ],
+                        "repair_amount": ""
+                    }
+                ]
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:netherite_helmet"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:stone_hoe"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:durability": {
+                "max_durability": 131
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:enchantable": {
+                "slot": "hoe",
+                "value": 1
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:stone_hoe"
+                        ],
+                        "repair_amount": ""
+                    }
+                ]
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:stone_hoe"
+            }
+        }
+    }
+}

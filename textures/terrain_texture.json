@@ -4,6 +4,66 @@
     "resource_pack_name": "vanilla",
     "texture_name": "atlas.terrain",
     "texture_data": {
+        "minecraft:bamboo_block_top": {
+            "textures": "textures/blocks/bamboo_block_top"
+        },
+        "minecraft:bamboo_block_side": {
+            "textures": "textures/blocks/bamboo_block"
+        },
+        "minecraft:cherry_sapling": {
+            "textures": "textures/blocks/cherry_sapling"
+        },
+        "minecraft:suspicious_gravel": {
+            "textures": "textures/blocks/suspicious_gravel"
+        },
+        "minecraft:suspicious_sand": {
+            "textures": "textures/blocks/suspicious_sand"
+        },
+        "minecraft:bamboo_block": {
+            "textures": "textures/blocks/bamboo_block"
+        },
+        "minecraft:bamboo_mosaic": {
+            "textures": "textures/blocks/bamboo_mosaic"
+        },
+        "minecraft:stripped_bamboo_block_top": {
+            "textures": "textures/blocks/stripped_bamboo_block_top"
+        },
+        "minecraft:stripped_bamboo_block_side": {
+            "textures": "textures/blocks/stripped_bamboo_block"
+        },
+        "minecraft:stripped_bamboo_block": {
+            "textures": "textures/blocks/stripped_bamboo_block"
+        },
+        "minecraft:bamboo": {
+            "textures": "textures/blocks/bamboo_planks"
+        },
+        "minecraft:bamboo_planks": {
+            "textures": "textures/blocks/bamboo_planks"
+        },
+        "minecraft:cherry_planks": {
+            "textures": "textures/blocks/cherry_planks"
+        },
+        "minecraft:cherry_leaves": {
+            "textures": "textures/blocks/cherry_leaves"
+        },
+        "minecraft:cherry_log_top": {
+            "textures": "textures/blocks/cherry_log_top"
+        },
+        "minecraft:cherry_log": {
+            "textures": "textures/blocks/cherry_log_side"
+        },
+        "minecraft:cherry_log_side": {
+            "textures": "textures/blocks/cherry_log_side"
+        },
+        "minecraft:stripped_cherry_log_top": {
+            "textures": "textures/blocks/stripped_cherry_log_top"
+        },
+        "minecraft:stripped_cherry_log": {
+            "textures": "textures/blocks/stripped_cherry_log_side"
+        },
+        "minecraft:stripped_cherry_log_side": {
+            "textures": "textures/blocks/stripped_cherry_log_side"
+        },
         "minecraft:debug": {
             "textures": "textures/blocks/debug"
         },
@@ -19,6 +79,12 @@
         "minecraft:stone_brick": {
             "textures": "textures/blocks/stonebrick"
         },
+        "minecraft:packed_ice": {
+            "textures": "textures/blocks/ice_packed"
+        },
+        "minecraft:air": {
+            "textures": "textures/blocks/air"
+        },
         "minecraft:acacia_planks": {
             "textures": "textures/blocks/planks_acacia"
         },
@@ -30,6 +96,9 @@
         },
         "minecraft:amethyst_cluster": {
             "textures": "textures/blocks/amethyst_cluster"
+        },
+        "minecraft:ancient_debris": {
+            "textures": "textures/blocks/ancient_debris_side"
         },
         "minecraft:ancient_debris_side": {
             "textures": "textures/blocks/ancient_debris_side"
@@ -58,8 +127,17 @@
         "minecraft:azalea_leaves_flowered": {
             "textures": "textures/blocks/azalea_leaves_flowers"
         },
+        "minecraft:flowering_azalea_leaves": {
+            "textures": "textures/blocks/azalea_leaves_flowers"
+        },
+        "minecraft:azalea_leaves_flowers": {
+            "textures": "textures/blocks/azalea_leaves_flowers"
+        },
         "minecraft:azalea_plant": {
             "textures": "textures/blocks/azalea_plant"
+        },
+        "minecraft:azalea": {
+            "textures": "textures/blocks/azalea_side"
         },
         "minecraft:azalea_side": {
             "textures": "textures/blocks/azalea_side"
@@ -88,6 +166,9 @@
         "minecraft:barrel_bottom": {
             "textures": "textures/blocks/barrel_bottom"
         },
+        "minecraft:barrel": {
+            "textures": "textures/blocks/barrel_side"
+        },
         "minecraft:barrel_side": {
             "textures": "textures/blocks/barrel_side"
         },
@@ -99,6 +180,9 @@
         },
         "minecraft:barrier": {
             "textures": "textures/blocks/barrier"
+        },
+        "minecraft:basalt": {
+            "textures": "textures/blocks/basalt_side"
         },
         "minecraft:basalt_side": {
             "textures": "textures/blocks/basalt_side"
@@ -133,6 +217,9 @@
         "minecraft:bee_nest_front_honey": {
             "textures": "textures/blocks/bee_nest_front_honey"
         },
+        "minecraft:bee_nest": {
+            "textures": "textures/blocks/bee_nest_side"
+        },
         "minecraft:bee_nest_side": {
             "textures": "textures/blocks/bee_nest_side"
         },
@@ -144,6 +231,9 @@
         },
         "minecraft:beehive_front_honey": {
             "textures": "textures/blocks/beehive_front_honey"
+        },
+        "minecraft:beehive": {
+            "textures": "textures/blocks/beehive_side"
         },
         "minecraft:beehive_side": {
             "textures": "textures/blocks/beehive_side"
@@ -168,6 +258,9 @@
         },
         "minecraft:bell_carried": {
             "textures": "textures/items/villagebell"
+        },
+        "minecraft:bell": {
+            "textures": "textures/blocks/bell_side"
         },
         "minecraft:bell_side": {
             "textures": "textures/blocks/bell_side"
@@ -211,17 +304,20 @@
         "minecraft:blackstone": {
             "textures": "textures/blocks/blackstone"
         },
-        "minecraft:blackstone_side": {
-            "textures": "textures/blocks/blackstone_side"
-        },
         "minecraft:blackstone_top": {
             "textures": "textures/blocks/blackstone_top"
+        },
+        "minecraft:blast_furnace_front": {
+            "textures": "textures/blocks/blast_furnace_front_off"
         },
         "minecraft:blast_furnace_front_off": {
             "textures": "textures/blocks/blast_furnace_front_off"
         },
         "minecraft:blast_furnace_front_on": {
             "textures": "textures/blocks/blast_furnace_front_on"
+        },
+        "minecraft:blast_furnace": {
+            "textures": "textures/blocks/blast_furnace_side"
         },
         "minecraft:blast_furnace_side": {
             "textures": "textures/blocks/blast_furnace_side"
@@ -243,6 +339,9 @@
         },
         "minecraft:blue_ice": {
             "textures": "textures/blocks/blue_ice"
+        },
+        "minecraft:bone_block": {
+            "textures": "textures/blocks/bone_block_side"
         },
         "minecraft:bone_block_side": {
             "textures": "textures/blocks/bone_block_side"
@@ -346,6 +445,9 @@
         "minecraft:cactus_bottom": {
             "textures": "textures/blocks/cactus_bottom"
         },
+        "minecraft:cactus": {
+            "textures": "textures/blocks/cactus_side"
+        },
         "minecraft:cactus_side": {
             "textures": "textures/blocks/cactus_side"
         },
@@ -354,6 +456,9 @@
         },
         "minecraft:cake_bottom": {
             "textures": "textures/blocks/cake_bottom"
+        },
+        "minecraft:cake": {
+            "textures": "textures/blocks/cake_side"
         },
         "minecraft:cake_side": {
             "textures": "textures/blocks/cake_side"
@@ -372,6 +477,9 @@
         },
         "minecraft:camera_front": {
             "textures": "textures/blocks/camera_front"
+        },
+        "minecraft:camera": {
+            "textures": "textures/blocks/camera_side"
         },
         "minecraft:camera_side": {
             "textures": "textures/blocks/camera_side"
@@ -409,6 +517,36 @@
         "minecraft:carrots_stage3": {
             "textures": "textures/blocks/carrots_stage_3"
         },
+        "minecraft:mushroom_block_skin_stem": {
+            "textures": "textures/blocks/mushroom_block_skin_stem"
+        },
+        "minecraft:mushroom_block_skin_red": {
+            "textures": "textures/blocks/mushroom_block_skin_red"
+        },
+        "minecraft:mushroom_block_skin_inside": {
+            "textures": "textures/blocks/mushroom_block_skin_inside"
+        },
+        "minecraft:mushroom_block_skin_brown": {
+            "textures": "textures/blocks/mushroom_block_skin_brown"
+        },
+        "minecraft:mushroom_stem": {
+            "textures": "textures/blocks/mushroom_block_skin_stem"
+        },
+        "minecraft:red_mushroom_block": {
+            "textures": "textures/blocks/mushroom_block_skin_red"
+        },
+        "minecraft:brown_mushroom_block": {
+            "textures": "textures/blocks/mushroom_block_skin_brown"
+        },
+        "minecraft:brown_mushroom": {
+            "textures": "textures/blocks/mushroom_brown"
+        },
+        "minecraft:red_mushroom": {
+            "textures": "textures/blocks/mushroom_red"
+        },
+        "minecraft:mushroom_block_inside": {
+            "textures": "textures/blocks/mushroom_block_skin_inside"
+        },
         "minecraft:cartography_table_bottom": {
             "textures": "textures/blocks/planks_big_oak"
         },
@@ -429,6 +567,9 @@
         },
         "minecraft:cauldron_inner": {
             "textures": "textures/blocks/cauldron_inner"
+        },
+        "minecraft:cauldron": {
+            "textures": "textures/blocks/cauldron_side"
         },
         "minecraft:cauldron_side": {
             "textures": "textures/blocks/cauldron_side"
@@ -462,6 +603,9 @@
         },
         "minecraft:chest_front": {
             "textures": "textures/blocks/chest_front"
+        },
+        "minecraft:chest": {
+            "textures": "textures/blocks/chest_side"
         },
         "minecraft:chest_side": {
             "textures": "textures/blocks/chest_side"
@@ -523,14 +667,23 @@
         "minecraft:command_block_chain_back": {
             "textures": "textures/blocks/chain_command_block_back_mipmap"
         },
+        "minecraft:command_block_chain_conditional": {
+            "textures": "textures/blocks/chain_command_block_conditional_mipmap"
+        },
         "minecraft:command_block_chain_conditional_side": {
             "textures": "textures/blocks/chain_command_block_conditional_mipmap"
         },
         "minecraft:command_block_chain_front": {
             "textures": "textures/blocks/chain_command_block_front_mipmap"
         },
+        "minecraft:command_block_chain": {
+            "textures": "textures/blocks/chain_command_block_side_mipmap"
+        },
         "minecraft:command_block_chain_side": {
             "textures": "textures/blocks/chain_command_block_side_mipmap"
+        },
+        "minecraft:command_block_conditional": {
+            "textures": "textures/blocks/command_block_conditional_mipmap"
         },
         "minecraft:command_block_conditional_side": {
             "textures": "textures/blocks/command_block_conditional_mipmap"
@@ -541,17 +694,26 @@
         "minecraft:command_block_repeating_back": {
             "textures": "textures/blocks/repeating_command_block_back_mipmap"
         },
+        "minecraft:command_block_repeating_conditional": {
+            "textures": "textures/blocks/repeating_command_block_conditional_mipmap"
+        },
         "minecraft:command_block_repeating_conditional_side": {
             "textures": "textures/blocks/repeating_command_block_conditional_mipmap"
         },
         "minecraft:command_block_repeating_front": {
             "textures": "textures/blocks/repeating_command_block_front_mipmap"
         },
+        "minecraft:command_block_repeating": {
+            "textures": "textures/blocks/repeating_command_block_side_mipmap"
+        },
         "minecraft:command_block_repeating_side": {
             "textures": "textures/blocks/repeating_command_block_side_mipmap"
         },
         "minecraft:command_block_side": {
             "textures": "textures/blocks/command_block_side_mipmap"
+        },
+        "minecraft:comparator_off": {
+            "textures": "textures/blocks/comparator_off"
         },
         "minecraft:comparator": {
             "textures": "textures/blocks/comparator_off"
@@ -561,6 +723,9 @@
         },
         "minecraft:composter_bottom": {
             "textures": "textures/blocks/composter_bottom"
+        },
+        "minecraft:composter": {
+            "textures": "textures/blocks/composter_side"
         },
         "minecraft:composter_side": {
             "textures": "textures/blocks/composter_side"
@@ -691,8 +856,29 @@
         "minecraft:fire_coral": {
             "textures": "textures/blocks/coral_plant_red"
         },
+        "minecraft:red_coral": {
+            "textures": "textures/blocks/coral_plant_red"
+        },
         "minecraft:horn_coral": {
             "textures": "textures/blocks/coral_plant_yellow"
+        },
+        "minecraft:dead_tube_coral": {
+            "textures": "textures/blocks/coral_plant_blue_dead"
+        },
+        "minecraft:dead_brain_coral": {
+            "textures": "textures/blocks/coral_plant_pink_dead"
+        },
+        "minecraft:dead_bubble_coral": {
+            "textures": "textures/blocks/coral_plant_purple_dead"
+        },
+        "minecraft:dead_red_coral": {
+            "textures": "textures/blocks/coral_plant_red_dead"
+        },
+        "minecraft:dead_fire_coral": {
+            "textures": "textures/blocks/coral_plant_red_dead"
+        },
+        "minecraft:dead_horn_coral": {
+            "textures": "textures/blocks/coral_plant_yellow_dead"
         },
         "minecraft:tube_dead_coral": {
             "textures": "textures/blocks/coral_plant_blue_dead"
@@ -704,6 +890,9 @@
             "textures": "textures/blocks/coral_plant_purple_dead"
         },
         "minecraft:red_dead_coral": {
+            "textures": "textures/blocks/coral_plant_red_dead"
+        },
+        "minecraft:fire_dead_coral": {
             "textures": "textures/blocks/coral_plant_red_dead"
         },
         "minecraft:horn_dead_coral": {
@@ -721,8 +910,29 @@
         "minecraft:fire_coral_block": {
             "textures": "textures/blocks/coral_red"
         },
+        "minecraft:red_coral_block": {
+            "textures": "textures/blocks/coral_red"
+        },
         "minecraft:horn_coral_block": {
             "textures": "textures/blocks/coral_yellow"
+        },
+        "minecraft:dead_tube_coral_block": {
+            "textures": "textures/blocks/coral_blue_dead"
+        },
+        "minecraft:dead_brain_coral_block": {
+            "textures": "textures/blocks/coral_pink_dead"
+        },
+        "minecraft:dead_bubble_coral_block": {
+            "textures": "textures/blocks/coral_purple_dead"
+        },
+        "minecraft:dead_fire_coral_block": {
+            "textures": "textures/blocks/coral_red_dead"
+        },
+        "minecraft:dead_red_coral_block": {
+            "textures": "textures/blocks/coral_red_dead"
+        },
+        "minecraft:dead_horn_coral_block": {
+            "textures": "textures/blocks/coral_yellow_dead"
         },
         "minecraft:tube_dead_coral_block": {
             "textures": "textures/blocks/coral_blue_dead"
@@ -732,6 +942,9 @@
         },
         "minecraft:bubble_dead_coral_block": {
             "textures": "textures/blocks/coral_purple_dead"
+        },
+        "minecraft:fire_dead_coral_block": {
+            "textures": "textures/blocks/coral_red_dead"
         },
         "minecraft:red_dead_coral_block": {
             "textures": "textures/blocks/coral_red_dead"
@@ -751,8 +964,29 @@
         "minecraft:fire_coral_fan": {
             "textures": "textures/blocks/coral_fan_red"
         },
+        "minecraft:red_coral_fan": {
+            "textures": "textures/blocks/coral_fan_red"
+        },
         "minecraft:horn_coral_fan": {
             "textures": "textures/blocks/coral_fan_yellow"
+        },
+        "minecraft:dead_tube_coral_fan": {
+            "textures": "textures/blocks/coral_fan_blue_dead"
+        },
+        "minecraft:dead_brain_coral_fan": {
+            "textures": "textures/blocks/coral_fan_pink_dead"
+        },
+        "minecraft:dead_bubble_coral_fan": {
+            "textures": "textures/blocks/coral_fan_purple_dead"
+        },
+        "minecraft:dead_red_coral_fan": {
+            "textures": "textures/blocks/coral_fan_red_dead"
+        },
+        "minecraft:dead_fire_coral_fan": {
+            "textures": "textures/blocks/coral_fan_red_dead"
+        },
+        "minecraft:dead_horn_coral_fan": {
+            "textures": "textures/blocks/coral_fan_yellow_dead"
         },
         "minecraft:tube_dead_coral_fan": {
             "textures": "textures/blocks/coral_fan_blue_dead"
@@ -764,6 +998,9 @@
             "textures": "textures/blocks/coral_fan_purple_dead"
         },
         "minecraft:red_dead_coral_fan": {
+            "textures": "textures/blocks/coral_fan_red_dead"
+        },
+        "minecraft:fire_dead_coral_fan": {
             "textures": "textures/blocks/coral_fan_red_dead"
         },
         "minecraft:horn_dead_coral_fan": {
@@ -790,6 +1027,9 @@
         "minecraft:crafting_table_front": {
             "textures": "textures/blocks/crafting_table_front"
         },
+        "minecraft:crafting_table": {
+            "textures": "textures/blocks/crafting_table_side"
+        },
         "minecraft:crafting_table_side": {
             "textures": "textures/blocks/crafting_table_side"
         },
@@ -802,11 +1042,26 @@
         "minecraft:crimson_door_top": {
             "textures": "textures/blocks/huge_fungus/crimson_door_top"
         },
+        "minecraft:crimson_log": {
+            "textures": "textures/blocks/huge_fungus/crimson_log_side"
+        },
         "minecraft:crimson_log_side": {
             "textures": "textures/blocks/huge_fungus/crimson_log_side"
         },
         "minecraft:crimson_log_top": {
             "textures": "textures/blocks/huge_fungus/crimson_log_top"
+        },
+        "minecraft:crimson_stem": {
+            "textures": "textures/blocks/huge_fungus/crimson_log_side"
+        },
+        "minecraft:crimson_stem_side": {
+            "textures": "textures/blocks/huge_fungus/crimson_log_side"
+        },
+        "minecraft:crimson_stem_top": {
+            "textures": "textures/blocks/huge_fungus/crimson_log_top"
+        },
+        "minecraft:crimson_nylium": {
+            "textures": "textures/blocks/crimson_nylium_side"
         },
         "minecraft:crimson_nylium_side": {
             "textures": "textures/blocks/crimson_nylium_side"
@@ -852,6 +1107,9 @@
         },
         "minecraft:dark_prismarine": {
             "textures": "textures/blocks/prismarine_dark"
+        },
+        "minecraft:daylight_detector": {
+            "textures": "textures/blocks/daylight_detector_side"
         },
         "minecraft:daylight_detector_side": {
             "textures": "textures/blocks/daylight_detector_side"
@@ -949,11 +1207,17 @@
         "minecraft:coarse_dirt": {
             "textures": "textures/blocks/coarse_dirt"
         },
+        "minecraft:podzol": {
+            "textures": "textures/blocks/dirt_podzol_side"
+        },
         "minecraft:podzol_side": {
             "textures": "textures/blocks/dirt_podzol_side"
         },
         "minecraft:podzol_top": {
             "textures": "textures/blocks/dirt_podzol_top"
+        },
+        "minecraft:dirt_podzol": {
+            "textures": "textures/blocks/dirt_podzol_side"
         },
         "minecraft:dirt_podzol_side": {
             "textures": "textures/blocks/dirt_podzol_side"
@@ -964,14 +1228,14 @@
         "minecraft:rooted_dirt": {
             "textures": "textures/blocks/dirt_with_roots"
         },
-        "minecraft:dirt_with_roots": {
-            "textures": "textures/blocks/dirt_with_roots"
-        },
         "minecraft:dispenser_front": {
             "textures": "textures/blocks/dispenser_front_horizontal"
         },
         "minecraft:dispenser_front_vertical": {
             "textures": "textures/blocks/dispenser_front_vertical"
+        },
+        "minecraft:dispenser": {
+            "textures": "textures/blocks/furnace_side"
         },
         "minecraft:dispenser_side": {
             "textures": "textures/blocks/furnace_side"
@@ -1078,6 +1342,9 @@
         "minecraft:dropper_front_vertical": {
             "textures": "textures/blocks/dropper_front_vertical"
         },
+        "minecraft:dropper": {
+            "textures": "textures/blocks/furnace_side"
+        },
         "minecraft:dropper_side": {
             "textures": "textures/blocks/furnace_side"
         },
@@ -1092,6 +1359,9 @@
         },
         "minecraft:enchanting_table_bottom": {
             "textures": "textures/blocks/enchanting_table_bottom"
+        },
+        "minecraft:enchanting_table": {
+            "textures": "textures/blocks/enchanting_table_side"
         },
         "minecraft:enchanting_table_side": {
             "textures": "textures/blocks/enchanting_table_side"
@@ -1117,6 +1387,9 @@
         "minecraft:ender_chest_front": {
             "textures": "textures/blocks/ender_chest_front"
         },
+        "minecraft:ender_chest": {
+            "textures": "textures/blocks/ender_chest_side"
+        },
         "minecraft:ender_chest_side": {
             "textures": "textures/blocks/ender_chest_side"
         },
@@ -1125,6 +1398,9 @@
         },
         "minecraft:end_portal_frame_eye": {
             "textures": "textures/blocks/endframe_eye"
+        },
+        "minecraft:end_portal_frame": {
+            "textures": "textures/blocks/endframe_side"
         },
         "minecraft:end_portal_frame_side": {
             "textures": "textures/blocks/endframe_side"
@@ -1137,6 +1413,12 @@
         },
         "minecraft:exposed_cut_copper": {
             "textures": "textures/blocks/exposed_cut_copper"
+        },
+        "minecraft:farmland_moist_top": {
+            "textures": "textures/blocks/farmland_wet"
+        },
+        "minecraft:farmland_top": {
+            "textures": "textures/blocks/farmland_dry"
         },
         "minecraft:farmland_moist": {
             "textures": "textures/blocks/farmland_wet"
@@ -1164,6 +1446,9 @@
         },
         "minecraft:flower_pot": {
             "textures": "textures/blocks/flower_pot"
+        },
+        "minecraft:flowering_azalea": {
+            "textures": "textures/blocks/flowering_azalea_side"
         },
         "minecraft:flowering_azalea_side": {
             "textures": "textures/blocks/flowering_azalea_side"
@@ -1195,14 +1480,17 @@
         "minecraft:frosted_ice_3": {
             "textures": "textures/blocks/frosted_ice_3"
         },
+        "minecraft:furnace_front": {
+            "textures": "textures/blocks/furnace_front_off"
+        },
         "minecraft:furnace_front_off": {
             "textures": "textures/blocks/furnace_front_off"
         },
         "minecraft:furnace_front_on": {
             "textures": "textures/blocks/furnace_front_on"
         },
-        "minecraft:furnace_front": {
-            "textures": "textures/blocks/furnace_front_on"
+        "minecraft:furnace": {
+            "textures": "textures/blocks/furnace_side"
         },
         "minecraft:furnace_side": {
             "textures": "textures/blocks/furnace_side"
@@ -1226,6 +1514,9 @@
             "textures": "textures/blocks/glow_lichen"
         },
         "minecraft:glowing_obsidian": {
+            "textures": "textures/blocks/glowing_obsidian"
+        },
+        "minecraft:glowingobsidian": {
             "textures": "textures/blocks/glowing_obsidian"
         },
         "minecraft:glowstone": {
@@ -1252,11 +1543,17 @@
         "minecraft:grass_carried_top": {
             "textures": "textures/blocks/grass_carried"
         },
+        "minecraft:dirt_path": {
+            "textures": "textures/blocks/grass_path_side"
+        },
         "minecraft:dirt_path_side": {
             "textures": "textures/blocks/grass_path_side"
         },
         "minecraft:dirt_path_top": {
             "textures": "textures/blocks/grass_path_top"
+        },
+        "minecraft:grass_path": {
+            "textures": "textures/blocks/grass_path_side"
         },
         "minecraft:grass_path_side": {
             "textures": "textures/blocks/grass_path_side"
@@ -1306,6 +1603,9 @@
         "minecraft:grindstone_round": {
             "textures": "textures/blocks/grindstone_round"
         },
+        "minecraft:grindstone": {
+            "textures": "textures/blocks/grindstone_side"
+        },
         "minecraft:grindstone_side": {
             "textures": "textures/blocks/grindstone_side"
         },
@@ -1318,14 +1618,29 @@
         "minecraft:terracotta": {
             "textures": "textures/blocks/hardened_clay"
         },
+        "minecraft:hayblock": {
+            "textures": "textures/blocks/hay_block_side"
+        },
         "minecraft:hayblock_side": {
             "textures": "textures/blocks/hay_block_side"
         },
         "minecraft:hayblock_top": {
             "textures": "textures/blocks/hay_block_top"
         },
+        "minecraft:hay_block": {
+            "textures": "textures/blocks/hay_block_side"
+        },
+        "minecraft:hay_block_side": {
+            "textures": "textures/blocks/hay_block_side"
+        },
+        "minecraft:hay_block_top": {
+            "textures": "textures/blocks/hay_block_top"
+        },
         "minecraft:honey_bottom": {
             "textures": "textures/blocks/honey_bottom"
+        },
+        "minecraft:honey": {
+            "textures": "textures/blocks/honey_side"
         },
         "minecraft:honey_side": {
             "textures": "textures/blocks/honey_side"
@@ -1377,6 +1692,12 @@
         },
         "minecraft:jigsaw_lock": {
             "textures": "textures/blocks/jigsaw_lock"
+        },
+        "minecraft:jigsaw": {
+            "textures": "textures/blocks/jigsaw_side"
+        },
+        "minecraft:jukebox": {
+            "textures": "textures/blocks/jukebox_side"
         },
         "minecraft:jigsaw_side": {
             "textures": "textures/blocks/jigsaw_side"
@@ -1455,6 +1776,9 @@
         },
         "minecraft:lectern_front": {
             "textures": "textures/blocks/lectern_front"
+        },
+        "minecraft:lectern": {
+            "textures": "textures/blocks/lectern_sides"
         },
         "minecraft:lectern_sides": {
             "textures": "textures/blocks/lectern_sides"
@@ -1546,6 +1870,9 @@
         "minecraft:lime_glazed_terracotta": {
             "textures": "textures/blocks/glazed_terracotta_lime"
         },
+        "minecraft:lodestone": {
+            "textures": "textures/blocks/lodestone_side"
+        },
         "minecraft:lodestone_side": {
             "textures": "textures/blocks/lodestone_side"
         },
@@ -1594,6 +1921,9 @@
         "minecraft:loom_front": {
             "textures": "textures/blocks/loom_front"
         },
+        "minecraft:loom": {
+            "textures": "textures/blocks/loom_side"
+        },
         "minecraft:loom_side": {
             "textures": "textures/blocks/loom_side"
         },
@@ -1614,6 +1944,9 @@
         },
         "minecraft:medium_amethyst_bud": {
             "textures": "textures/blocks/medium_amethyst_bud"
+        },
+        "minecraft:melon": {
+            "textures": "textures/blocks/melon_side"
         },
         "minecraft:melon_side": {
             "textures": "textures/blocks/melon_side"
@@ -1636,6 +1969,9 @@
         "minecraft:missing_tiles": {
             "textures": "textures/blocks/missing_tile"
         },
+        "minecraft:spawner": {
+            "textures": "textures/blocks/mob_spawner"
+        },
         "minecraft:mob_spawner": {
             "textures": "textures/blocks/mob_spawner"
         },
@@ -1648,23 +1984,38 @@
         "minecraft:stonebrick_mossy": {
             "textures": "textures/blocks/stonebrick_mossy"
         },
-        "minecraft:mushroom_stem": {
-            "textures": "textures/blocks/mushroom_stem"
-        },
         "minecraft:mushroom_brown": {
             "textures": "textures/blocks/mushroom_brown"
+        },
+        "minecraft:reinforced_deepslate_top": {
+            "textures": "textures/blocks/reinforced_deepslate_top"
+        },
+        "minecraft:reinforced_deepslate": {
+            "textures": "textures/blocks/reinforced_deepslate_side"
+        },
+        "minecraft:reinforced_deepslate_side": {
+            "textures": "textures/blocks/reinforced_deepslate_side"
+        },
+        "minecraft:stripped_mangrove_log_top": {
+            "textures": "textures/blocks/stripped_mangrove_log_top"
+        },
+        "minecraft:stripped_mangrove_log": {
+            "textures": "textures/blocks/stripped_mangrove_log_side"
+        },
+        "minecraft:stripped_mangrove_log_side": {
+            "textures": "textures/blocks/stripped_mangrove_log_side"
+        },
+        "minecraft:reinforced_deepslate_bottom": {
+            "textures": "textures/blocks/reinforced_deepslate_bottom"
         },
         "minecraft:mushroom_red": {
             "textures": "textures/blocks/mushroom_red"
         },
-        "minecraft:brown_mushroom_block": {
-            "textures": "textures/blocks/mushroom_brown"
-        },
-        "minecraft:red_mushroom_block": {
-            "textures": "textures/blocks/mushroom_red"
-        },
         "minecraft:mycelium_bottom": {
             "textures": "textures/blocks/dirt"
+        },
+        "minecraft:mycelium": {
+            "textures": "textures/blocks/mycelium_side"
         },
         "minecraft:mycelium_side": {
             "textures": "textures/blocks/mycelium_side"
@@ -1711,6 +2062,9 @@
         "minecraft:noteblock": {
             "textures": "textures/blocks/noteblock"
         },
+        "minecraft:observer": {
+            "textures": "textures/blocks/observer_side"
+        },
         "minecraft:observer_side": {
             "textures": "textures/blocks/observer_side"
         },
@@ -1719,6 +2073,9 @@
         },
         "minecraft:observer_back": {
             "textures": "textures/blocks/observer_back"
+        },
+        "minecraft:observer_back_off": {
+            "textures": "textures/blocks/observer_back_lit"
         },
         "minecraft:observer_back_on": {
             "textures": "textures/blocks/observer_back_lit"
@@ -1758,6 +2115,9 @@
         },
         "minecraft:piston_bottom": {
             "textures": "textures/blocks/piston_bottom"
+        },
+        "minecraft:piston": {
+            "textures": "textures/blocks/piston_side"
         },
         "minecraft:piston_side": {
             "textures": "textures/blocks/piston_side"
@@ -1807,6 +2167,9 @@
         "minecraft:polished_andesite": {
             "textures": "textures/blocks/stone_andesite_smooth"
         },
+        "minecraft:polished_basalt": {
+            "textures": "textures/blocks/polished_basalt_side"
+        },
         "minecraft:polished_basalt_side": {
             "textures": "textures/blocks/polished_basalt_side"
         },
@@ -1849,6 +2212,9 @@
         "minecraft:potted_azalea_bush_plant": {
             "textures": "textures/blocks/potted_azalea_bush_plant"
         },
+        "minecraft:potted_azalea_bush": {
+            "textures": "textures/blocks/potted_azalea_bush_side"
+        },
         "minecraft:potted_azalea_bush_side": {
             "textures": "textures/blocks/potted_azalea_bush_side"
         },
@@ -1857,6 +2223,9 @@
         },
         "minecraft:potted_flowering_azalea_bush_plant": {
             "textures": "textures/blocks/potted_flowering_azalea_bush_plant"
+        },
+        "minecraft:potted_flowering_azalea_bush": {
+            "textures": "textures/blocks/potted_flowering_azalea_bush_side"
         },
         "minecraft:potted_flowering_azalea_bush_side": {
             "textures": "textures/blocks/potted_flowering_azalea_bush_side"
@@ -1876,17 +2245,23 @@
         "minecraft:prismarine_brick": {
             "textures": "textures/blocks/prismarine_bricks"
         },
+        "minecraft:carved_pumpkin": {
+            "textures": "textures/blocks/pumpkin_face_off"
+        },
+        "minecraft:pumpkin_face": {
+            "textures": "textures/blocks/pumpkin_face_off"
+        },
         "minecraft:pumpkin_face_off": {
             "textures": "textures/blocks/pumpkin_face_off"
         },
-        "minecraft:carved_pumpkin": {
-            "textures": "textures/blocks/pumpkin_face_off"
+        "minecraft:pumpkin_face_on": {
+            "textures": "textures/blocks/pumpkin_face_on"
         },
         "minecraft:jack_o_lantern": {
             "textures": "textures/blocks/pumpkin_face_on"
         },
-        "minecraft:pumpkin_face_on": {
-            "textures": "textures/blocks/pumpkin_face_on"
+        "minecraft:pumpkin": {
+            "textures": "textures/blocks/pumpkin_side"
         },
         "minecraft:pumpkin_side": {
             "textures": "textures/blocks/pumpkin_side"
@@ -1924,6 +2299,9 @@
         "minecraft:purpur_pillar": {
             "textures": "textures/blocks/purpur_pillar"
         },
+        "minecraft:purpur_pillar_side": {
+            "textures": "textures/blocks/purpur_pillar"
+        },
         "minecraft:chiseled_quartz_block_top": {
             "textures": "textures/blocks/quartz_block_chiseled_top"
         },
@@ -1949,6 +2327,12 @@
             "textures": "textures/blocks/quartz_block_side"
         },
         "minecraft:quartz_pillar": {
+            "textures": "textures/blocks/quartz_block_lines"
+        },
+        "minecraft:quartz_block_lines": {
+            "textures": "textures/blocks/quartz_block_lines"
+        },
+        "minecraft:quartz_pillar_side": {
             "textures": "textures/blocks/quartz_block_lines"
         },
         "minecraft:quartz_pillar_top": {
@@ -2059,9 +2443,6 @@
         "minecraft:red_sandstone_top": {
             "textures": "textures/blocks/red_sandstone_top"
         },
-        "minecraft:red_sandstone_side": {
-            "textures": "textures/blocks/red_sandstone_normal"
-        },
         "minecraft:redstone_block": {
             "textures": "textures/blocks/redstone_block"
         },
@@ -2077,6 +2458,9 @@
         "minecraft:redstone_lamp_on": {
             "textures": "textures/blocks/redstone_lamp_on"
         },
+        "minecraft:redstone_lamp": {
+            "textures": "textures/blocks/redstone_lamp_on"
+        },
         "minecraft:redstone_ore": {
             "textures": "textures/blocks/redstone_ore"
         },
@@ -2086,10 +2470,16 @@
         "minecraft:redstone_torch_on": {
             "textures": "textures/blocks/redstone_torch_on"
         },
+        "minecraft:redstone_torch": {
+            "textures": "textures/blocks/redstone_torch_on"
+        },
         "minecraft:sugar_cane": {
             "textures": "textures/blocks/reeds"
         },
         "minecraft:repeater": {
+            "textures": "textures/blocks/repeater_off"
+        },
+        "minecraft:repeater_off": {
             "textures": "textures/blocks/repeater_off"
         },
         "minecraft:repeater_on": {
@@ -2163,6 +2553,9 @@
         },
         "minecraft:scaffolding_bottom": {
             "textures": "textures/blocks/scaffolding_bottom"
+        },
+        "minecraft:scaffolding": {
+            "textures": "textures/blocks/scaffolding_side"
         },
         "minecraft:scaffolding_side": {
             "textures": "textures/blocks/scaffolding_side"
@@ -2263,6 +2656,9 @@
         "minecraft:small_amethyst_bud": {
             "textures": "textures/blocks/small_amethyst_bud"
         },
+        "minecraft:small_dripleaf": {
+            "textures": "textures/blocks/small_dripleaf_side"
+        },
         "minecraft:small_dripleaf_side": {
             "textures": "textures/blocks/small_dripleaf_side"
         },
@@ -2281,6 +2677,9 @@
         "minecraft:smithing_table_front": {
             "textures": "textures/blocks/smithing_table_front"
         },
+        "minecraft:smithing_table": {
+            "textures": "textures/blocks/smithing_table_side"
+        },
         "minecraft:smithing_table_side": {
             "textures": "textures/blocks/smithing_table_side"
         },
@@ -2298,6 +2697,9 @@
         },
         "minecraft:smoker_front": {
             "textures": "textures/blocks/smoker_front_off"
+        },
+        "minecraft:smoker": {
+            "textures": "textures/blocks/smoker_side"
         },
         "minecraft:smoker_side": {
             "textures": "textures/blocks/smoker_side"
@@ -2521,6 +2923,9 @@
         "minecraft:stone": {
             "textures": "textures/blocks/stone"
         },
+        "minecraft:smooth_stone_slab": {
+            "textures": "textures/blocks/stone_slab_side"
+        },
         "minecraft:smooth_stone_slab_side": {
             "textures": "textures/blocks/stone_slab_side"
         },
@@ -2554,11 +2959,17 @@
         "minecraft:stonecutter_saw": {
             "textures": "textures/blocks/stonecutter2_saw"
         },
+        "minecraft:stonecutter": {
+            "textures": "textures/blocks/stonecutter2_side"
+        },
         "minecraft:stonecutter_side": {
             "textures": "textures/blocks/stonecutter2_side"
         },
         "minecraft:stonecutter_top": {
             "textures": "textures/blocks/stonecutter2_top"
+        },
+        "minecraft:stripped_acacia_log": {
+            "textures": "textures/blocks/stripped_acacia_log"
         },
         "minecraft:stripped_acacia_log_side": {
             "textures": "textures/blocks/stripped_acacia_log"
@@ -2566,11 +2977,26 @@
         "minecraft:stripped_acacia_log_top": {
             "textures": "textures/blocks/stripped_acacia_log_top"
         },
+        "minecraft:stripped_birch_log": {
+            "textures": "textures/blocks/stripped_birch_log"
+        },
         "minecraft:stripped_birch_log_side": {
             "textures": "textures/blocks/stripped_birch_log"
         },
         "minecraft:stripped_birch_log_top": {
             "textures": "textures/blocks/stripped_birch_log_top"
+        },
+        "minecraft:stripped_crimson_log": {
+            "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_side"
+        },
+        "minecraft:stripped_crimson_log_side": {
+            "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_side"
+        },
+        "minecraft:stripped_crimson_log_top": {
+            "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_top"
+        },
+        "minecraft:stripped_crimson_stem": {
+            "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_side"
         },
         "minecraft:stripped_crimson_stem_side": {
             "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_side"
@@ -2578,11 +3004,17 @@
         "minecraft:stripped_crimson_stem_top": {
             "textures": "textures/blocks/huge_fungus/stripped_crimson_stem_top"
         },
+        "minecraft:stripped_dark_oak_log": {
+            "textures": "textures/blocks/stripped_dark_oak_log"
+        },
         "minecraft:stripped_dark_oak_log_side": {
             "textures": "textures/blocks/stripped_dark_oak_log"
         },
         "minecraft:stripped_dark_oak_log_top": {
             "textures": "textures/blocks/stripped_dark_oak_log_top"
+        },
+        "minecraft:stripped_jungle_log": {
+            "textures": "textures/blocks/stripped_jungle_log"
         },
         "minecraft:stripped_jungle_log_side": {
             "textures": "textures/blocks/stripped_jungle_log"
@@ -2590,17 +3022,35 @@
         "minecraft:stripped_jungle_log_top": {
             "textures": "textures/blocks/stripped_jungle_log_top"
         },
+        "minecraft:stripped_oak_log": {
+            "textures": "textures/blocks/stripped_oak_log"
+        },
         "minecraft:stripped_oak_log_side": {
             "textures": "textures/blocks/stripped_oak_log"
         },
         "minecraft:stripped_oak_log_top": {
             "textures": "textures/blocks/stripped_oak_log_top"
         },
+        "minecraft:stripped_spruce_log": {
+            "textures": "textures/blocks/stripped_spruce_log"
+        },
         "minecraft:stripped_spruce_log_side": {
             "textures": "textures/blocks/stripped_spruce_log"
         },
         "minecraft:stripped_spruce_log_top": {
             "textures": "textures/blocks/stripped_spruce_log_top"
+        },
+        "minecraft:stripped_warped_log": {
+            "textures": "textures/blocks/huge_fungus/stripped_warped_stem_side"
+        },
+        "minecraft:stripped_warped_log_side": {
+            "textures": "textures/blocks/huge_fungus/stripped_warped_stem_side"
+        },
+        "minecraft:stripped_warped_log_top": {
+            "textures": "textures/blocks/huge_fungus/stripped_warped_stem_top"
+        },
+        "minecraft:stripped_warped_stem": {
+            "textures": "textures/blocks/huge_fungus/stripped_warped_stem_side"
         },
         "minecraft:stripped_warped_stem_side": {
             "textures": "textures/blocks/huge_fungus/stripped_warped_stem_side"
@@ -2647,6 +3097,9 @@
         "minecraft:sweet_berry_bush3": {
             "textures": "textures/blocks/sweet_berry_bush_stage3"
         },
+        "minecraft:target": {
+            "textures": "textures/blocks/target_side"
+        },
         "minecraft:target_side": {
             "textures": "textures/blocks/target_side"
         },
@@ -2659,6 +3112,9 @@
         "minecraft:tnt_bottom": {
             "textures": "textures/blocks/tnt_bottom"
         },
+        "minecraft:tnt": {
+            "textures": "textures/blocks/tnt_side"
+        },
         "minecraft:tnt_side": {
             "textures": "textures/blocks/tnt_side"
         },
@@ -2666,6 +3122,9 @@
             "textures": "textures/blocks/tnt_top"
         },
         "minecraft:torch_on": {
+            "textures": "textures/blocks/torch_on"
+        },
+        "minecraft:torch": {
             "textures": "textures/blocks/torch_on"
         },
         "minecraft:trapdoor": {
@@ -2710,6 +3169,9 @@
         "minecraft:warped_door_top": {
             "textures": "textures/blocks/huge_fungus/warped_door_top"
         },
+        "minecraft:warped_nylium": {
+            "textures": "textures/blocks/warped_nylium_side"
+        },
         "minecraft:warped_nylium_side": {
             "textures": "textures/blocks/warped_nylium_side"
         },
@@ -2724,6 +3186,18 @@
         },
         "minecraft:warped_roots_pot": {
             "textures": "textures/blocks/warped_roots_pot"
+        },
+        "minecraft:warped_log": {
+            "textures": "textures/blocks/huge_fungus/warped_stem_side"
+        },
+        "minecraft:warped_log_side": {
+            "textures": "textures/blocks/huge_fungus/warped_stem_side"
+        },
+        "minecraft:warped_log_top": {
+            "textures": "textures/blocks/huge_fungus/warped_stem_top"
+        },
+        "minecraft:warped_stem": {
+            "textures": "textures/blocks/huge_fungus/warped_stem_side"
         },
         "minecraft:warped_stem_side": {
             "textures": "textures/blocks/huge_fungus/warped_stem_side"
@@ -2890,6 +3364,9 @@
         "minecraft:mangrove_leaves_carried": {
             "textures": "textures/blocks/mangrove_leaves_carried"
         },
+        "minecraft:mangrove_log": {
+            "textures": "textures/blocks/mangrove_log_side"
+        },
         "minecraft:mangrove_log_side": {
             "textures": "textures/blocks/mangrove_log_side"
         },
@@ -2908,6 +3385,9 @@
         "minecraft:mangrove_propagule_item": {
             "textures": "textures/items/mangrove_propagule"
         },
+        "minecraft:mangrove_roots": {
+            "textures": "textures/blocks/mangrove_roots_side"
+        },
         "minecraft:mangrove_roots_side": {
             "textures": "textures/blocks/mangrove_roots_side"
         },
@@ -2920,17 +3400,26 @@
         "minecraft:mangrove_trapdoor": {
             "textures": "textures/blocks/mangrove_trapdoor"
         },
+        "minecraft:ochre_froglight": {
+            "textures": "textures/blocks/ochre_froglight_side"
+        },
         "minecraft:ochre_froglight_side": {
             "textures": "textures/blocks/ochre_froglight_side"
         },
         "minecraft:ochre_froglight_top": {
             "textures": "textures/blocks/ochre_froglight_top"
         },
+        "minecraft:pearlescent_froglight": {
+            "textures": "textures/blocks/pearlescent_froglight_side"
+        },
         "minecraft:pearlescent_froglight_side": {
             "textures": "textures/blocks/pearlescent_froglight_side"
         },
         "minecraft:pearlescent_froglight_top": {
             "textures": "textures/blocks/pearlescent_froglight_top"
+        },
+        "minecraft:verdant_froglight": {
+            "textures": "textures/blocks/verdant_froglight_side"
         },
         "minecraft:verdant_froglight_side": {
             "textures": "textures/blocks/verdant_froglight_side"
@@ -2947,6 +3436,9 @@
         "minecraft:mud_bricks": {
             "textures": "textures/blocks/mud_bricks"
         },
+        "minecraft:muddy_mangrove_roots": {
+            "textures": "textures/blocks/muddy_mangrove_roots_side"
+        },
         "minecraft:muddy_mangrove_roots_side": {
             "textures": "textures/blocks/muddy_mangrove_roots_side"
         },
@@ -2962,6 +3454,12 @@
         "minecraft:sculk_catalyst_bottom": {
             "textures": "textures/blocks/sculk_catalyst_bottom"
         },
+        "minecraft:sculk_catalyst": {
+            "textures": "textures/blocks/sculk_catalyst_side"
+        },
+        "minecraft:sculk_catalyst_bloom": {
+            "textures": "textures/blocks/sculk_catalyst_side_bloom"
+        },
         "minecraft:sculk_catalyst_side": {
             "textures": "textures/blocks/sculk_catalyst_side"
         },
@@ -2976,6 +3474,9 @@
         },
         "minecraft:sculk_sensor_bottom": {
             "textures": "textures/blocks/sculk_sensor_bottom"
+        },
+        "minecraft:sculk_sensor": {
+            "textures": "textures/blocks/sculk_sensor_side"
         },
         "minecraft:sculk_sensor_side": {
             "textures": "textures/blocks/sculk_sensor_side"
@@ -2997,6 +3498,9 @@
         },
         "minecraft:sculk_shrieker_can_summon_inner_top": {
             "textures": "textures/blocks/sculk_shrieker_can_summon_inner_top"
+        },
+        "minecraft:sculk_shrieker": {
+            "textures": "textures/blocks/sculk_shrieker_side"
         },
         "minecraft:sculk_shrieker_side": {
             "textures": "textures/blocks/sculk_shrieker_side"

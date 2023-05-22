@@ -1,27 +1,10 @@
 {
-    "$schema": "./schemas/entity.json",
+    "$id": "https://raw.githubusercontent.com/legopitstop/Assets_Plus/v1.3.0/data/entity.json",
     "format_version": "1.18.10",
     "minecraft:entity": {
-        "minecraft:npc": {
-            "description": {
-                "identifier": "minecraft:npc",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
-            },
-            "components": {
-                "minecraft:nameable": {
-                  "always_show": false,
-                  "allow_name_tag_renaming": false
-                }
-              }
-        },
         "minecraft:allay": {
             "description": {
-                "identifier": "minecraft:allay",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:allay"
             },
             "component_groups": {
                 "pickup_item_delay": {
@@ -279,10 +262,7 @@
         },
         "minecraft:area_effect_cloud": {
             "description": {
-                "identifier": "minecraft:area_effect_cloud",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:area_effect_cloud"
             },
             "components": {
                 "minecraft:physics": {
@@ -293,10 +273,7 @@
         },
         "minecraft:armor_stand": {
             "description": {
-                "identifier": "minecraft:armor_stand",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:armor_stand"
             },
             "components": {
                 "minecraft:type_family": {
@@ -347,10 +324,7 @@
         },
         "minecraft:arrow": {
             "description": {
-                "identifier": "minecraft:arrow",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:arrow"
             },
             "component_groups": {
                 "minecraft:hard_arrow": {
@@ -552,10 +526,7 @@
         },
         "minecraft:axolotl": {
             "description": {
-                "identifier": "minecraft:axolotl",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:axolotl"
             },
             "component_groups": {
                 "attack_cooldown": {
@@ -1081,10 +1052,7 @@
         },
         "minecraft:bat": {
             "description": {
-                "identifier": "minecraft:bat",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:bat"
             },
             "component_groups": {},
             "components": {
@@ -1160,10 +1128,7 @@
         },
         "minecraft:bee": {
             "description": {
-                "identifier": "minecraft:bee",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:bee"
             },
             "component_groups": {
                 "bee_baby": {
@@ -2079,10 +2044,7 @@
         },
         "minecraft:blaze": {
             "description": {
-                "identifier": "minecraft:blaze",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:blaze"
             },
             "component_groups": {
                 "mode_switcher": {
@@ -2271,10 +2233,7 @@
         },
         "minecraft:boat": {
             "description": {
-                "identifier": "minecraft:boat",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:boat"
             },
             "component_groups": {
                 "minecraft:floating": {
@@ -2570,10 +2529,7 @@
         },
         "minecraft:cat": {
             "description": {
-                "identifier": "minecraft:cat",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:cat"
             },
             "component_groups": {
                 "minecraft:cat_baby": {
@@ -3304,10 +3260,7 @@
         },
         "minecraft:cave_spider": {
             "description": {
-                "identifier": "minecraft:cave_spider",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:cave_spider"
             },
             "component_groups": {
                 "minecraft:spider_jockey": {
@@ -3844,10 +3797,7 @@
         },
         "minecraft:chest_boat": {
             "description": {
-                "identifier": "minecraft:chest_boat",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:chest_boat"
             },
             "component_groups": {
                 "minecraft:floating": {
@@ -4101,10 +4051,7 @@
         },
         "minecraft:chest_minecart": {
             "description": {
-                "identifier": "minecraft:chest_minecart",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:chest_minecart"
             },
             "components": {
                 "minecraft:type_family": {
@@ -4156,10 +4103,7 @@
         },
         "minecraft:chicken": {
             "description": {
-                "identifier": "minecraft:chicken",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:chicken"
             },
             "component_groups": {
                 "minecraft:chicken_baby": {
@@ -4400,12 +4344,155 @@
                 }
             }
         },
+        "minecraft:cod": {
+            "description": {
+                "identifier": "minecraft:cod"
+            },
+            "components": {
+                "minecraft:is_hidden_when_invisible": {},
+                "minecraft:experience_reward": {
+                    "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
+                },
+                "minecraft:type_family": {
+                    "family": [
+                        "cod",
+                        "fish"
+                    ]
+                },
+                "minecraft:collision_box": {
+                    "width": 0.6,
+                    "height": 0.3
+                },
+                "minecraft:health": {
+                    "value": 3,
+                    "max": 3
+                },
+                "minecraft:hurt_on_condition": {
+                    "damage_conditions": [
+                        {
+                            "filters": {
+                                "test": "in_lava",
+                                "subject": "self",
+                                "operator": "==",
+                                "value": true
+                            },
+                            "cause": "lava",
+                            "damage_per_tick": 4
+                        }
+                    ]
+                },
+                "minecraft:loot": {
+                    "table": "loot_tables/entities/fish.json"
+                },
+                "minecraft:scale": {
+                    "value": 1.0
+                },
+                "minecraft:breathable": {
+                    "total_supply": 15,
+                    "suffocate_time": 0,
+                    "breathes_air": false,
+                    "breathes_water": true
+                },
+                "minecraft:movement": {
+                    "value": 0.1
+                },
+                "minecraft:underwater_movement": {
+                    "value": 0.1
+                },
+                "minecraft:navigation.generic": {
+                    "is_amphibious": false,
+                    "can_path_over_water": false,
+                    "can_swim": true,
+                    "can_walk": false,
+                    "can_breach": false,
+                    "can_sink": false
+                },
+                "minecraft:physics": {
+                    "has_gravity": false
+                },
+                "minecraft:pushable": {
+                    "is_pushable": true,
+                    "is_pushable_by_piston": true
+                },
+                "minecraft:movement.sway": {
+                    "sway_amplitude": 0.0
+                },
+                "minecraft:despawn": {
+                    "despawn_from_distance": {
+                        "min_distance": 32,
+                        "max_distance": 40
+                    }
+                },
+                "minecraft:behavior.swim_idle": {
+                    "priority": 5,
+                    "idle_time": 5.0,
+                    "success_rate": 0.1
+                },
+                "minecraft:behavior.random_swim": {
+                    "priority": 3,
+                    "speed_multiplier": 1.0,
+                    "xz_dist": 16,
+                    "y_dist": 4,
+                    "interval": 0
+                },
+                "minecraft:behavior.swim_wander": {
+                    "priority": 4,
+                    "interval": 0.1,
+                    "look_ahead": 2.0,
+                    "speed_multiplier": 1.0,
+                    "wander_time": 5.0
+                },
+                "minecraft:behavior.avoid_mob_type": {
+                    "priority": 1,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "any_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "axolotl"
+                                    }
+                                ]
+                            },
+                            "max_dist": 6,
+                            "walk_speed_multiplier": 1.5,
+                            "sprint_speed_multiplier": 2.0
+                        }
+                    ]
+                },
+                "minecraft:flocking": {
+                    "in_water": true,
+                    "match_variants": false,
+                    "use_center_of_mass": true,
+                    "low_flock_limit": 4,
+                    "high_flock_limit": 8,
+                    "goal_weight": 2.0,
+                    "loner_chance": 0.1,
+                    "influence_radius": 3.0,
+                    "breach_influence": 7.0,
+                    "separation_weight": 1.75,
+                    "separation_threshold": 0.95,
+                    "cohesion_weight": 2.0,
+                    "cohesion_threshold": 1.95,
+                    "innner_cohesion_threshold": 1.25,
+                    "min_height": 1.5,
+                    "max_height": 6.0,
+                    "block_distance": 2.0,
+                    "block_weight": 0.85
+                },
+                "minecraft:nameable": {},
+                "minecraft:conditional_bandwidth_optimization": {}
+            }
+        },
         "minecraft:command_block_minecart": {
             "description": {
-                "identifier": "minecraft:command_block_minecart",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:command_block_minecart"
             },
             "component_groups": {
                 "minecraft:command_block_active": {
@@ -4509,10 +4596,7 @@
         },
         "minecraft:cow": {
             "description": {
-                "identifier": "minecraft:cow",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:cow"
             },
             "component_groups": {
                 "minecraft:cow_baby": {
@@ -4756,10 +4840,7 @@
         },
         "minecraft:creeper": {
             "description": {
-                "identifier": "minecraft:creeper",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:creeper"
             },
             "component_groups": {
                 "minecraft:exploding": {
@@ -5080,10 +5161,7 @@
         },
         "minecraft:dolphin": {
             "description": {
-                "identifier": "minecraft:dolphin",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:dolphin"
             },
             "component_groups": {
                 "dolphin_adult": {
@@ -5534,10 +5612,7 @@
         },
         "minecraft:donkey": {
             "description": {
-                "identifier": "minecraft:donkey",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:donkey"
             },
             "component_groups": {
                 "minecraft:donkey_baby": {
@@ -6005,10 +6080,7 @@
         },
         "minecraft:dragon_fireball": {
             "description": {
-                "identifier": "minecraft:dragon_fireball",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:dragon_fireball"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -6063,10 +6135,7 @@
         },
         "minecraft:drowned": {
             "description": {
-                "identifier": "minecraft:drowned",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:drowned"
             },
             "component_groups": {
                 "minecraft:baby_drowned": {
@@ -6722,10 +6791,7 @@
         },
         "minecraft:egg": {
             "description": {
-                "identifier": "minecraft:egg",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:egg"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -6775,10 +6841,7 @@
         },
         "minecraft:elder_guardian": {
             "description": {
-                "identifier": "minecraft:elder_guardian",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:elder_guardian"
             },
             "components": {
                 "minecraft:is_hidden_when_invisible": {},
@@ -6905,10 +6968,7 @@
         },
         "minecraft:enderman": {
             "description": {
-                "identifier": "minecraft:enderman",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:enderman"
             },
             "component_groups": {
                 "minecraft:enderman_calm": {
@@ -7126,10 +7186,7 @@
         },
         "minecraft:endermite": {
             "description": {
-                "identifier": "minecraft:endermite",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:endermite"
             },
             "components": {
                 "minecraft:is_hidden_when_invisible": {},
@@ -7233,10 +7290,7 @@
         },
         "minecraft:ender_crystal": {
             "description": {
-                "identifier": "minecraft:ender_crystal",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:ender_crystal"
             },
             "component_groups": {
                 "crystal_exploding": {
@@ -7283,10 +7337,7 @@
         },
         "minecraft:ender_dragon": {
             "description": {
-                "identifier": "minecraft:ender_dragon",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:ender_dragon"
             },
             "component_groups": {
                 "dragon_sitting": {
@@ -7432,10 +7483,7 @@
         },
         "minecraft:ender_pearl": {
             "description": {
-                "identifier": "minecraft:ender_pearl",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:ender_pearl"
             },
             "component_groups": {
                 "minecraft:no_spawn": {
@@ -7507,10 +7555,7 @@
         },
         "minecraft:evocation_illager": {
             "description": {
-                "identifier": "minecraft:evocation_illager",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:evocation_illager"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -7886,10 +7931,7 @@
         },
         "minecraft:eye_of_ender_signal": {
             "description": {
-                "identifier": "minecraft:eye_of_ender_signal",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:eye_of_ender_signal"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -7912,10 +7954,7 @@
         },
         "minecraft:fireball": {
             "description": {
-                "identifier": "minecraft:fireball",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:fireball"
             },
             "component_groups": {
                 "minecraft:exploding": {
@@ -7984,10 +8023,7 @@
         },
         "minecraft:fireworks_rocket": {
             "description": {
-                "identifier": "minecraft:fireworks_rocket",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:fireworks_rocket"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -8008,161 +8044,9 @@
                 }
             }
         },
-        "minecraft:cod": {
-            "description": {
-                "identifier": "minecraft:cod",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
-            },
-            "components": {
-                "minecraft:is_hidden_when_invisible": {},
-                "minecraft:experience_reward": {
-                    "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
-                },
-                "minecraft:type_family": {
-                    "family": [
-                        "cod",
-                        "fish"
-                    ]
-                },
-                "minecraft:collision_box": {
-                    "width": 0.6,
-                    "height": 0.3
-                },
-                "minecraft:health": {
-                    "value": 3,
-                    "max": 3
-                },
-                "minecraft:hurt_on_condition": {
-                    "damage_conditions": [
-                        {
-                            "filters": {
-                                "test": "in_lava",
-                                "subject": "self",
-                                "operator": "==",
-                                "value": true
-                            },
-                            "cause": "lava",
-                            "damage_per_tick": 4
-                        }
-                    ]
-                },
-                "minecraft:loot": {
-                    "table": "loot_tables/entities/fish.json"
-                },
-                "minecraft:scale": {
-                    "value": 1.0
-                },
-                "minecraft:breathable": {
-                    "total_supply": 15,
-                    "suffocate_time": 0,
-                    "breathes_air": false,
-                    "breathes_water": true
-                },
-                "minecraft:movement": {
-                    "value": 0.1
-                },
-                "minecraft:underwater_movement": {
-                    "value": 0.1
-                },
-                "minecraft:navigation.generic": {
-                    "is_amphibious": false,
-                    "can_path_over_water": false,
-                    "can_swim": true,
-                    "can_walk": false,
-                    "can_breach": false,
-                    "can_sink": false
-                },
-                "minecraft:physics": {
-                    "has_gravity": false
-                },
-                "minecraft:pushable": {
-                    "is_pushable": true,
-                    "is_pushable_by_piston": true
-                },
-                "minecraft:movement.sway": {
-                    "sway_amplitude": 0.0
-                },
-                "minecraft:despawn": {
-                    "despawn_from_distance": {
-                        "min_distance": 32,
-                        "max_distance": 40
-                    }
-                },
-                "minecraft:behavior.swim_idle": {
-                    "priority": 5,
-                    "idle_time": 5.0,
-                    "success_rate": 0.1
-                },
-                "minecraft:behavior.random_swim": {
-                    "priority": 3,
-                    "speed_multiplier": 1.0,
-                    "xz_dist": 16,
-                    "y_dist": 4,
-                    "interval": 0
-                },
-                "minecraft:behavior.swim_wander": {
-                    "priority": 4,
-                    "interval": 0.1,
-                    "look_ahead": 2.0,
-                    "speed_multiplier": 1.0,
-                    "wander_time": 5.0
-                },
-                "minecraft:behavior.avoid_mob_type": {
-                    "priority": 1,
-                    "entity_types": [
-                        {
-                            "filters": {
-                                "any_of": [
-                                    {
-                                        "test": "is_family",
-                                        "subject": "other",
-                                        "value": "player"
-                                    },
-                                    {
-                                        "test": "is_family",
-                                        "subject": "other",
-                                        "value": "axolotl"
-                                    }
-                                ]
-                            },
-                            "max_dist": 6,
-                            "walk_speed_multiplier": 1.5,
-                            "sprint_speed_multiplier": 2.0
-                        }
-                    ]
-                },
-                "minecraft:flocking": {
-                    "in_water": true,
-                    "match_variants": false,
-                    "use_center_of_mass": true,
-                    "low_flock_limit": 4,
-                    "high_flock_limit": 8,
-                    "goal_weight": 2.0,
-                    "loner_chance": 0.1,
-                    "influence_radius": 3.0,
-                    "breach_influence": 7.0,
-                    "separation_weight": 1.75,
-                    "separation_threshold": 0.95,
-                    "cohesion_weight": 2.0,
-                    "cohesion_threshold": 1.95,
-                    "innner_cohesion_threshold": 1.25,
-                    "min_height": 1.5,
-                    "max_height": 6.0,
-                    "block_distance": 2.0,
-                    "block_weight": 0.85
-                },
-                "minecraft:nameable": {},
-                "minecraft:conditional_bandwidth_optimization": {}
-            }
-        },
         "minecraft:fishing_hook": {
             "description": {
-                "identifier": "minecraft:fishing_hook",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:fishing_hook"
             },
             "component_groups": {
                 "loot_jungle": {
@@ -8217,10 +8101,7 @@
         },
         "minecraft:fox": {
             "description": {
-                "identifier": "minecraft:fox",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:fox"
             },
             "component_groups": {
                 "minecraft:fox_baby": {
@@ -9325,10 +9206,7 @@
         },
         "minecraft:frog": {
             "description": {
-                "identifier": "minecraft:frog",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:frog"
             },
             "component_groups": {
                 "temperate_frog": {
@@ -9871,10 +9749,7 @@
         },
         "minecraft:ghast": {
             "description": {
-                "identifier": "minecraft:ghast",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:ghast"
             },
             "components": {
                 "minecraft:is_hidden_when_invisible": {},
@@ -9969,10 +9844,7 @@
         },
         "minecraft:glow_squid": {
             "description": {
-                "identifier": "minecraft:glow_squid",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:glow_squid"
             },
             "component_groups": {
                 "minecraft:squid_baby": {
@@ -10090,10 +9962,7 @@
         },
         "minecraft:goat": {
             "description": {
-                "identifier": "minecraft:goat",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:goat"
             },
             "component_groups": {
                 "goat_baby": {
@@ -10535,10 +10404,7 @@
         },
         "minecraft:guardian": {
             "description": {
-                "identifier": "minecraft:guardian",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:guardian"
             },
             "component_groups": {
                 "minecraft:guardian_aggressive": {
@@ -10775,10 +10641,7 @@
         },
         "minecraft:hoglin": {
             "description": {
-                "identifier": "minecraft:hoglin",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:hoglin"
             },
             "component_groups": {
                 "zombification_sensor": {
@@ -11319,10 +11182,7 @@
         },
         "minecraft:hopper_minecart": {
             "description": {
-                "identifier": "minecraft:hopper_minecart",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:hopper_minecart"
             },
             "component_groups": {
                 "minecraft:hopper_active": {
@@ -11422,10 +11282,7 @@
         },
         "minecraft:horse": {
             "description": {
-                "identifier": "minecraft:horse",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:horse"
             },
             "component_groups": {
                 "minecraft:horse_baby": {
@@ -12073,10 +11930,7 @@
         },
         "minecraft:husk": {
             "description": {
-                "identifier": "minecraft:husk",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:husk"
             },
             "component_groups": {
                 "minecraft:look_to_start_zombie_transformation": {
@@ -12683,10 +12537,7 @@
         },
         "minecraft:iron_golem": {
             "description": {
-                "identifier": "minecraft:iron_golem",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:iron_golem"
             },
             "component_groups": {
                 "minecraft:player_created": {
@@ -13084,10 +12935,7 @@
         },
         "minecraft:lightning_bolt": {
             "description": {
-                "identifier": "minecraft:lightning_bolt",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:lightning_bolt"
             },
             "component_groups": {},
             "components": {
@@ -13108,10 +12956,7 @@
         },
         "minecraft:lingering_potion": {
             "description": {
-                "identifier": "minecraft:lingering_potion",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:lingering_potion"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -13150,10 +12995,7 @@
         },
         "minecraft:llama": {
             "description": {
-                "identifier": "minecraft:llama",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:llama"
             },
             "component_groups": {
                 "minecraft:llama_baby": {
@@ -13832,10 +13674,7 @@
         },
         "minecraft:llama_spit": {
             "description": {
-                "identifier": "minecraft:llama_spit",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:llama_spit"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -13879,10 +13718,7 @@
         },
         "minecraft:magma_cube": {
             "description": {
-                "identifier": "minecraft:magma_cube",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:magma_cube"
             },
             "component_groups": {
                 "minecraft:slime_large": {
@@ -14121,10 +13957,7 @@
         },
         "minecraft:minecart": {
             "description": {
-                "identifier": "minecraft:minecart",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:minecart"
             },
             "components": {
                 "minecraft:is_stackable": {},
@@ -14184,10 +14017,7 @@
         },
         "minecraft:mooshroom": {
             "description": {
-                "identifier": "minecraft:mooshroom",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:mooshroom"
             },
             "component_groups": {
                 "minecraft:mooshroom_become_cow": {
@@ -15232,10 +15062,7 @@
         },
         "minecraft:mule": {
             "description": {
-                "identifier": "minecraft:mule",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:mule"
             },
             "component_groups": {
                 "minecraft:mule_baby": {
@@ -15669,12 +15496,20 @@
                 }
             }
         },
+        "minecraft:npc": {
+            "description": {
+                "identifier": "minecraft:npc"
+            },
+            "components": {
+                "minecraft:nameable": {
+                    "always_show": false,
+                    "allow_name_tag_renaming": false
+                }
+            }
+        },
         "minecraft:ocelot": {
             "description": {
-                "identifier": "minecraft:ocelot",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:ocelot"
             },
             "component_groups": {
                 "minecraft:ocelot_baby": {
@@ -16083,10 +15918,7 @@
         },
         "minecraft:panda": {
             "description": {
-                "identifier": "minecraft:panda",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:panda"
             },
             "component_groups": {
                 "minecraft:panda_baby": {
@@ -16773,10 +16605,7 @@
         },
         "minecraft:parrot": {
             "description": {
-                "identifier": "minecraft:parrot",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:parrot"
             },
             "component_groups": {
                 "minecraft:parrot_red": {
@@ -17116,10 +16945,7 @@
         },
         "minecraft:phantom": {
             "description": {
-                "identifier": "minecraft:phantom",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:phantom"
             },
             "component_groups": {},
             "components": {
@@ -17268,10 +17094,7 @@
         },
         "minecraft:pig": {
             "description": {
-                "identifier": "minecraft:pig",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:pig"
             },
             "component_groups": {
                 "minecraft:pig_baby": {
@@ -17592,10 +17415,7 @@
         },
         "minecraft:piglin": {
             "description": {
-                "identifier": "minecraft:piglin",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:piglin"
             },
             "component_groups": {
                 "zombification_sensor": {
@@ -18751,10 +18571,7 @@
         },
         "minecraft:piglin_brute": {
             "description": {
-                "identifier": "minecraft:piglin_brute",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:piglin_brute"
             },
             "component_groups": {
                 "zombification_sensor": {
@@ -19111,10 +18928,7 @@
         },
         "minecraft:pillager": {
             "description": {
-                "identifier": "minecraft:pillager",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:pillager"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -19653,10 +19467,7 @@
         },
         "minecraft:player": {
             "description": {
-                "identifier": "minecraft:player",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:player"
             },
             "component_groups": {
                 "minecraft:add_bad_omen": {
@@ -19869,10 +19680,7 @@
         },
         "minecraft:polar_bear": {
             "description": {
-                "identifier": "minecraft:polar_bear",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:polar_bear"
             },
             "component_groups": {
                 "minecraft:baby": {
@@ -20161,10 +19969,7 @@
         },
         "minecraft:pufferfish": {
             "description": {
-                "identifier": "minecraft:pufferfish",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:pufferfish"
             },
             "component_groups": {
                 "minecraft:normal_puff": {
@@ -20607,10 +20412,7 @@
         },
         "minecraft:rabbit": {
             "description": {
-                "identifier": "minecraft:rabbit",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:rabbit"
             },
             "component_groups": {
                 "baby": {
@@ -21052,10 +20854,7 @@
         },
         "minecraft:ravager": {
             "description": {
-                "identifier": "minecraft:ravager",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:ravager"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -21572,10 +21371,7 @@
         },
         "minecraft:salmon": {
             "description": {
-                "identifier": "minecraft:salmon",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:salmon"
             },
             "component_groups": {
                 "scale_small": {
@@ -21775,10 +21571,7 @@
         },
         "minecraft:sheep": {
             "description": {
-                "identifier": "minecraft:sheep",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:sheep"
             },
             "component_groups": {
                 "minecraft:loot_sheared": {
@@ -22237,10 +22030,7 @@
         },
         "minecraft:shulker": {
             "description": {
-                "identifier": "minecraft:shulker",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:shulker"
             },
             "component_groups": {
                 "minecraft:shulker_purple": {
@@ -23005,10 +22795,7 @@
         },
         "minecraft:shulker_bullet": {
             "description": {
-                "identifier": "minecraft:shulker_bullet",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:shulker_bullet"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -23064,10 +22851,7 @@
         },
         "minecraft:silverfish": {
             "description": {
-                "identifier": "minecraft:silverfish",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:silverfish"
             },
             "component_groups": {
                 "minecraft:silverfish_calm": {
@@ -23233,10 +23017,7 @@
         },
         "minecraft:skeleton": {
             "description": {
-                "identifier": "minecraft:skeleton",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:skeleton"
             },
             "component_groups": {
                 "in_powder_snow": {
@@ -23891,10 +23672,7 @@
         },
         "minecraft:skeleton_horse": {
             "description": {
-                "identifier": "minecraft:skeleton_horse",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:skeleton_horse"
             },
             "component_groups": {
                 "minecraft:skeleton_horse_r5_upgrade": {
@@ -24123,10 +23901,7 @@
         },
         "minecraft:slime": {
             "description": {
-                "identifier": "minecraft:slime",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:slime"
             },
             "component_groups": {
                 "minecraft:slime_large": {
@@ -24372,10 +24147,7 @@
         },
         "minecraft:small_fireball": {
             "description": {
-                "identifier": "minecraft:small_fireball",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:small_fireball"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -24425,10 +24197,7 @@
         },
         "minecraft:snowball": {
             "description": {
-                "identifier": "minecraft:snowball",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:snowball"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -24476,10 +24245,7 @@
         },
         "minecraft:snow_golem": {
             "description": {
-                "identifier": "minecraft:snow_golem",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:snow_golem"
             },
             "component_groups": {
                 "minecraft:snowman_sheared": {
@@ -24667,10 +24433,7 @@
         },
         "minecraft:spider": {
             "description": {
-                "identifier": "minecraft:spider",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:spider"
             },
             "component_groups": {
                 "minecraft:spider_jockey": {
@@ -25032,10 +24795,7 @@
         },
         "minecraft:splash_potion": {
             "description": {
-                "identifier": "minecraft:splash_potion",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:splash_potion"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -25069,10 +24829,7 @@
         },
         "minecraft:squid": {
             "description": {
-                "identifier": "minecraft:squid",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:squid"
             },
             "component_groups": {
                 "minecraft:squid_baby": {
@@ -25191,10 +24948,7 @@
         },
         "minecraft:stray": {
             "description": {
-                "identifier": "minecraft:stray",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:stray"
             },
             "component_groups": {
                 "minecraft:revert_to_skeleton": {
@@ -25745,10 +25499,7 @@
         },
         "minecraft:strider": {
             "description": {
-                "identifier": "minecraft:strider",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:strider"
             },
             "component_groups": {
                 "minecraft:strider_saddled": {
@@ -26189,10 +25940,7 @@
         },
         "minecraft:tadpole": {
             "description": {
-                "identifier": "minecraft:tadpole",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:tadpole"
             },
             "component_groups": {
                 "grow_up": {
@@ -26309,10 +26057,7 @@
         },
         "minecraft:thrown_trident": {
             "description": {
-                "identifier": "minecraft:thrown_trident",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:thrown_trident"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -26364,10 +26109,7 @@
         },
         "minecraft:tnt": {
             "description": {
-                "identifier": "minecraft:tnt",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:tnt"
             },
             "component_groups": {
                 "from_explosion": {
@@ -26424,10 +26166,7 @@
         },
         "minecraft:tnt_minecart": {
             "description": {
-                "identifier": "minecraft:tnt_minecart",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:tnt_minecart"
             },
             "component_groups": {
                 "minecraft:primed_tnt": {
@@ -26611,10 +26350,7 @@
         },
         "minecraft:trader_llama": {
             "description": {
-                "identifier": "minecraft:trader_llama",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:trader_llama"
             },
             "component_groups": {
                 "minecraft:llama_baby": {
@@ -27417,10 +27153,7 @@
         },
         "minecraft:tripod_camera": {
             "description": {
-                "identifier": "minecraft:tripod_camera",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:tripod_camera"
             },
             "components": {
                 "minecraft:type_family": {
@@ -27461,10 +27194,7 @@
         },
         "minecraft:tropicalfish": {
             "description": {
-                "identifier": "minecraft:tropicalfish",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:tropicalfish"
             },
             "component_groups": {
                 "minecraft:tropicalfish_variant_a": {
@@ -28597,10 +28327,7 @@
         },
         "minecraft:turtle": {
             "description": {
-                "identifier": "minecraft:turtle",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:turtle"
             },
             "component_groups": {
                 "minecraft:baby": {
@@ -28890,10 +28617,7 @@
         },
         "minecraft:vex": {
             "description": {
-                "identifier": "minecraft:vex",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:vex"
             },
             "components": {
                 "minecraft:is_hidden_when_invisible": {},
@@ -29014,10 +28738,7 @@
         },
         "minecraft:villager": {
             "description": {
-                "identifier": "minecraft:villager",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:villager"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -30313,10 +30034,7 @@
         },
         "minecraft:villager_v2": {
             "description": {
-                "identifier": "minecraft:villager_v2",
-                "is_spawnable": true,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:villager_v2"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -34331,10 +34049,7 @@
         },
         "minecraft:vindicator": {
             "description": {
-                "identifier": "minecraft:vindicator",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:vindicator"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -34823,10 +34538,7 @@
         },
         "minecraft:wandering_trader": {
             "description": {
-                "identifier": "minecraft:wandering_trader",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:wandering_trader"
             },
             "component_groups": {
                 "managed": {
@@ -35234,10 +34946,7 @@
         },
         "minecraft:warden": {
             "description": {
-                "identifier": "minecraft:warden",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:warden"
             },
             "component_groups": {
                 "emerging": {
@@ -35485,10 +35194,7 @@
         },
         "minecraft:witch": {
             "description": {
-                "identifier": "minecraft:witch",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:witch"
             },
             "component_groups": {
                 "minecraft:celebrate": {
@@ -35710,10 +35416,7 @@
         },
         "minecraft:wither": {
             "description": {
-                "identifier": "minecraft:wither",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:wither"
             },
             "components": {
                 "minecraft:is_hidden_when_invisible": {},
@@ -35848,10 +35551,7 @@
         },
         "minecraft:wither_skeleton": {
             "description": {
-                "identifier": "minecraft:wither_skeleton",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:wither_skeleton"
             },
             "components": {
                 "minecraft:is_hidden_when_invisible": {},
@@ -36363,10 +36063,7 @@
         },
         "minecraft:wither_skull": {
             "description": {
-                "identifier": "minecraft:wither_skull",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:wither_skull"
             },
             "component_groups": {
                 "minecraft:exploding": {
@@ -36442,10 +36139,7 @@
         },
         "minecraft:wither_skull_dangerous": {
             "description": {
-                "identifier": "minecraft:wither_skull_dangerous",
-                "is_spawnable": false,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:wither_skull_dangerous"
             },
             "component_groups": {
                 "minecraft:exploding": {
@@ -36524,10 +36218,7 @@
         },
         "minecraft:wolf": {
             "description": {
-                "identifier": "minecraft:wolf",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:wolf"
             },
             "component_groups": {
                 "minecraft:wolf_baby": {
@@ -37077,10 +36768,7 @@
         },
         "minecraft:xp_bottle": {
             "description": {
-                "identifier": "minecraft:xp_bottle",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:xp_bottle"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -37116,10 +36804,7 @@
         },
         "minecraft:xp_orb": {
             "description": {
-                "identifier": "minecraft:xp_orb",
-                "is_spawnable": false,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:xp_orb"
             },
             "components": {
                 "minecraft:collision_box": {
@@ -37158,10 +36843,7 @@
         },
         "minecraft:zoglin": {
             "description": {
-                "identifier": "minecraft:zoglin",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:zoglin"
             },
             "component_groups": {
                 "zoglin_baby": {
@@ -37435,10 +37117,7 @@
         },
         "minecraft:zombie": {
             "description": {
-                "identifier": "minecraft:zombie",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:zombie"
             },
             "component_groups": {
                 "minecraft:look_to_start_drowned_transformation": {
@@ -38057,10 +37736,7 @@
         },
         "minecraft:zombie_horse": {
             "description": {
-                "identifier": "minecraft:zombie_horse",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:zombie_horse"
             },
             "component_groups": {
                 "minecraft:horse_baby": {
@@ -38233,10 +37909,7 @@
         },
         "minecraft:zombie_pigman": {
             "description": {
-                "identifier": "minecraft:zombie_pigman",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:zombie_pigman"
             },
             "component_groups": {
                 "minecraft:pig_zombie_baby": {
@@ -38691,10 +38364,7 @@
         },
         "minecraft:zombie_villager": {
             "description": {
-                "identifier": "minecraft:zombie_villager",
-                "is_spawnable": true,
-                "is_summonable": true,
-                "is_experimental": false
+                "identifier": "minecraft:zombie_villager"
             },
             "component_groups": {
                 "become_zombie_villager_v2": {
@@ -39866,10 +39536,7 @@
         },
         "minecraft:zombie_villager_v2": {
             "description": {
-                "identifier": "minecraft:zombie_villager_v2",
-                "is_spawnable": true,
-                "is_summonable": false,
-                "is_experimental": false
+                "identifier": "minecraft:zombie_villager_v2"
             },
             "component_groups": {
                 "baby": {

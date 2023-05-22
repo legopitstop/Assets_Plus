@@ -1,0 +1,22 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:cod"
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:cod"
+            },
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 0.4
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:chicken"
+        },
+        "components": {
+            "minecraft:use_animation": "eat",
+            "minecraft:use_duration": 1.61,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:chicken"
+            },
+            "minecraft:chargeable": {
+                "on_complete": {
+                    "event": "minecraft:effects"
+                }
+            },
+            "minecraft:food": {
+                "nutrition": 2,
+                "saturation_modifier": 1.2
+            }
+        },
+        "events": {
+            "minecraft:effects": {
+                "sequence": [
+                    {
+                        "add_mob_effect": {
+                            "effect": "minecraft:hunger",
+                            "chance": 0.3,
+                            "duration": 30,
+                            "amplifier": 0
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

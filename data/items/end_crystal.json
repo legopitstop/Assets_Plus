@@ -1,0 +1,19 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:end_crystal"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:end_crystal"
+            },
+            "minecraft:entity_placer": {
+                "entity": "minecraft:end_crystal"
+            }
+        }
+    }
+}

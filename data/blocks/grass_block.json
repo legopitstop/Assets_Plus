@@ -1,0 +1,31 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "minecraft:grass_block"
+        },
+        "components": {
+            "tag:grass": {},
+            "minecraft:light_dampening": 0,
+            "minecraft:light_emission": 0,
+            "minecraft:unit_cube": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.6
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.6
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "minecraft:grass_side"
+                },
+                "top": {
+                    "texture": "minecraft:grass_top"
+                },
+                "bottom": {
+                    "texture": "minecraft:dirt"
+                }
+            }
+        }
+    }
+}

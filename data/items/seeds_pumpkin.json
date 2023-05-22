@@ -1,0 +1,22 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "minecraft:seeds_pumpkin"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.search"
+            },
+            "minecraft:icon": {
+                "texture": "minecraft:seeds_pumpkin"
+            },
+            "minecraft:block_placer": {
+                "block": "minecraft:pumpkin_stem",
+                "on_use": [
+                    "minecraft:farmland"
+                ]
+            }
+        }
+    }
+}
