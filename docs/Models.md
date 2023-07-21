@@ -1,4 +1,4 @@
-# Models
+# [<](./README) Models
 
 This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 
@@ -52,6 +52,7 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_cake.slice5` | `side`<br> `inside`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_cake` |
 | `geometry.template_cake.slice6` | `side`<br> `inside`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_cake` |
 | `geometry.template_cake_with_candle` | `side`<br> `top`<br> `bottom`<br> `candle` | `bb_main` | `models/blocks/template_cake` |
+| `geometry.template_calibrated_sculk_sensor` | `side`<br> `top`<br> `bottom`<br> `tendril`<br> `amethyst` | `bb_main` | `models/blocks/template_calibrated_sculk_sensor` |
 | `geometry.template_campfire` | `log`<br> `lit_log`<br> `fire` | `bb_main` | `models/blocks/template_campfire` |
 | `geometry.template_candle` |  | `bb_main` | `models/blocks/template_candle` |
 | `geometry.template_two_candles` |  | `bb_main` | `models/blocks/template_candle` |
@@ -61,6 +62,7 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_cauldron_level2` | `content`<br> `side`<br> `top`<br> `inner`<br> `bottom` | `bb_main` | `models/blocks/template_cauldron` |
 | `geometry.template_cauldron_level1` | `content`<br> `side`<br> `top`<br> `inner`<br> `bottom` | `bb_main` | `models/blocks/template_cauldron` |
 | `geometry.template_cauldron_full` | `content`<br> `side`<br> `top`<br> `inner`<br> `bottom` | `bb_main` | `models/blocks/template_cauldron` |
+| `geometry.template_chiseled_bookshelf` |  | `bb_main`<br> `slot_top_left`<br> `slot_top_mid`<br> `slot_top_right`<br> `slot_bottom_left`<br> `slot_bottom_mid`<br> `slot_bottom_right` | `models/blocks/template_chiseled_bookshelf` |
 | `geometry.template_chorus_flower` | `texture` | `bb_main` | `models/blocks/template_chorus_flower` |
 | `geometry.template_crop` |  | `bb_main` | `models/blocks/template_crop` |
 | `geometry.template_cross` |  | `bb_main` | `models/blocks/template_cross` |
@@ -82,11 +84,15 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_fire_floor` |  | `bb_main` | `models/blocks/template_fire` |
 | `geometry.template_fire_side` |  | `bb_main` | `models/blocks/template_fire` |
 | `geometry.template_fire_up` |  | `bb_main` | `models/blocks/template_fire` |
+| `geometry.template_flowerbed_1` | `flowerbed`<br> `stem` | `bb_main` | `models/blocks/template_flowerbed` |
+| `geometry.template_flowerbed_2` | `flowerbed`<br> `stem` | `bb_main` | `models/blocks/template_flowerbed` |
+| `geometry.template_flowerbed_3` | `flowerbed`<br> `stem` | `bb_main` | `models/blocks/template_flowerbed` |
+| `geometry.template_flowerbed_4` | `flowerbed`<br> `stem` | `bb_main` | `models/blocks/template_flowerbed` |
 | `geometry.template_flower_pot` | `flower_pot`<br> `dirt` | `bb_main` | `models/blocks/template_flower_pot` |
 | `geometry.template_flower_pot_cross` | `flower_pot`<br> `dirt`<br> `flower` | `bb_main` | `models/blocks/template_flower_pot` |
 | `geometry.template_tinted_flower_pot_cross` | `flower_pot`<br> `dirt`<br> `flower` | `bb_main` | `models/blocks/template_flower_pot` |
 | `geometry.template_potted_azalea_bush` | `flower_pot`<br> `dirt`<br> `bush_top`<br> `bush_side`<br> `bush_plant` | `bb_main` | `models/blocks/template_flower_pot` |
-| `geometry.template_glass_pane_side` | `edge` | `bb_main`<br> `post`<br> `north`<br> `east`<br> `south`<br> `west` | `models/blocks/template_glass_pane` |
+| `geometry.template_glass_pane_side` | `edge` | `bb_main`<br> `north`<br> `east`<br> `south`<br> `west` | `models/blocks/template_glass_pane` |
 | `geometry.template_height0` |  | `bb_main` | `models/blocks/template_height` |
 | `geometry.template_height1` |  | `bb_main` | `models/blocks/template_height` |
 | `geometry.template_height2` |  | `bb_main` | `models/blocks/template_height` |
@@ -101,6 +107,8 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_orientable_trapdoor_bottom` |  | `bb_main` | `models/blocks/template_orientable_trapdoor` |
 | `geometry.template_orientable_trapdoor_open` |  | `bb_main` | `models/blocks/template_orientable_trapdoor` |
 | `geometry.template_orientable_trapdoor_top` |  | `bb_main` | `models/blocks/template_orientable_trapdoor` |
+| `geometry.template_pitcher_crop_bottom_small` | `side`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_pitcher_crop_bottom` |
+| `geometry.template_pitcher_crop_bottom_large` | `plant`<br> `side`<br> `top`<br> `bottom` | `bb_main` | `models/blocks/template_pitcher_crop_bottom` |
 | `geometry.template_pressure_plate.powered` |  | `bb_main` | `models/blocks/template_pressure_plate` |
 | `geometry.template_pressure_plate` |  | `bb_main` | `models/blocks/template_pressure_plate` |
 | `geometry.template_rail_flat` |  | `bb_main` | `models/blocks/template_rail` |
@@ -110,6 +118,7 @@ The below table lists all the models that are included in this version of Assets
 | `geometry.template_single_face` |  | `bb_main` | `models/blocks/template_single_face` |
 | `geometry.template_slab.bottom` |  | `bb_main` | `models/blocks/template_slab` |
 | `geometry.template_slab.top` |  | `bb_main` | `models/blocks/template_slab` |
+| `geometry.template_sniffer_egg` |  | `bb_main` | `models/blocks/template_sniffer_egg` |
 | `geometry.template_stairs` |  | `bb_main` | `models/blocks/template_stairs` |
 | `geometry.template_stairs.inner` |  | `bb_main` | `models/blocks/template_stairs` |
 | `geometry.template_stairs.outer` |  | `bb_main` | `models/blocks/template_stairs` |

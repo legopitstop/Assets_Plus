@@ -94,23 +94,34 @@ wrt = open(os.path.join(LOCAL, 'report.json'),'w')
 wrt.write(json.dumps(report, indent=4))
 wrt.close()
 
-# Create markdown tables from report
-table = '# Data Tables\n\nAuto generated from `gen.py`. Used for docs.\n\n## Textures\n\n### texture Blocks\n\n| Name(s) | Path |\n|--|--|\n'
-
 wrt = open(os.path.join(LOCAL, 'data_table.md'),'w')
 
-
+# Block Textures
+block_textures_table = '| Name(s) | Path |\n|--|--|\n'
 for path in report['minecraft:terrain_texture']:
     names=convertList(report['minecraft:terrain_texture'][path]['atlas'])
-    table=table+'| %s | `%s` |'%(names, path)+'\n'
+    block_textures_table=block_textures_table+'| %s | `%s` |'%(names, path)+'\n'
 
+with open(os.path.join(LOCAL, 'docs', '__Block Textures.md'), 'r') as temp:
+    template = temp.read()
     
-table += '\n### texture Items\n\n| Name(s) | Path |\n|--|--|\n'
+with open(os.path.join(LOCAL, 'docs', 'Block Textures.md'), 'w') as w:
+    w.write(template.replace('{Block Textures}', block_textures_table))
+
+# Item Textures
+item_textures_table = '| Name(s) | Path |\n|--|--|\n'
 for path in report['minecraft:item_texture']:
     names=convertList(report['minecraft:item_texture'][path]['atlas'])
-    table=table+'| %s | `%s` |'%(names, path)+'\n'
+    item_textures_table=item_textures_table+'| %s | `%s` |'%(names, path)+'\n'
 
-table=table+'\n### model Blocks\n\n| Name | Material Instances | Bones | Path |\n|--|--|--|--|\n'
+with open(os.path.join(LOCAL, 'docs', '__Item Textures.md'), 'r') as temp:
+    template = temp.read()
+    
+with open(os.path.join(LOCAL, 'docs', 'Item Textures.md'), 'w') as w:
+    w.write(template.replace('{Item Textures}',item_textures_table))
+
+# Models
+models_table = '| Name | Material Instances | Bones | Path |\n|--|--|--|--|\n'
 for name in report['minecraft:model']:
     path=convertList(report['minecraft:model'][name]['path'])
 
@@ -119,7 +130,10 @@ for name in report['minecraft:model']:
     
     if 'material_instance' in report['minecraft:model'][name]: mi=convertList(report['minecraft:model'][name]['material_instance'])
     else: mi = ''
-    table=table+'| `%s` | %s | %s | %s |'%(name, mi, bones, path)+'\n'
+    models_table=models_table+'| `%s` | %s | %s | %s |'%(name, mi, bones, path)+'\n'
 
-wrt.write(table)
-wrt.close()
+with open(os.path.join(LOCAL, 'docs', '__Models.md'), 'r') as temp:
+    template = temp.read()
+
+with open(os.path.join(LOCAL, 'docs', 'Models.md'), 'w') as w:
+    w.write(template.replace('{Models}',models_table))

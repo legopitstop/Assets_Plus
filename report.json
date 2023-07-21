@@ -212,6 +212,21 @@
                 "candle"
             ]
         },
+        "geometry.template_calibrated_sculk_sensor": {
+            "path": [
+                "models/blocks/template_calibrated_sculk_sensor"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "side",
+                "top",
+                "bottom",
+                "tendril",
+                "amethyst"
+            ]
+        },
         "geometry.template_campfire": {
             "path": [
                 "models/blocks/template_campfire"
@@ -314,6 +329,20 @@
                 "top",
                 "inner",
                 "bottom"
+            ]
+        },
+        "geometry.template_chiseled_bookshelf": {
+            "path": [
+                "models/blocks/template_chiseled_bookshelf"
+            ],
+            "bones": [
+                "bb_main",
+                "slot_top_left",
+                "slot_top_mid",
+                "slot_top_right",
+                "slot_bottom_left",
+                "slot_bottom_mid",
+                "slot_bottom_right"
             ]
         },
         "geometry.template_chorus_flower": {
@@ -495,6 +524,54 @@
                 "bb_main"
             ]
         },
+        "geometry.template_flowerbed_1": {
+            "path": [
+                "models/blocks/template_flowerbed"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "flowerbed",
+                "stem"
+            ]
+        },
+        "geometry.template_flowerbed_2": {
+            "path": [
+                "models/blocks/template_flowerbed"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "flowerbed",
+                "stem"
+            ]
+        },
+        "geometry.template_flowerbed_3": {
+            "path": [
+                "models/blocks/template_flowerbed"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "flowerbed",
+                "stem"
+            ]
+        },
+        "geometry.template_flowerbed_4": {
+            "path": [
+                "models/blocks/template_flowerbed"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "flowerbed",
+                "stem"
+            ]
+        },
         "geometry.template_flower_pot": {
             "path": [
                 "models/blocks/template_flower_pot"
@@ -554,7 +631,6 @@
             ],
             "bones": [
                 "bb_main",
-                "post",
                 "north",
                 "east",
                 "south",
@@ -684,6 +760,33 @@
                 "bb_main"
             ]
         },
+        "geometry.template_pitcher_crop_bottom_small": {
+            "path": [
+                "models/blocks/template_pitcher_crop_bottom"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "side",
+                "top",
+                "bottom"
+            ]
+        },
+        "geometry.template_pitcher_crop_bottom_large": {
+            "path": [
+                "models/blocks/template_pitcher_crop_bottom"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "plant",
+                "side",
+                "top",
+                "bottom"
+            ]
+        },
         "geometry.template_pressure_plate.powered": {
             "path": [
                 "models/blocks/template_pressure_plate"
@@ -756,6 +859,14 @@
         "geometry.template_slab.top": {
             "path": [
                 "models/blocks/template_slab"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
+        "geometry.template_sniffer_egg": {
+            "path": [
+                "models/blocks/template_sniffer_egg"
             ],
             "bones": [
                 "bb_main"
@@ -876,20 +987,354 @@
         }
     },
     "minecraft:terrain_texture": {
+        "textures/blocks/bamboo_block": {
+            "atlas": [
+                "minecraft:bamboo_block",
+                "minecraft:bamboo_block_side"
+            ]
+        },
         "textures/blocks/bamboo_block_top": {
             "atlas": [
                 "minecraft:bamboo_block_top"
             ]
         },
-        "textures/blocks/bamboo_block": {
+        "textures/blocks/bamboo_door_bottom": {
             "atlas": [
-                "minecraft:bamboo_block_side",
-                "minecraft:bamboo_block"
+                "minecraft:bamboo_door_bottom"
+            ]
+        },
+        "textures/blocks/bamboo_door_top": {
+            "atlas": [
+                "minecraft:bamboo_door_top"
+            ]
+        },
+        "textures/blocks/bamboo_fence": {
+            "atlas": [
+                "minecraft:bamboo_fence"
+            ]
+        },
+        "textures/blocks/bamboo_fence_gate": {
+            "atlas": [
+                "minecraft:bamboo_fence_gate"
+            ]
+        },
+        "textures/blocks/bamboo_mosaic": {
+            "atlas": [
+                "minecraft:bamboo_mosaic"
+            ]
+        },
+        "textures/blocks/bamboo_planks": {
+            "atlas": [
+                "minecraft:bamboo_planks",
+                "minecraft:bamboo"
+            ]
+        },
+        "textures/blocks/bamboo_trapdoor": {
+            "atlas": [
+                "minecraft:bamboo_trapdoor"
+            ]
+        },
+        "textures/blocks/calibrated_sculk_sensor_amethyst": {
+            "atlas": [
+                "minecraft:calibrated_sculk_sensor_amethyst"
+            ]
+        },
+        "textures/blocks/calibrated_sculk_sensor_input_side": {
+            "atlas": [
+                "minecraft:calibrated_sculk_sensor_input_side"
+            ]
+        },
+        "textures/blocks/calibrated_sculk_sensor_top": {
+            "atlas": [
+                "minecraft:calibrated_sculk_sensor_top"
+            ]
+        },
+        "textures/blocks/cherry_door_bottom": {
+            "atlas": [
+                "minecraft:cherry_door_bottom"
+            ]
+        },
+        "textures/blocks/cherry_door_top": {
+            "atlas": [
+                "minecraft:cherry_door_top"
+            ]
+        },
+        "textures/blocks/cherry_leaves": {
+            "atlas": [
+                "minecraft:cherry_leaves"
+            ]
+        },
+        "textures/blocks/cherry_leaves_opaque": {
+            "atlas": [
+                "minecraft:cherry_leaves_opaque"
+            ]
+        },
+        "textures/blocks/cherry_log_side": {
+            "atlas": [
+                "minecraft:cherry_log_side",
+                "minecraft:cherry_log"
+            ]
+        },
+        "textures/blocks/cherry_log_top": {
+            "atlas": [
+                "minecraft:cherry_log_top"
+            ]
+        },
+        "textures/blocks/cherry_planks": {
+            "atlas": [
+                "minecraft:cherry_planks"
             ]
         },
         "textures/blocks/cherry_sapling": {
             "atlas": [
                 "minecraft:cherry_sapling"
+            ]
+        },
+        "textures/blocks/cherry_trapdoor": {
+            "atlas": [
+                "minecraft:cherry_trapdoor"
+            ]
+        },
+        "textures/blocks/chiseled_bookshelf_empty": {
+            "atlas": [
+                "minecraft:chiseled_bookshelf_empty"
+            ]
+        },
+        "textures/blocks/chiseled_bookshelf_occupied": {
+            "atlas": [
+                "minecraft:chiseled_bookshelf_occupied"
+            ]
+        },
+        "textures/blocks/chiseled_bookshelf_side": {
+            "atlas": [
+                "minecraft:chiseled_bookshelf_side"
+            ]
+        },
+        "textures/blocks/chiseled_bookshelf_top": {
+            "atlas": [
+                "minecraft:chiseled_bookshelf_top"
+            ]
+        },
+        "textures/blocks/decorated_pot_base": {
+            "atlas": [
+                "minecraft:decorated_pot_base"
+            ]
+        },
+        "textures/blocks/decorated_pot_side": {
+            "atlas": [
+                "minecraft:decorated_pot_side"
+            ]
+        },
+        "textures/blocks/pitcher_crop_bottom": {
+            "atlas": [
+                "minecraft:pitcher_crop_bottom"
+            ]
+        },
+        "textures/blocks/pitcher_crop_bottom_stage_1": {
+            "atlas": [
+                "minecraft:pitcher_crop_bottom_stage_1"
+            ]
+        },
+        "textures/blocks/pitcher_crop_bottom_stage_2": {
+            "atlas": [
+                "minecraft:pitcher_crop_bottom_stage_2"
+            ]
+        },
+        "textures/blocks/pitcher_crop_bottom_stage_3": {
+            "atlas": [
+                "minecraft:pitcher_crop_bottom_stage_3"
+            ]
+        },
+        "textures/blocks/pitcher_crop_bottom_stage_4": {
+            "atlas": [
+                "minecraft:pitcher_crop_bottom_stage_4"
+            ]
+        },
+        "textures/blocks/pitcher_crop_side": {
+            "atlas": [
+                "minecraft:pitcher_crop_side"
+            ]
+        },
+        "textures/blocks/pitcher_crop_top": {
+            "atlas": [
+                "minecraft:pitcher_crop_top"
+            ]
+        },
+        "textures/blocks/pitcher_crop_top_stage_3": {
+            "atlas": [
+                "minecraft:pitcher_crop_top_stage_3"
+            ]
+        },
+        "textures/blocks/pitcher_crop_top_stage_4": {
+            "atlas": [
+                "minecraft:pitcher_crop_top_stage_4"
+            ]
+        },
+        "textures/blocks/sniffer_egg_not_cracked_bottom": {
+            "atlas": [
+                "minecraft:sniffer_egg_not_cracked_bottom"
+            ]
+        },
+        "textures/blocks/sniffer_egg_not_cracked_east": {
+            "atlas": [
+                "minecraft:sniffer_egg_not_cracked_east"
+            ]
+        },
+        "textures/blocks/sniffer_egg_not_cracked_north": {
+            "atlas": [
+                "minecraft:sniffer_egg_not_cracked_north"
+            ]
+        },
+        "textures/blocks/sniffer_egg_not_cracked_south": {
+            "atlas": [
+                "minecraft:sniffer_egg_not_cracked_south"
+            ]
+        },
+        "textures/blocks/sniffer_egg_not_cracked_top": {
+            "atlas": [
+                "minecraft:sniffer_egg_not_cracked_top"
+            ]
+        },
+        "textures/blocks/sniffer_egg_not_cracked_west": {
+            "atlas": [
+                "minecraft:sniffer_egg_not_cracked_west"
+            ]
+        },
+        "textures/blocks/sniffer_egg_slightly_cracked_bottom": {
+            "atlas": [
+                "minecraft:sniffer_egg_slightly_cracked_bottom"
+            ]
+        },
+        "textures/blocks/sniffer_egg_slightly_cracked_east": {
+            "atlas": [
+                "minecraft:sniffer_egg_slightly_cracked_east"
+            ]
+        },
+        "textures/blocks/sniffer_egg_slightly_cracked_north": {
+            "atlas": [
+                "minecraft:sniffer_egg_slightly_cracked_north"
+            ]
+        },
+        "textures/blocks/sniffer_egg_slightly_cracked_south": {
+            "atlas": [
+                "minecraft:sniffer_egg_slightly_cracked_south"
+            ]
+        },
+        "textures/blocks/sniffer_egg_slightly_cracked_top": {
+            "atlas": [
+                "minecraft:sniffer_egg_slightly_cracked_top"
+            ]
+        },
+        "textures/blocks/sniffer_egg_slightly_cracked_west": {
+            "atlas": [
+                "minecraft:sniffer_egg_slightly_cracked_west"
+            ]
+        },
+        "textures/blocks/sniffer_egg_very_cracked_bottom": {
+            "atlas": [
+                "minecraft:sniffer_egg_very_cracked_bottom"
+            ]
+        },
+        "textures/blocks/sniffer_egg_very_cracked_east": {
+            "atlas": [
+                "minecraft:sniffer_egg_very_cracked_east"
+            ]
+        },
+        "textures/blocks/sniffer_egg_very_cracked_north": {
+            "atlas": [
+                "minecraft:sniffer_egg_very_cracked_north"
+            ]
+        },
+        "textures/blocks/sniffer_egg_very_cracked_south": {
+            "atlas": [
+                "minecraft:sniffer_egg_very_cracked_south"
+            ]
+        },
+        "textures/blocks/sniffer_egg_very_cracked_top": {
+            "atlas": [
+                "minecraft:sniffer_egg_very_cracked_top"
+            ]
+        },
+        "textures/blocks/sniffer_egg_very_cracked_west": {
+            "atlas": [
+                "minecraft:sniffer_egg_very_cracked_west"
+            ]
+        },
+        "textures/blocks/stripped_bamboo_block": {
+            "atlas": [
+                "minecraft:stripped_bamboo_block",
+                "minecraft:stripped_bamboo_block_side"
+            ]
+        },
+        "textures/blocks/stripped_bamboo_block_top": {
+            "atlas": [
+                "minecraft:stripped_bamboo_block_top"
+            ]
+        },
+        "textures/blocks/stripped_cherry_log_side": {
+            "atlas": [
+                "minecraft:stripped_cherry_log_side",
+                "minecraft:stripped_cherry_log"
+            ]
+        },
+        "textures/blocks/stripped_cherry_log_top": {
+            "atlas": [
+                "minecraft:stripped_cherry_log_top"
+            ]
+        },
+        "textures/blocks/suspicious_gravel_0": {
+            "atlas": [
+                "minecraft:suspicious_gravel_0"
+            ]
+        },
+        "textures/blocks/suspicious_gravel_1": {
+            "atlas": [
+                "minecraft:suspicious_gravel_1"
+            ]
+        },
+        "textures/blocks/suspicious_gravel_2": {
+            "atlas": [
+                "minecraft:suspicious_gravel_2"
+            ]
+        },
+        "textures/blocks/suspicious_gravel_3": {
+            "atlas": [
+                "minecraft:suspicious_gravel_3"
+            ]
+        },
+        "textures/blocks/suspicious_sand_0": {
+            "atlas": [
+                "minecraft:suspicious_sand_0"
+            ]
+        },
+        "textures/blocks/suspicious_sand_1": {
+            "atlas": [
+                "minecraft:suspicious_sand_1"
+            ]
+        },
+        "textures/blocks/suspicious_sand_2": {
+            "atlas": [
+                "minecraft:suspicious_sand_2"
+            ]
+        },
+        "textures/blocks/suspicious_sand_3": {
+            "atlas": [
+                "minecraft:suspicious_sand_3"
+            ]
+        },
+        "textures/blocks/torchflower": {
+            "atlas": [
+                "minecraft:torchflower"
+            ]
+        },
+        "textures/blocks/torchflower_crop_stage_0": {
+            "atlas": [
+                "minecraft:torchflower_crop_stage_0"
+            ]
+        },
+        "textures/blocks/torchflower_crop_stage_1": {
+            "atlas": [
+                "minecraft:torchflower_crop_stage_1"
             ]
         },
         "textures/blocks/suspicious_gravel": {
@@ -900,60 +1345,6 @@
         "textures/blocks/suspicious_sand": {
             "atlas": [
                 "minecraft:suspicious_sand"
-            ]
-        },
-        "textures/blocks/bamboo_mosaic": {
-            "atlas": [
-                "minecraft:bamboo_mosaic"
-            ]
-        },
-        "textures/blocks/stripped_bamboo_block_top": {
-            "atlas": [
-                "minecraft:stripped_bamboo_block_top"
-            ]
-        },
-        "textures/blocks/stripped_bamboo_block": {
-            "atlas": [
-                "minecraft:stripped_bamboo_block_side",
-                "minecraft:stripped_bamboo_block"
-            ]
-        },
-        "textures/blocks/bamboo_planks": {
-            "atlas": [
-                "minecraft:bamboo",
-                "minecraft:bamboo_planks"
-            ]
-        },
-        "textures/blocks/cherry_planks": {
-            "atlas": [
-                "minecraft:cherry_planks"
-            ]
-        },
-        "textures/blocks/cherry_leaves": {
-            "atlas": [
-                "minecraft:cherry_leaves"
-            ]
-        },
-        "textures/blocks/cherry_log_top": {
-            "atlas": [
-                "minecraft:cherry_log_top"
-            ]
-        },
-        "textures/blocks/cherry_log_side": {
-            "atlas": [
-                "minecraft:cherry_log",
-                "minecraft:cherry_log_side"
-            ]
-        },
-        "textures/blocks/stripped_cherry_log_top": {
-            "atlas": [
-                "minecraft:stripped_cherry_log_top"
-            ]
-        },
-        "textures/blocks/stripped_cherry_log_side": {
-            "atlas": [
-                "minecraft:stripped_cherry_log",
-                "minecraft:stripped_cherry_log_side"
             ]
         },
         "textures/blocks/debug": {
@@ -5816,9 +6207,224 @@
         }
     },
     "minecraft:item_texture": {
+        "textures/items/angler_pottery_sherd": {
+            "atlas": [
+                "minecraft:angler_pottery_sherd"
+            ]
+        },
+        "textures/items/archer_pottery_sherd": {
+            "atlas": [
+                "minecraft:archer_pottery_sherd"
+            ]
+        },
+        "textures/items/arms_up_pottery_sherd": {
+            "atlas": [
+                "minecraft:arms_up_pottery_sherd"
+            ]
+        },
+        "textures/items/blade_pottery_sherd": {
+            "atlas": [
+                "minecraft:blade_pottery_sherd"
+            ]
+        },
+        "textures/items/brewer_pottery_sherd": {
+            "atlas": [
+                "minecraft:brewer_pottery_sherd"
+            ]
+        },
         "textures/items/brush": {
             "atlas": [
                 "minecraft:brush"
+            ]
+        },
+        "textures/items/burn_pottery_sherd": {
+            "atlas": [
+                "minecraft:burn_pottery_sherd"
+            ]
+        },
+        "textures/items/cherry_boat": {
+            "atlas": [
+                "minecraft:cherry_boat"
+            ]
+        },
+        "textures/items/cherry_chest_boat": {
+            "atlas": [
+                "minecraft:cherry_chest_boat"
+            ]
+        },
+        "textures/items/cherry_door": {
+            "atlas": [
+                "minecraft:cherry_door"
+            ]
+        },
+        "textures/items/cherry_hanging_sign": {
+            "atlas": [
+                "minecraft:cherry_hanging_sign"
+            ]
+        },
+        "textures/items/cherry_sign": {
+            "atlas": [
+                "minecraft:cherry_sign"
+            ]
+        },
+        "textures/items/coast_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:coast_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/danger_pottery_sherd": {
+            "atlas": [
+                "minecraft:danger_pottery_sherd"
+            ]
+        },
+        "textures/items/dune_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:dune_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/explorer_pottery_sherd": {
+            "atlas": [
+                "minecraft:explorer_pottery_sherd"
+            ]
+        },
+        "textures/items/eye_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:eye_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/friend_pottery_sherd": {
+            "atlas": [
+                "minecraft:friend_pottery_sherd"
+            ]
+        },
+        "textures/items/heartbreak_pottery_sherd": {
+            "atlas": [
+                "minecraft:heartbreak_pottery_sherd"
+            ]
+        },
+        "textures/items/heart_pottery_sherd": {
+            "atlas": [
+                "minecraft:heart_pottery_sherd"
+            ]
+        },
+        "textures/items/host_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:host_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/howl_pottery_sherd": {
+            "atlas": [
+                "minecraft:howl_pottery_sherd"
+            ]
+        },
+        "textures/items/miner_pottery_sherd": {
+            "atlas": [
+                "minecraft:miner_pottery_sherd"
+            ]
+        },
+        "textures/items/mourner_pottery_sherd": {
+            "atlas": [
+                "minecraft:mourner_pottery_sherd"
+            ]
+        },
+        "textures/items/netherite_upgrade_smithing_template": {
+            "atlas": [
+                "minecraft:netherite_upgrade_smithing_template"
+            ]
+        },
+        "textures/items/plenty_pottery_sherd": {
+            "atlas": [
+                "minecraft:plenty_pottery_sherd"
+            ]
+        },
+        "textures/items/prize_pottery_sherd": {
+            "atlas": [
+                "minecraft:prize_pottery_sherd"
+            ]
+        },
+        "textures/items/raiser_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:raiser_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/rib_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:rib_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/sentry_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:sentry_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/shaper_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:shaper_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/sheaf_pottery_sherd": {
+            "atlas": [
+                "minecraft:sheaf_pottery_sherd"
+            ]
+        },
+        "textures/items/shelter_pottery_sherd": {
+            "atlas": [
+                "minecraft:shelter_pottery_sherd"
+            ]
+        },
+        "textures/items/silence_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:silence_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/skull_pottery_sherd": {
+            "atlas": [
+                "minecraft:skull_pottery_sherd"
+            ]
+        },
+        "textures/items/snort_pottery_sherd": {
+            "atlas": [
+                "minecraft:snort_pottery_sherd"
+            ]
+        },
+        "textures/items/snout_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:snout_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/spire_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:spire_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/tide_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:tide_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/torchflower_seeds": {
+            "atlas": [
+                "minecraft:torchflower_seeds"
+            ]
+        },
+        "textures/items/vex_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:vex_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/ward_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:ward_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/wayfinder_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:wayfinder_armor_trim_smithing_template"
+            ]
+        },
+        "textures/items/wild_armor_trim_smithing_template": {
+            "atlas": [
+                "minecraft:wild_armor_trim_smithing_template"
             ]
         },
         "textures/items/camel_spawn_egg": {

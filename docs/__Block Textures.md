@@ -1,4 +1,4 @@
-# Block Textures
+# [<](./README) Block Textures
 
 This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 

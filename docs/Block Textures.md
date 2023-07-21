@@ -1,4 +1,4 @@
-# Block Textures
+# [<](./README) Block Textures
 
 This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 
@@ -27,21 +27,77 @@ The below table lists all the texture definitions that are included in this vers
 
 | Name(s) | Path |
 |--|--|
+| `minecraft:bamboo_block`<br> `minecraft:bamboo_block_side` | `textures/blocks/bamboo_block` |
 | `minecraft:bamboo_block_top` | `textures/blocks/bamboo_block_top` |
-| `minecraft:bamboo_block_side`<br> `minecraft:bamboo_block` | `textures/blocks/bamboo_block` |
+| `minecraft:bamboo_door_bottom` | `textures/blocks/bamboo_door_bottom` |
+| `minecraft:bamboo_door_top` | `textures/blocks/bamboo_door_top` |
+| `minecraft:bamboo_fence` | `textures/blocks/bamboo_fence` |
+| `minecraft:bamboo_fence_gate` | `textures/blocks/bamboo_fence_gate` |
+| `minecraft:bamboo_mosaic` | `textures/blocks/bamboo_mosaic` |
+| `minecraft:bamboo_planks`<br> `minecraft:bamboo` | `textures/blocks/bamboo_planks` |
+| `minecraft:bamboo_trapdoor` | `textures/blocks/bamboo_trapdoor` |
+| `minecraft:calibrated_sculk_sensor_amethyst` | `textures/blocks/calibrated_sculk_sensor_amethyst` |
+| `minecraft:calibrated_sculk_sensor_input_side` | `textures/blocks/calibrated_sculk_sensor_input_side` |
+| `minecraft:calibrated_sculk_sensor_top` | `textures/blocks/calibrated_sculk_sensor_top` |
+| `minecraft:cherry_door_bottom` | `textures/blocks/cherry_door_bottom` |
+| `minecraft:cherry_door_top` | `textures/blocks/cherry_door_top` |
+| `minecraft:cherry_leaves` | `textures/blocks/cherry_leaves` |
+| `minecraft:cherry_leaves_opaque` | `textures/blocks/cherry_leaves_opaque` |
+| `minecraft:cherry_log_side`<br> `minecraft:cherry_log` | `textures/blocks/cherry_log_side` |
+| `minecraft:cherry_log_top` | `textures/blocks/cherry_log_top` |
+| `minecraft:cherry_planks` | `textures/blocks/cherry_planks` |
 | `minecraft:cherry_sapling` | `textures/blocks/cherry_sapling` |
+| `minecraft:cherry_trapdoor` | `textures/blocks/cherry_trapdoor` |
+| `minecraft:chiseled_bookshelf_empty` | `textures/blocks/chiseled_bookshelf_empty` |
+| `minecraft:chiseled_bookshelf_occupied` | `textures/blocks/chiseled_bookshelf_occupied` |
+| `minecraft:chiseled_bookshelf_side` | `textures/blocks/chiseled_bookshelf_side` |
+| `minecraft:chiseled_bookshelf_top` | `textures/blocks/chiseled_bookshelf_top` |
+| `minecraft:decorated_pot_base` | `textures/blocks/decorated_pot_base` |
+| `minecraft:decorated_pot_side` | `textures/blocks/decorated_pot_side` |
+| `minecraft:pitcher_crop_bottom` | `textures/blocks/pitcher_crop_bottom` |
+| `minecraft:pitcher_crop_bottom_stage_1` | `textures/blocks/pitcher_crop_bottom_stage_1` |
+| `minecraft:pitcher_crop_bottom_stage_2` | `textures/blocks/pitcher_crop_bottom_stage_2` |
+| `minecraft:pitcher_crop_bottom_stage_3` | `textures/blocks/pitcher_crop_bottom_stage_3` |
+| `minecraft:pitcher_crop_bottom_stage_4` | `textures/blocks/pitcher_crop_bottom_stage_4` |
+| `minecraft:pitcher_crop_side` | `textures/blocks/pitcher_crop_side` |
+| `minecraft:pitcher_crop_top` | `textures/blocks/pitcher_crop_top` |
+| `minecraft:pitcher_crop_top_stage_3` | `textures/blocks/pitcher_crop_top_stage_3` |
+| `minecraft:pitcher_crop_top_stage_4` | `textures/blocks/pitcher_crop_top_stage_4` |
+| `minecraft:sniffer_egg_not_cracked_bottom` | `textures/blocks/sniffer_egg_not_cracked_bottom` |
+| `minecraft:sniffer_egg_not_cracked_east` | `textures/blocks/sniffer_egg_not_cracked_east` |
+| `minecraft:sniffer_egg_not_cracked_north` | `textures/blocks/sniffer_egg_not_cracked_north` |
+| `minecraft:sniffer_egg_not_cracked_south` | `textures/blocks/sniffer_egg_not_cracked_south` |
+| `minecraft:sniffer_egg_not_cracked_top` | `textures/blocks/sniffer_egg_not_cracked_top` |
+| `minecraft:sniffer_egg_not_cracked_west` | `textures/blocks/sniffer_egg_not_cracked_west` |
+| `minecraft:sniffer_egg_slightly_cracked_bottom` | `textures/blocks/sniffer_egg_slightly_cracked_bottom` |
+| `minecraft:sniffer_egg_slightly_cracked_east` | `textures/blocks/sniffer_egg_slightly_cracked_east` |
+| `minecraft:sniffer_egg_slightly_cracked_north` | `textures/blocks/sniffer_egg_slightly_cracked_north` |
+| `minecraft:sniffer_egg_slightly_cracked_south` | `textures/blocks/sniffer_egg_slightly_cracked_south` |
+| `minecraft:sniffer_egg_slightly_cracked_top` | `textures/blocks/sniffer_egg_slightly_cracked_top` |
+| `minecraft:sniffer_egg_slightly_cracked_west` | `textures/blocks/sniffer_egg_slightly_cracked_west` |
+| `minecraft:sniffer_egg_very_cracked_bottom` | `textures/blocks/sniffer_egg_very_cracked_bottom` |
+| `minecraft:sniffer_egg_very_cracked_east` | `textures/blocks/sniffer_egg_very_cracked_east` |
+| `minecraft:sniffer_egg_very_cracked_north` | `textures/blocks/sniffer_egg_very_cracked_north` |
+| `minecraft:sniffer_egg_very_cracked_south` | `textures/blocks/sniffer_egg_very_cracked_south` |
+| `minecraft:sniffer_egg_very_cracked_top` | `textures/blocks/sniffer_egg_very_cracked_top` |
+| `minecraft:sniffer_egg_very_cracked_west` | `textures/blocks/sniffer_egg_very_cracked_west` |
+| `minecraft:stripped_bamboo_block`<br> `minecraft:stripped_bamboo_block_side` | `textures/blocks/stripped_bamboo_block` |
+| `minecraft:stripped_bamboo_block_top` | `textures/blocks/stripped_bamboo_block_top` |
+| `minecraft:stripped_cherry_log_side`<br> `minecraft:stripped_cherry_log` | `textures/blocks/stripped_cherry_log_side` |
+| `minecraft:stripped_cherry_log_top` | `textures/blocks/stripped_cherry_log_top` |
+| `minecraft:suspicious_gravel_0` | `textures/blocks/suspicious_gravel_0` |
+| `minecraft:suspicious_gravel_1` | `textures/blocks/suspicious_gravel_1` |
+| `minecraft:suspicious_gravel_2` | `textures/blocks/suspicious_gravel_2` |
+| `minecraft:suspicious_gravel_3` | `textures/blocks/suspicious_gravel_3` |
+| `minecraft:suspicious_sand_0` | `textures/blocks/suspicious_sand_0` |
+| `minecraft:suspicious_sand_1` | `textures/blocks/suspicious_sand_1` |
+| `minecraft:suspicious_sand_2` | `textures/blocks/suspicious_sand_2` |
+| `minecraft:suspicious_sand_3` | `textures/blocks/suspicious_sand_3` |
+| `minecraft:torchflower` | `textures/blocks/torchflower` |
+| `minecraft:torchflower_crop_stage_0` | `textures/blocks/torchflower_crop_stage_0` |
+| `minecraft:torchflower_crop_stage_1` | `textures/blocks/torchflower_crop_stage_1` |
 | `minecraft:suspicious_gravel` | `textures/blocks/suspicious_gravel` |
 | `minecraft:suspicious_sand` | `textures/blocks/suspicious_sand` |
-| `minecraft:bamboo_mosaic` | `textures/blocks/bamboo_mosaic` |
-| `minecraft:stripped_bamboo_block_top` | `textures/blocks/stripped_bamboo_block_top` |
-| `minecraft:stripped_bamboo_block_side`<br> `minecraft:stripped_bamboo_block` | `textures/blocks/stripped_bamboo_block` |
-| `minecraft:bamboo`<br> `minecraft:bamboo_planks` | `textures/blocks/bamboo_planks` |
-| `minecraft:cherry_planks` | `textures/blocks/cherry_planks` |
-| `minecraft:cherry_leaves` | `textures/blocks/cherry_leaves` |
-| `minecraft:cherry_log_top` | `textures/blocks/cherry_log_top` |
-| `minecraft:cherry_log`<br> `minecraft:cherry_log_side` | `textures/blocks/cherry_log_side` |
-| `minecraft:stripped_cherry_log_top` | `textures/blocks/stripped_cherry_log_top` |
-| `minecraft:stripped_cherry_log`<br> `minecraft:stripped_cherry_log_side` | `textures/blocks/stripped_cherry_log_side` |
 | `minecraft:debug` | `textures/blocks/debug` |
 | `minecraft:debug2` | `textures/blocks/debug2` |
 | `minecraft:stonebrick`<br> `minecraft:stone_bricks`<br> `minecraft:stone_brick`<br> `minecraft:stonebricks` | `textures/blocks/stonebrick` |

@@ -1,4 +1,4 @@
-# Item Textures
+# [<](./README) Item Textures
 
 This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 
@@ -25,7 +25,50 @@ The below table lists all the texture definitions that are included in this vers
 
 | Name(s) | Path |
 |--|--|
+| `minecraft:angler_pottery_sherd` | `textures/items/angler_pottery_sherd` |
+| `minecraft:archer_pottery_sherd` | `textures/items/archer_pottery_sherd` |
+| `minecraft:arms_up_pottery_sherd` | `textures/items/arms_up_pottery_sherd` |
+| `minecraft:blade_pottery_sherd` | `textures/items/blade_pottery_sherd` |
+| `minecraft:brewer_pottery_sherd` | `textures/items/brewer_pottery_sherd` |
 | `minecraft:brush` | `textures/items/brush` |
+| `minecraft:burn_pottery_sherd` | `textures/items/burn_pottery_sherd` |
+| `minecraft:cherry_boat` | `textures/items/cherry_boat` |
+| `minecraft:cherry_chest_boat` | `textures/items/cherry_chest_boat` |
+| `minecraft:cherry_door` | `textures/items/cherry_door` |
+| `minecraft:cherry_hanging_sign` | `textures/items/cherry_hanging_sign` |
+| `minecraft:cherry_sign` | `textures/items/cherry_sign` |
+| `minecraft:coast_armor_trim_smithing_template` | `textures/items/coast_armor_trim_smithing_template` |
+| `minecraft:danger_pottery_sherd` | `textures/items/danger_pottery_sherd` |
+| `minecraft:dune_armor_trim_smithing_template` | `textures/items/dune_armor_trim_smithing_template` |
+| `minecraft:explorer_pottery_sherd` | `textures/items/explorer_pottery_sherd` |
+| `minecraft:eye_armor_trim_smithing_template` | `textures/items/eye_armor_trim_smithing_template` |
+| `minecraft:friend_pottery_sherd` | `textures/items/friend_pottery_sherd` |
+| `minecraft:heartbreak_pottery_sherd` | `textures/items/heartbreak_pottery_sherd` |
+| `minecraft:heart_pottery_sherd` | `textures/items/heart_pottery_sherd` |
+| `minecraft:host_armor_trim_smithing_template` | `textures/items/host_armor_trim_smithing_template` |
+| `minecraft:howl_pottery_sherd` | `textures/items/howl_pottery_sherd` |
+| `minecraft:miner_pottery_sherd` | `textures/items/miner_pottery_sherd` |
+| `minecraft:mourner_pottery_sherd` | `textures/items/mourner_pottery_sherd` |
+| `minecraft:netherite_upgrade_smithing_template` | `textures/items/netherite_upgrade_smithing_template` |
+| `minecraft:plenty_pottery_sherd` | `textures/items/plenty_pottery_sherd` |
+| `minecraft:prize_pottery_sherd` | `textures/items/prize_pottery_sherd` |
+| `minecraft:raiser_armor_trim_smithing_template` | `textures/items/raiser_armor_trim_smithing_template` |
+| `minecraft:rib_armor_trim_smithing_template` | `textures/items/rib_armor_trim_smithing_template` |
+| `minecraft:sentry_armor_trim_smithing_template` | `textures/items/sentry_armor_trim_smithing_template` |
+| `minecraft:shaper_armor_trim_smithing_template` | `textures/items/shaper_armor_trim_smithing_template` |
+| `minecraft:sheaf_pottery_sherd` | `textures/items/sheaf_pottery_sherd` |
+| `minecraft:shelter_pottery_sherd` | `textures/items/shelter_pottery_sherd` |
+| `minecraft:silence_armor_trim_smithing_template` | `textures/items/silence_armor_trim_smithing_template` |
+| `minecraft:skull_pottery_sherd` | `textures/items/skull_pottery_sherd` |
+| `minecraft:snort_pottery_sherd` | `textures/items/snort_pottery_sherd` |
+| `minecraft:snout_armor_trim_smithing_template` | `textures/items/snout_armor_trim_smithing_template` |
+| `minecraft:spire_armor_trim_smithing_template` | `textures/items/spire_armor_trim_smithing_template` |
+| `minecraft:tide_armor_trim_smithing_template` | `textures/items/tide_armor_trim_smithing_template` |
+| `minecraft:torchflower_seeds` | `textures/items/torchflower_seeds` |
+| `minecraft:vex_armor_trim_smithing_template` | `textures/items/vex_armor_trim_smithing_template` |
+| `minecraft:ward_armor_trim_smithing_template` | `textures/items/ward_armor_trim_smithing_template` |
+| `minecraft:wayfinder_armor_trim_smithing_template` | `textures/items/wayfinder_armor_trim_smithing_template` |
+| `minecraft:wild_armor_trim_smithing_template` | `textures/items/wild_armor_trim_smithing_template` |
 | `minecraft:camel_spawn_egg` | `textures/items/camel_spawn_egg` |
 | `minecraft:sniffer_spawn_egg` | `textures/items/sniffer_spawn_egg` |
 | `minecraft:music_disc_relic`<br> `minecraft:pitcher_pod`<br> `minecraft:record_relic` | `textures/items/record_relic` |

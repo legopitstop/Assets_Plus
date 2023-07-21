@@ -2,8 +2,137 @@
    "resource_pack_name": "vanilla",
    "texture_name": "atlas.items",
    "texture_data": {
+      "minecraft:angler_pottery_sherd": {
+         "textures": "textures/items/angler_pottery_sherd"
+      },
+      "minecraft:archer_pottery_sherd": {
+         "textures": "textures/items/archer_pottery_sherd"
+      },
+      "minecraft:arms_up_pottery_sherd": {
+         "textures": "textures/items/arms_up_pottery_sherd"
+      },
+      "minecraft:blade_pottery_sherd": {
+         "textures": "textures/items/blade_pottery_sherd"
+      },
+      "minecraft:brewer_pottery_sherd": {
+         "textures": "textures/items/brewer_pottery_sherd"
+      },
       "minecraft:brush": {
          "textures": "textures/items/brush"
+      },
+      "minecraft:burn_pottery_sherd": {
+         "textures": "textures/items/burn_pottery_sherd"
+      },
+      "minecraft:cherry_boat": {
+         "textures": "textures/items/cherry_boat"
+      },
+      "minecraft:cherry_chest_boat": {
+         "textures": "textures/items/cherry_chest_boat"
+      },
+      "minecraft:cherry_door": {
+         "textures": "textures/items/cherry_door"
+      },
+      "minecraft:cherry_hanging_sign": {
+         "textures": "textures/items/cherry_hanging_sign"
+      },
+      "minecraft:cherry_sign": {
+         "textures": "textures/items/cherry_sign"
+      },
+      "minecraft:coast_armor_trim_smithing_template": {
+         "textures": "textures/items/coast_armor_trim_smithing_template"
+      },
+      "minecraft:danger_pottery_sherd": {
+         "textures": "textures/items/danger_pottery_sherd"
+      },
+      "minecraft:dune_armor_trim_smithing_template": {
+         "textures": "textures/items/dune_armor_trim_smithing_template"
+      },
+      "minecraft:explorer_pottery_sherd": {
+         "textures": "textures/items/explorer_pottery_sherd"
+      },
+      "minecraft:eye_armor_trim_smithing_template": {
+         "textures": "textures/items/eye_armor_trim_smithing_template"
+      },
+      "minecraft:friend_pottery_sherd": {
+         "textures": "textures/items/friend_pottery_sherd"
+      },
+      "minecraft:heartbreak_pottery_sherd": {
+         "textures": "textures/items/heartbreak_pottery_sherd"
+      },
+      "minecraft:heart_pottery_sherd": {
+         "textures": "textures/items/heart_pottery_sherd"
+      },
+      "minecraft:host_armor_trim_smithing_template": {
+         "textures": "textures/items/host_armor_trim_smithing_template"
+      },
+      "minecraft:howl_pottery_sherd": {
+         "textures": "textures/items/howl_pottery_sherd"
+      },
+      "minecraft:miner_pottery_sherd": {
+         "textures": "textures/items/miner_pottery_sherd"
+      },
+      "minecraft:mourner_pottery_sherd": {
+         "textures": "textures/items/mourner_pottery_sherd"
+      },
+      "minecraft:netherite_upgrade_smithing_template": {
+         "textures": "textures/items/netherite_upgrade_smithing_template"
+      },
+      "minecraft:plenty_pottery_sherd": {
+         "textures": "textures/items/plenty_pottery_sherd"
+      },
+      "minecraft:prize_pottery_sherd": {
+         "textures": "textures/items/prize_pottery_sherd"
+      },
+      "minecraft:raiser_armor_trim_smithing_template": {
+         "textures": "textures/items/raiser_armor_trim_smithing_template"
+      },
+      "minecraft:rib_armor_trim_smithing_template": {
+         "textures": "textures/items/rib_armor_trim_smithing_template"
+      },
+      "minecraft:sentry_armor_trim_smithing_template": {
+         "textures": "textures/items/sentry_armor_trim_smithing_template"
+      },
+      "minecraft:shaper_armor_trim_smithing_template": {
+         "textures": "textures/items/shaper_armor_trim_smithing_template"
+      },
+      "minecraft:sheaf_pottery_sherd": {
+         "textures": "textures/items/sheaf_pottery_sherd"
+      },
+      "minecraft:shelter_pottery_sherd": {
+         "textures": "textures/items/shelter_pottery_sherd"
+      },
+      "minecraft:silence_armor_trim_smithing_template": {
+         "textures": "textures/items/silence_armor_trim_smithing_template"
+      },
+      "minecraft:skull_pottery_sherd": {
+         "textures": "textures/items/skull_pottery_sherd"
+      },
+      "minecraft:snort_pottery_sherd": {
+         "textures": "textures/items/snort_pottery_sherd"
+      },
+      "minecraft:snout_armor_trim_smithing_template": {
+         "textures": "textures/items/snout_armor_trim_smithing_template"
+      },
+      "minecraft:spire_armor_trim_smithing_template": {
+         "textures": "textures/items/spire_armor_trim_smithing_template"
+      },
+      "minecraft:tide_armor_trim_smithing_template": {
+         "textures": "textures/items/tide_armor_trim_smithing_template"
+      },
+      "minecraft:torchflower_seeds": {
+         "textures": "textures/items/torchflower_seeds"
+      },
+      "minecraft:vex_armor_trim_smithing_template": {
+         "textures": "textures/items/vex_armor_trim_smithing_template"
+      },
+      "minecraft:ward_armor_trim_smithing_template": {
+         "textures": "textures/items/ward_armor_trim_smithing_template"
+      },
+      "minecraft:wayfinder_armor_trim_smithing_template": {
+         "textures": "textures/items/wayfinder_armor_trim_smithing_template"
+      },
+      "minecraft:wild_armor_trim_smithing_template": {
+         "textures": "textures/items/wild_armor_trim_smithing_template"
       },
       "minecraft:camel_spawn_egg": {
          "textures": "textures/items/camel_spawn_egg"
