@@ -10,7 +10,8 @@ This is a resource pack library that makes all the vanilla Minecraft block ids u
 
 You can download any version via [legopitstop.weebly.com](https://legopitstop.weebly.com/assets-plus.html)
 
-- [1.19.80 - v1.4.0 (Latest)](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.4.0)
+- [1.20.12 - v1.5.0 (Latest)](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.5.0)
+- [1.19.80 - v1.4.0](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.4.0)
 - [1.19 - v1.3.0](https://github.com/legopitstop/Assets_Plus/releases/tag/v1.3.0)
 - [1.19 - v1.2.0](https://www.mediafire.com/file/xhk2r1zioi9ref2/Assets_Plus_RP_v1.2.0.mcpack/file)
 - [1.18 - v1.1.0](https://www.mediafire.com/file/te3v8k4ri0msk71/Assets_Plus_RP_v1.1.0.mcpack/file)
