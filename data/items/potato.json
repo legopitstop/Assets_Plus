@@ -1,23 +1,23 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:potato"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:potato"
-            },
-            "minecraft:food": {
-                "nutrition": 1,
-                "saturation_modifier": 0.6
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:potatoes"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:potato"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:potato"
+      },
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 0.6
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:potatoes"
+      }
     }
+  }
 }

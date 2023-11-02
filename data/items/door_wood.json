@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:door_wood"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:door_wood"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:door_wood"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:door_wood"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:door_wood"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:door_wood"
+      }
     }
+  }
 }

@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:chain"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:chain"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:chain"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:chain"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:chain"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:chain"
+      }
     }
+  }
 }

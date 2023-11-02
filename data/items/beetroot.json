@@ -1,28 +1,28 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:beetroot"
-        },
-        "components": {
-            "minecraft:use_animation": "eat",
-            "minecraft:use_duration": 1.61,
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:beetroot"
-            },
-            "minecraft:food": {
-                "nutrition": 1,
-                "saturation_modifier": 1.2
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:beetroot",
-                "on_use": [
-                    "minecraft:farmland"
-                ]
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:beetroot"
+    },
+    "components": {
+      "minecraft:use_animation": "eat",
+      "minecraft:use_duration": 1.61,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:beetroot"
+      },
+      "minecraft:food": {
+        "nutrition": 1,
+        "saturation_modifier": 1.2
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:beetroot",
+        "on_use": [
+          "minecraft:farmland"
+        ]
+      }
     }
+  }
 }

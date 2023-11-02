@@ -1,17 +1,17 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:broken_elytra"
-        },
-        "components": {
-            "minecraft:max_stack_size": 1,
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:broken_elytra"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:broken_elytra"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:broken_elytra"
+      }
     }
+  }
 }

@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:warped_door"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:warped_door"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:warped_door"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:warped_door"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:warped_door"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:warped_door"
+      }
     }
+  }
 }

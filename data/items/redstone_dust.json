@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:redstone_dust"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:redstone_dust"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:redstone"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:redstone_dust"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:redstone_dust"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:redstone"
+      }
     }
+  }
 }

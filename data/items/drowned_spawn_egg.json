@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:drowned_spawn_egg"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:drowned"
-            },
-            "minecraft:entity_placer": {
-                "entity": "minecraft:drowned"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:drowned_spawn_egg"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:drowned"
+      },
+      "minecraft:entity_placer": {
+        "entity": "minecraft:drowned"
+      }
     }
+  }
 }

@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:sign_crimson"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:sign_crimson"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:sign_crimson"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:sign_crimson"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:sign_crimson"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:sign_crimson"
+      }
     }
+  }
 }

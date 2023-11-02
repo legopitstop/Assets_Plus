@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:blaze_spawn_egg"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:blaze"
-            },
-            "minecraft:entity_placer": {
-                "entity": "minecraft:blaze"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:blaze_spawn_egg"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:blaze"
+      },
+      "minecraft:entity_placer": {
+        "entity": "minecraft:blaze"
+      }
     }
+  }
 }

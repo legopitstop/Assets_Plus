@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:turtle_egg"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:turtle_egg"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:turtle_egg"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:turtle_egg"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:turtle_egg"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:turtle_egg"
+      }
     }
+  }
 }

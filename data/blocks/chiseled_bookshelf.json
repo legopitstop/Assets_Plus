@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:chiseled_bookshelf"
+    },
+    "components": {
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:unit_cute": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.2
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.2
+      },
+      "minecraft:material_instances": {
+        "top": {
+          "texture": "minecraft:chiseled_bookshelf_top"
+        },
+        "bottom": {
+          "texture": "minecraft:chiseled_bookshelf_top"
+        },
+        "*": {
+          "texture": "minecraft:chiseled_bookshelf_side"
+        },
+        "north": {
+          "texture": "minecraft:chiseled_bookshelf_empty"
+        }
+      }
+    }
+  }
+}

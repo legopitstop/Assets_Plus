@@ -1,22 +1,22 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:nether_wart"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:nether_wart"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:nether_wart",
-                "on_use": [
-                    "minecraft:soul_sand"
-                ]
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:nether_wart"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:nether_wart"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:nether_wart",
+        "on_use": [
+          "minecraft:soul_sand"
+        ]
+      }
     }
+  }
 }

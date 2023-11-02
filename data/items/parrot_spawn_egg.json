@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:parrot_spawn_egg"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:parrot"
-            },
-            "minecraft:entity_placer": {
-                "entity": "minecraft:parrot"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:parrot_spawn_egg"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:parrot"
+      },
+      "minecraft:entity_placer": {
+        "entity": "minecraft:parrot"
+      }
     }
+  }
 }

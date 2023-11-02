@@ -1,20 +1,20 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:bamboo"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:bamboo"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:bamboo",
-                "on_use": []
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:bamboo"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:bamboo"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:bamboo",
+        "on_use": []
+      }
     }
+  }
 }

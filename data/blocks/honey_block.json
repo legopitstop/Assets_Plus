@@ -1,31 +1,31 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:block": {
-        "description": {
-            "identifier": "minecraft:honey_block"
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:honey_block"
+    },
+    "components": {
+      "tag:minecraft:non_solid": {},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:geometry": "missing",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:honey_side"
         },
-        "components": {
-            "tag:minecraft:non_solid": {},
-            "minecraft:light_dampening": 0,
-            "minecraft:light_emission": 0,
-            "minecraft:geometry": "missing",
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0
-            },
-            "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 0
-            },
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "minecraft:honey_side"
-                },
-                "top": {
-                    "texture": "minecraft:honey_top"
-                },
-                "bottom": {
-                    "texture": "minecraft:honey_bottom"
-                }
-            }
+        "top": {
+          "texture": "minecraft:honey_top"
+        },
+        "bottom": {
+          "texture": "minecraft:honey_bottom"
         }
+      }
     }
+  }
 }

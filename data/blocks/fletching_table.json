@@ -1,37 +1,37 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:block": {
-        "description": {
-            "identifier": "minecraft:fletching_table"
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:fletching_table"
+    },
+    "components": {
+      "tag:wood": {},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.5
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:fletching_table_side1"
         },
-        "components": {
-            "tag:wood": {},
-            "minecraft:light_dampening": 0,
-            "minecraft:light_emission": 0,
-            "minecraft:unit_cube": {},
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 2.5
-            },
-            "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 2.5
-            },
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "minecraft:fletching_table_side1"
-                },
-                "north": {
-                    "texture": "minecraft:fletching_table_side2"
-                },
-                "east": {
-                    "texture": "minecraft:fletching_table_side2"
-                },
-                "top": {
-                    "texture": "minecraft:fletching_table_top"
-                },
-                "bottom": {
-                    "texture": "minecraft:birch_planks"
-                }
-            }
+        "north": {
+          "texture": "minecraft:fletching_table_side2"
+        },
+        "east": {
+          "texture": "minecraft:fletching_table_side2"
+        },
+        "top": {
+          "texture": "minecraft:fletching_table_top"
+        },
+        "bottom": {
+          "texture": "minecraft:birch_planks"
         }
+      }
     }
+  }
 }

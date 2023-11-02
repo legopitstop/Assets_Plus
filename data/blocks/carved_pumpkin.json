@@ -1,34 +1,34 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:block": {
-        "description": {
-            "identifier": "minecraft:carved_pumpkin"
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:carved_pumpkin"
+    },
+    "components": {
+      "tag:pumpkin": {},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:pumpkin_side"
         },
-        "components": {
-            "tag:pumpkin": {},
-            "minecraft:light_dampening": 0,
-            "minecraft:light_emission": 0,
-            "minecraft:unit_cube": {},
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 1
-            },
-            "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 1
-            },
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "minecraft:pumpkin_side"
-                },
-                "north": {
-                    "texture": "minecraft:carved_pumpkin"
-                },
-                "top": {
-                    "texture": "minecraft:pumpkin_top"
-                },
-                "bottom": {
-                    "texture": "minecraft:pumpkin_top"
-                }
-            }
+        "north": {
+          "texture": "minecraft:carved_pumpkin"
+        },
+        "top": {
+          "texture": "minecraft:pumpkin_top"
+        },
+        "bottom": {
+          "texture": "minecraft:pumpkin_top"
         }
+      }
     }
+  }
 }

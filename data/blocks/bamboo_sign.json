@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:bamboo_sign"
+    },
+    "components": {
+      "tag:wood": {},
+      "tag:text_sign": {},
+      "tag:minecraft:non_solid": {},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:geometry": "missing",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 3
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:bamboo_sign"
+        }
+      }
+    }
+  }
+}

@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:light_blue_candle"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:light_blue_candle"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:light_blue_candle"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:light_blue_candle"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:light_blue_candle"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:light_blue_candle"
+      }
     }
+  }
 }

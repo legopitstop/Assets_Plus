@@ -1,31 +1,31 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:block": {
-        "description": {
-            "identifier": "minecraft:warped_nylium"
+  "format_version": "1.20.30",
+  "minecraft:block": {
+    "description": {
+      "identifier": "minecraft:warped_nylium"
+    },
+    "components": {
+      "tag:fertilize_area": {},
+      "minecraft:light_dampening": 0,
+      "minecraft:light_emission": 0,
+      "minecraft:unit_cube": {},
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.4
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "minecraft:warped_hyphae_side"
         },
-        "components": {
-            "tag:fertilize_area": {},
-            "minecraft:light_dampening": 0,
-            "minecraft:light_emission": 0,
-            "minecraft:unit_cube": {},
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 0.4
-            },
-            "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 0.4
-            },
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "minecraft:warped_hyphae_side"
-                },
-                "top": {
-                    "texture": "minecraft:warped_hyphae_top"
-                },
-                "botton": {
-                    "texture": "minecraft:netherrack"
-                }
-            }
+        "top": {
+          "texture": "minecraft:warped_hyphae_top"
+        },
+        "botton": {
+          "texture": "minecraft:netherrack"
         }
+      }
     }
+  }
 }

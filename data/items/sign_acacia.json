@@ -1,19 +1,19 @@
 {
-    "format_version": "1.19.20",
-    "minecraft:item": {
-        "description": {
-            "identifier": "minecraft:sign_acacia"
-        },
-        "components": {
-            "minecraft:creative_category": {
-                "parent": "itemGroup.search"
-            },
-            "minecraft:icon": {
-                "texture": "minecraft:sign_acacia"
-            },
-            "minecraft:block_placer": {
-                "block": "minecraft:sign_acacia"
-            }
-        }
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:sign_acacia"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.search"
+      },
+      "minecraft:icon": {
+        "texture": "minecraft:sign_acacia"
+      },
+      "minecraft:block_placer": {
+        "block": "minecraft:sign_acacia"
+      }
     }
+  }
 }
