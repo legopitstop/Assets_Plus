@@ -1,4 +1,4 @@
-# [<](./README) Item Textures
+# [<](.) Item Textures
 
 This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 
@@ -25,6 +25,20 @@ The below table lists all the texture definitions that are included in this vers
 
 | Name(s) | Path |
 |--|--|
+| `minecraft:legacy` | `textures/blocks/legacy` |
+| `minecraft:debug_stage0` | `textures/blocks/debug_stage0` |
+| `minecraft:debug_stage1` | `textures/blocks/debug_stage1` |
+| `minecraft:debug_stage2` | `textures/blocks/debug_stage2` |
+| `minecraft:debug_stage3` | `textures/blocks/debug_stage3` |
+| `minecraft:debug_stage4` | `textures/blocks/debug_stage4` |
+| `minecraft:debug_stage5` | `textures/blocks/debug_stage5` |
+| `minecraft:debug_stage6` | `textures/blocks/debug_stage6` |
+| `minecraft:debug_stage7` | `textures/blocks/debug_stage7` |
+| `minecraft:debug_stage8` | `textures/blocks/debug_stage8` |
+| `minecraft:debug_stage9` | `textures/blocks/debug_stage9` |
+| `minecraft:debug` | `textures/blocks/debug` |
+| `minecraft:debug2` | `textures/blocks/debug2` |
+| `minecraft:trial_key` | `textures/items/trial_key` |
 | `minecraft:angler_pottery_sherd` | `textures/items/angler_pottery_sherd` |
 | `minecraft:archer_pottery_sherd` | `textures/items/archer_pottery_sherd` |
 | `minecraft:arms_up_pottery_sherd` | `textures/items/arms_up_pottery_sherd` |
@@ -72,8 +86,6 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:camel_spawn_egg` | `textures/items/camel_spawn_egg` |
 | `minecraft:sniffer_spawn_egg` | `textures/items/sniffer_spawn_egg` |
 | `minecraft:music_disc_relic`<br> `minecraft:pitcher_pod`<br> `minecraft:record_relic` | `textures/items/record_relic` |
-| `minecraft:debug` | `textures/blocks/debug` |
-| `minecraft:debug2` | `textures/blocks/debug2` |
 | `minecraft:bamboo` | `textures/items/bamboo` |
 | `minecraft:candle` | `textures/items/candles/candle` |
 | `minecraft:white_candle` | `textures/items/candles/white_candle` |

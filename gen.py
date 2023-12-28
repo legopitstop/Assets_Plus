@@ -84,10 +84,14 @@ for filename in os.listdir(model_path):
 
                 if 'cubes' in bone:
                     for cube in bone['cubes']:
-                        for uv in cube['uv']:
-                            if 'material_instance' in cube['uv'][uv]:
-                                mi = cube['uv'][uv]['material_instance']
-                                addReport('minecraft:model', submodel['description']['identifier'], 'material_instance', mi)
+                        if isinstance(cube['uv'], dict):
+                            for k, uv in cube['uv'].items():
+                                if 'material_instance' in uv:
+                                    mi = uv['material_instance']
+                                    addReport('minecraft:model', submodel['description']['identifier'], 'material_instance', mi)
+                                else:
+                                    addReport('minecraft:model', submodel['description']['identifier'], 'material_instance', k)
+
 
 # create report
 wrt = open(os.path.join(LOCAL, 'report.json'),'w')

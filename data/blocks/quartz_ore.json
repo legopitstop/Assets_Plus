@@ -8,7 +8,7 @@
       "tag:diamond_pick_diggable": {},
       "minecraft:light_dampening": 0,
       "minecraft:light_emission": 0,
-      "minecraft:unit_cube": {},
+      "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 3
       },

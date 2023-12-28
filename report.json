@@ -1,5 +1,13 @@
 {
     "minecraft:model": {
+        "geometry.cube": {
+            "path": [
+                "models/blocks/cube"
+            ],
+            "bones": [
+                "bb_main"
+            ]
+        },
         "geometry.template_anvil": {
             "path": [
                 "models/blocks/template_anvil"
@@ -8,7 +16,12 @@
                 "bb_main"
             ],
             "material_instance": [
-                "top"
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_azalea": {
@@ -19,7 +32,7 @@
                 "bone"
             ],
             "material_instance": [
-                "top",
+                "up",
                 "side",
                 "plant"
             ]
@@ -30,6 +43,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo4_age0": {
@@ -38,6 +59,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo1_age0": {
@@ -46,6 +75,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo2_age0": {
@@ -54,6 +91,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo1_age1": {
@@ -62,6 +107,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo3_age1": {
@@ -70,6 +123,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo3_age0": {
@@ -78,6 +139,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_bamboo2_age1": {
@@ -86,6 +155,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_beacon": {
@@ -110,8 +187,8 @@
             ],
             "material_instance": [
                 "side",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake.slice1": {
@@ -124,8 +201,8 @@
             "material_instance": [
                 "side",
                 "inside",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake.slice2": {
@@ -138,8 +215,8 @@
             "material_instance": [
                 "side",
                 "inside",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake.slice3": {
@@ -152,8 +229,8 @@
             "material_instance": [
                 "side",
                 "inside",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake.slice4": {
@@ -166,8 +243,8 @@
             "material_instance": [
                 "side",
                 "inside",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake.slice5": {
@@ -180,8 +257,8 @@
             "material_instance": [
                 "side",
                 "inside",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake.slice6": {
@@ -194,8 +271,8 @@
             "material_instance": [
                 "side",
                 "inside",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_cake_with_candle": {
@@ -207,8 +284,8 @@
             ],
             "material_instance": [
                 "side",
-                "top",
-                "bottom",
+                "up",
+                "down",
                 "candle"
             ]
         },
@@ -221,8 +298,8 @@
             ],
             "material_instance": [
                 "side",
-                "top",
-                "bottom",
+                "up",
+                "down",
                 "tendril",
                 "amethyst"
             ]
@@ -246,6 +323,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_two_candles": {
@@ -254,6 +339,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_three_candles": {
@@ -262,6 +355,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_four_candles": {
@@ -270,6 +371,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_cauldron": {
@@ -281,9 +390,9 @@
             ],
             "material_instance": [
                 "side",
-                "top",
+                "up",
                 "inner",
-                "bottom"
+                "down"
             ]
         },
         "geometry.template_cauldron_level2": {
@@ -296,9 +405,9 @@
             "material_instance": [
                 "content",
                 "side",
-                "top",
+                "up",
                 "inner",
-                "bottom"
+                "down"
             ]
         },
         "geometry.template_cauldron_level1": {
@@ -311,9 +420,9 @@
             "material_instance": [
                 "content",
                 "side",
-                "top",
+                "up",
                 "inner",
-                "bottom"
+                "down"
             ]
         },
         "geometry.template_cauldron_full": {
@@ -326,9 +435,9 @@
             "material_instance": [
                 "content",
                 "side",
-                "top",
+                "up",
                 "inner",
-                "bottom"
+                "down"
             ]
         },
         "geometry.template_chiseled_bookshelf": {
@@ -337,12 +446,20 @@
             ],
             "bones": [
                 "bb_main",
-                "slot_top_left",
-                "slot_top_mid",
-                "slot_top_right",
-                "slot_bottom_left",
-                "slot_bottom_mid",
-                "slot_bottom_right"
+                "slot_up_left",
+                "slot_up_mid",
+                "slot_up_right",
+                "slot_down_left",
+                "slot_down_mid",
+                "slot_down_right"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_chorus_flower": {
@@ -353,7 +470,13 @@
                 "bb_main"
             ],
             "material_instance": [
-                "texture"
+                "north",
+                "east",
+                "south",
+                "west",
+                "texture",
+                "up",
+                "down"
             ]
         },
         "geometry.template_crop": {
@@ -362,6 +485,10 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east"
             ]
         },
         "geometry.template_cross": {
@@ -370,6 +497,10 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east"
             ]
         },
         "geometry.template_daylight_detector": {
@@ -378,70 +509,134 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_door_top_right": {
+        "geometry.template_door_up_right": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up"
             ]
         },
-        "geometry.template_door_bottom_left_open": {
+        "geometry.template_door_down_left_open": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "down"
             ]
         },
-        "geometry.template_door_bottom_left": {
+        "geometry.template_door_down_left": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "down"
             ]
         },
-        "geometry.template_door_top_right_open": {
+        "geometry.template_door_up_right_open": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up"
             ]
         },
-        "geometry.template_door_bottom_right": {
+        "geometry.template_door_down_right": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "down"
             ]
         },
-        "geometry.template_door_bottom_right_open": {
+        "geometry.template_door_down_right_open": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "down"
             ]
         },
-        "geometry.template_door_top_left": {
+        "geometry.template_door_up_left": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up"
             ]
         },
-        "geometry.template_door_top_left_open": {
+        "geometry.template_door_up_left_open": {
             "path": [
                 "models/blocks/template_door"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up"
             ]
         },
         "geometry.template_farmland": {
@@ -452,7 +647,12 @@
                 "bb_main"
             ],
             "material_instance": [
-                "top"
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_fence": {
@@ -466,6 +666,14 @@
                 "east",
                 "south",
                 "west"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_fence_gate": {
@@ -474,6 +682,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_fence_gate.open": {
@@ -482,6 +698,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_fence_gate.wall": {
@@ -490,6 +714,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_fence_gate.wall_open": {
@@ -498,6 +730,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_fire_floor": {
@@ -506,6 +746,12 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "south",
+                "north",
+                "west",
+                "east"
             ]
         },
         "geometry.template_fire_side": {
@@ -514,6 +760,10 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "south"
             ]
         },
         "geometry.template_fire_up": {
@@ -522,6 +772,9 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "down"
             ]
         },
         "geometry.template_flowerbed_1": {
@@ -557,7 +810,9 @@
             ],
             "material_instance": [
                 "flowerbed",
-                "stem"
+                "stem",
+                "up",
+                "down"
             ]
         },
         "geometry.template_flowerbed_4": {
@@ -620,7 +875,7 @@
             "material_instance": [
                 "flower_pot",
                 "dirt",
-                "bush_top",
+                "bush_up",
                 "bush_side",
                 "bush_plant"
             ]
@@ -637,6 +892,10 @@
                 "west"
             ],
             "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
                 "edge"
             ]
         },
@@ -646,6 +905,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_height1": {
@@ -654,6 +921,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_height2": {
@@ -662,6 +937,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_height3": {
@@ -670,6 +953,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_height4": {
@@ -678,6 +969,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_height5": {
@@ -686,6 +985,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_height6": {
@@ -694,6 +1001,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_item_frame": {
@@ -726,6 +1041,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_hanging_lantern": {
@@ -734,14 +1057,30 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_orientable_trapdoor_bottom": {
+        "geometry.template_orientable_trapdoor_down": {
             "path": [
                 "models/blocks/template_orientable_trapdoor"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_orientable_trapdoor_open": {
@@ -750,17 +1089,33 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_orientable_trapdoor_top": {
+        "geometry.template_orientable_trapdoor_up": {
             "path": [
                 "models/blocks/template_orientable_trapdoor"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_pitcher_crop_bottom_small": {
+        "geometry.template_pitcher_crop_down_small": {
             "path": [
                 "models/blocks/template_pitcher_crop_bottom"
             ],
@@ -769,11 +1124,11 @@
             ],
             "material_instance": [
                 "side",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
-        "geometry.template_pitcher_crop_bottom_large": {
+        "geometry.template_pitcher_crop_down_large": {
             "path": [
                 "models/blocks/template_pitcher_crop_bottom"
             ],
@@ -783,8 +1138,8 @@
             "material_instance": [
                 "plant",
                 "side",
-                "top",
-                "bottom"
+                "up",
+                "down"
             ]
         },
         "geometry.template_pressure_plate.powered": {
@@ -793,6 +1148,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_pressure_plate": {
@@ -801,6 +1164,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_rail_flat": {
@@ -809,6 +1180,10 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "up",
+                "down"
             ]
         },
         "geometry.template_rail_raised_sw": {
@@ -817,6 +1192,10 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "up",
+                "down"
             ]
         },
         "geometry.template_rail_raised_ne": {
@@ -825,6 +1204,10 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "up",
+                "down"
             ]
         },
         "geometry.template_sculk_shrieker": {
@@ -836,8 +1219,12 @@
             ],
             "material_instance": [
                 "side",
-                "top",
-                "bottom"
+                "up",
+                "down",
+                "north",
+                "south",
+                "west",
+                "east"
             ]
         },
         "geometry.template_single_face": {
@@ -846,22 +1233,41 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north"
             ]
         },
-        "geometry.template_slab.bottom": {
+        "geometry.template_slab.down": {
             "path": [
                 "models/blocks/template_slab"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_slab.top": {
+        "geometry.template_slab.up": {
             "path": [
                 "models/blocks/template_slab"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_sniffer_egg": {
@@ -870,6 +1276,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_stairs": {
@@ -878,22 +1292,78 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_stairs.inner": {
+        "geometry.template_stairs.inner_right": {
             "path": [
                 "models/blocks/template_stairs"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_stairs.outer": {
+        "geometry.template_stairs.outer_right": {
             "path": [
                 "models/blocks/template_stairs"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
+            ]
+        },
+        "geometry.template_stairs.inner_left": {
+            "path": [
+                "models/blocks/template_stairs"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
+            ]
+        },
+        "geometry.template_stairs.outer_left": {
+            "path": [
+                "models/blocks/template_stairs"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_torch": {
@@ -902,6 +1372,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "up",
+                "down",
+                "east",
+                "west",
+                "north",
+                "south"
             ]
         },
         "geometry.template_torch_wall": {
@@ -910,22 +1388,46 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "up",
+                "down",
+                "north",
+                "south",
+                "east",
+                "west"
             ]
         },
-        "geometry.template_trapdoor_top": {
+        "geometry.template_trapdoor_up": {
             "path": [
                 "models/blocks/template_trapdoor"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
-        "geometry.template_trapdoor_bottom": {
+        "geometry.template_trapdoor_down": {
             "path": [
                 "models/blocks/template_trapdoor"
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_trapdoor_open": {
@@ -934,6 +1436,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_turtle_egg": {
@@ -942,6 +1452,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_four_turtle_eggs": {
@@ -950,6 +1468,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_three_turtle_eggs": {
@@ -958,6 +1484,14 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_two_turtle_eggs": {
@@ -966,6 +1500,30 @@
             ],
             "bones": [
                 "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
+            ]
+        },
+        "geometry.template_vertical_slab": {
+            "path": [
+                "models/blocks/template_vertical_slab"
+            ],
+            "bones": [
+                "bb_main"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         },
         "geometry.template_wall_post": {
@@ -983,10 +1541,448 @@
                 "east",
                 "south",
                 "west"
+            ],
+            "material_instance": [
+                "north",
+                "east",
+                "south",
+                "west",
+                "up",
+                "down"
             ]
         }
     },
     "minecraft:terrain_texture": {
+        "textures/blocks/grass_side": {
+            "atlas": [
+                "minecraft:grass_block",
+                "minecraft:grass_block_side",
+                "minecraft:grass_side",
+                "minecraft:grass_carried",
+                "minecraft:grass_block_gray",
+                "minecraft:grass_block_gray_side",
+                "minecraft:grass_side_gray"
+            ]
+        },
+        "textures/blocks/grass_top.tga": {
+            "atlas": [
+                "minecraft:grass_block_top",
+                "minecraft:grass_top"
+            ]
+        },
+        "textures/blocks/acacia_leaves.tga": {
+            "atlas": [
+                "minecraft:acacia_leaves"
+            ]
+        },
+        "textures/blocks/birch_leaves.tga": {
+            "atlas": [
+                "minecraft:birch_leaves"
+            ]
+        },
+        "textures/blocks/dark_oak_leaves.tga": {
+            "atlas": [
+                "minecraft:dark_oak_leaves"
+            ]
+        },
+        "textures/blocks/jungle_leaves.tga": {
+            "atlas": [
+                "minecraft:jungle_leaves"
+            ]
+        },
+        "textures/blocks/oak_leaves.tga": {
+            "atlas": [
+                "minecraft:oak_leaves"
+            ]
+        },
+        "textures/blocks/spruce_leaves.tga": {
+            "atlas": [
+                "minecraft:spruce_leaves"
+            ]
+        },
+        "textures/blocks/mangrove_leaves.tga": {
+            "atlas": [
+                "minecraft:mangrove_leaves"
+            ]
+        },
+        "textures/blocks/debug_stage0": {
+            "atlas": [
+                "minecraft:debug_stage0"
+            ]
+        },
+        "textures/blocks/debug_stage1": {
+            "atlas": [
+                "minecraft:debug_stage1"
+            ]
+        },
+        "textures/blocks/debug_stage2": {
+            "atlas": [
+                "minecraft:debug_stage2"
+            ]
+        },
+        "textures/blocks/debug_stage3": {
+            "atlas": [
+                "minecraft:debug_stage3"
+            ]
+        },
+        "textures/blocks/debug_stage4": {
+            "atlas": [
+                "minecraft:debug_stage4"
+            ]
+        },
+        "textures/blocks/debug_stage5": {
+            "atlas": [
+                "minecraft:debug_stage5"
+            ]
+        },
+        "textures/blocks/debug_stage6": {
+            "atlas": [
+                "minecraft:debug_stage6"
+            ]
+        },
+        "textures/blocks/debug_stage7": {
+            "atlas": [
+                "minecraft:debug_stage7"
+            ]
+        },
+        "textures/blocks/debug_stage8": {
+            "atlas": [
+                "minecraft:debug_stage8"
+            ]
+        },
+        "textures/blocks/debug_stage9": {
+            "atlas": [
+                "minecraft:debug_stage9"
+            ]
+        },
+        "textures/blocks/debug": {
+            "atlas": [
+                "minecraft:debug"
+            ]
+        },
+        "textures/blocks/debug2": {
+            "atlas": [
+                "minecraft:debug2"
+            ]
+        },
+        "textures/blocks/legacy": {
+            "atlas": [
+                "minecraft:legacy"
+            ]
+        },
+        "textures/blocks/minecraft:trial_spawner_top_inactive": {
+            "atlas": [
+                "minecraft:trial_spawner_top_inactive"
+            ]
+        },
+        "textures/blocks/minecraft:trial_spawner_top_ejecting_reward": {
+            "atlas": [
+                "minecraft:trial_spawner_top_ejecting_reward"
+            ]
+        },
+        "textures/blocks/minecraft:trial_spawner_top_active": {
+            "atlas": [
+                "minecraft:trial_spawner_top_active"
+            ]
+        },
+        "textures/blocks/minecraft:trial_spawner_side_inactive": {
+            "atlas": [
+                "minecraft:trial_spawner_side_inactive"
+            ]
+        },
+        "textures/blocks/minecraft:trial_spawner_side_active": {
+            "atlas": [
+                "minecraft:trial_spawner_side_active"
+            ]
+        },
+        "textures/blocks/minecraft:trial_spawner_bottom": {
+            "atlas": [
+                "minecraft:trial_spawner_bottom"
+            ]
+        },
+        "textures/blocks/crafter_west_triggered": {
+            "atlas": [
+                "minecraft:crafter_west_triggered"
+            ]
+        },
+        "textures/blocks/crafter_west_crafting": {
+            "atlas": [
+                "minecraft:crafter_west_crafting"
+            ]
+        },
+        "textures/blocks/crafter_west": {
+            "atlas": [
+                "minecraft:crafter_west"
+            ]
+        },
+        "textures/blocks/crafter_top_triggered": {
+            "atlas": [
+                "minecraft:crafter_top_triggered"
+            ]
+        },
+        "textures/blocks/crafter_top_crafting": {
+            "atlas": [
+                "minecraft:crafter_top_crafting"
+            ]
+        },
+        "textures/blocks/crafter_top": {
+            "atlas": [
+                "minecraft:crafter_top"
+            ]
+        },
+        "textures/blocks/crafter_south_triggered": {
+            "atlas": [
+                "minecraft:crafter_south_triggered"
+            ]
+        },
+        "textures/blocks/crafter_south": {
+            "atlas": [
+                "minecraft:crafter_south"
+            ]
+        },
+        "textures/blocks/crafter_north_crafting": {
+            "atlas": [
+                "minecraft:crafter_north_crafting"
+            ]
+        },
+        "textures/blocks/crafter_north": {
+            "atlas": [
+                "minecraft:crafter_north"
+            ]
+        },
+        "textures/blocks/crafter_east_triggered": {
+            "atlas": [
+                "minecraft:crafter_east_triggered"
+            ]
+        },
+        "textures/blocks/crafter_east_crafting": {
+            "atlas": [
+                "minecraft:crafter_east_crafting"
+            ]
+        },
+        "textures/blocks/crafter_east": {
+            "atlas": [
+                "minecraft:crafter_east"
+            ]
+        },
+        "textures/blocks/crafter_bottom": {
+            "atlas": [
+                "minecraft:crafter_bottom"
+            ]
+        },
+        "textures/blocks/chiseled_tuff": {
+            "atlas": [
+                "minecraft:chiseled_tuff"
+            ]
+        },
+        "textures/blocks/tuff_bricks": {
+            "atlas": [
+                "minecraft:tuff_bricks",
+                "minecraft:tuff_brick"
+            ]
+        },
+        "textures/blocks/polished_tuff": {
+            "atlas": [
+                "minecraft:polished_tuff"
+            ]
+        },
+        "textures/blocks/chiseled_tuff_top": {
+            "atlas": [
+                "minecraft:chiseled_tuff_top"
+            ]
+        },
+        "textures/blocks/chiseled_tuff_bricks_top": {
+            "atlas": [
+                "minecraft:chiseled_tuff_bricks_top",
+                "minecraft:chiseled_tuff_brick_top"
+            ]
+        },
+        "textures/blocks/chiseled_tuff_bricks": {
+            "atlas": [
+                "minecraft:chiseled_tuff_bricks",
+                "minecraft:chiseled_tuff_brick"
+            ]
+        },
+        "textures/blocks/weathered_copper_trapdoor": {
+            "atlas": [
+                "minecraft:weathered_copper_trapdoor"
+            ]
+        },
+        "textures/blocks/weathered_copper_grate": {
+            "atlas": [
+                "minecraft:weathered_copper_grate"
+            ]
+        },
+        "textures/blocks/weathered_copper_door_top": {
+            "atlas": [
+                "minecraft:weathered_copper_door_top"
+            ]
+        },
+        "textures/blocks/weathered_copper_door_bottom": {
+            "atlas": [
+                "minecraft:weathered_copper_door_bottom"
+            ]
+        },
+        "textures/blocks/weathered_copper_bulb_powered": {
+            "atlas": [
+                "minecraft:weathered_copper_bulb_powered"
+            ]
+        },
+        "textures/blocks/weathered_copper_bulb_lit_powered": {
+            "atlas": [
+                "minecraft:weathered_copper_bulb_lit_powered"
+            ]
+        },
+        "textures/blocks/weathered_copper_bulb_lit": {
+            "atlas": [
+                "minecraft:weathered_copper_bulb_lit"
+            ]
+        },
+        "textures/blocks/weathered_copper_bulb": {
+            "atlas": [
+                "minecraft:weathered_copper_bulb"
+            ]
+        },
+        "textures/blocks/weathered_chiseled_copper": {
+            "atlas": [
+                "minecraft:weathered_chiseled_copper"
+            ]
+        },
+        "textures/blocks/oxidized_copper_trapdoor": {
+            "atlas": [
+                "minecraft:oxidized_copper_trapdoor"
+            ]
+        },
+        "textures/blocks/oxidized_copper_grate": {
+            "atlas": [
+                "minecraft:oxidized_copper_grate"
+            ]
+        },
+        "textures/blocks/oxidized_copper_door_top": {
+            "atlas": [
+                "minecraft:oxidized_copper_door_top"
+            ]
+        },
+        "textures/blocks/oxidized_copper_door_bottom": {
+            "atlas": [
+                "minecraft:oxidized_copper_door_bottom"
+            ]
+        },
+        "textures/blocks/oxidized_copper_bulb_powered": {
+            "atlas": [
+                "minecraft:oxidized_copper_bulb_powered"
+            ]
+        },
+        "textures/blocks/oxidized_copper_bulb_lit_powered": {
+            "atlas": [
+                "minecraft:oxidized_copper_bulb_lit_powered"
+            ]
+        },
+        "textures/blocks/oxidized_copper_bulb_lit": {
+            "atlas": [
+                "minecraft:oxidized_copper_bulb_lit"
+            ]
+        },
+        "textures/blocks/oxidized_copper_bulb": {
+            "atlas": [
+                "minecraft:oxidized_copper_bulb"
+            ]
+        },
+        "textures/blocks/oxidized_chiseled_copper": {
+            "atlas": [
+                "minecraft:oxidized_chiseled_copper"
+            ]
+        },
+        "textures/blocks/exposed_copper_trapdoor": {
+            "atlas": [
+                "minecraft:exposed_copper_trapdoor"
+            ]
+        },
+        "textures/blocks/exposed_copper_grate": {
+            "atlas": [
+                "minecraft:exposed_copper_grate"
+            ]
+        },
+        "textures/blocks/exposed_copper_door_top": {
+            "atlas": [
+                "minecraft:exposed_copper_door_top"
+            ]
+        },
+        "textures/blocks/exposed_copper_door_bottom": {
+            "atlas": [
+                "minecraft:exposed_copper_door_bottom"
+            ]
+        },
+        "textures/blocks/exposed_copper_bulb_powered": {
+            "atlas": [
+                "minecraft:exposed_copper_bulb_powered"
+            ]
+        },
+        "textures/blocks/exposed_copper_bulb_lit_powered": {
+            "atlas": [
+                "minecraft:exposed_copper_bulb_lit_powered"
+            ]
+        },
+        "textures/blocks/exposed_copper_bulb_lit": {
+            "atlas": [
+                "minecraft:exposed_copper_bulb_lit"
+            ]
+        },
+        "textures/blocks/exposed_copper_bulb": {
+            "atlas": [
+                "minecraft:exposed_copper_bulb"
+            ]
+        },
+        "textures/blocks/exposed_chiseled_copper": {
+            "atlas": [
+                "minecraft:exposed_chiseled_copper"
+            ]
+        },
+        "textures/blocks/copper_trapdoor": {
+            "atlas": [
+                "minecraft:copper_trapdoor"
+            ]
+        },
+        "textures/blocks/copper_grate": {
+            "atlas": [
+                "minecraft:copper_grate"
+            ]
+        },
+        "textures/blocks/copper_door_top": {
+            "atlas": [
+                "minecraft:copper_door_top"
+            ]
+        },
+        "textures/blocks/copper_door_bottom": {
+            "atlas": [
+                "minecraft:copper_door_bottom"
+            ]
+        },
+        "textures/blocks/copper_bulb_powered": {
+            "atlas": [
+                "minecraft:copper_bulb_powered"
+            ]
+        },
+        "textures/blocks/copper_bulb_lit_powered": {
+            "atlas": [
+                "minecraft:copper_bulb_lit_powered"
+            ]
+        },
+        "textures/blocks/copper_bulb_lit": {
+            "atlas": [
+                "minecraft:copper_bulb_lit"
+            ]
+        },
+        "textures/blocks/copper_bulb": {
+            "atlas": [
+                "minecraft:copper_bulb"
+            ]
+        },
+        "textures/blocks/chiseled_copper": {
+            "atlas": [
+                "minecraft:chiseled_copper"
+            ]
+        },
         "textures/blocks/bamboo_block": {
             "atlas": [
                 "minecraft:bamboo_block",
@@ -1347,14 +2343,12 @@
                 "minecraft:suspicious_sand"
             ]
         },
-        "textures/blocks/debug": {
+        "textures/blocks/brick": {
             "atlas": [
-                "minecraft:debug"
-            ]
-        },
-        "textures/blocks/debug2": {
-            "atlas": [
-                "minecraft:debug2"
+                "minecraft:brick_block",
+                "minecraft:bricks_block",
+                "minecraft:bricks",
+                "minecraft:brick"
             ]
         },
         "textures/blocks/stonebrick": {
@@ -1803,11 +2797,6 @@
                 "minecraft:brewing_stand_base"
             ]
         },
-        "textures/blocks/brick": {
-            "atlas": [
-                "minecraft:brick"
-            ]
-        },
         "textures/blocks/candles/brown_candle": {
             "atlas": [
                 "minecraft:brown_candle"
@@ -2200,6 +3189,7 @@
         },
         "textures/blocks/clay": {
             "atlas": [
+                "minecraft:clay_block",
                 "minecraft:clay"
             ]
         },
@@ -3169,6 +4159,7 @@
         },
         "textures/blocks/dried_kelp_side_a": {
             "atlas": [
+                "minecraft:dried_kelp_block",
                 "minecraft:dried_kelp_block_side_a"
             ]
         },
@@ -3225,7 +4216,10 @@
         },
         "textures/blocks/end_bricks": {
             "atlas": [
-                "minecraft:end_bricks"
+                "minecraft:end_brick",
+                "minecraft:end_stone_brick",
+                "minecraft:end_bricks",
+                "minecraft:end_stone_bricks"
             ]
         },
         "textures/blocks/end_gateway": {
@@ -3435,12 +4429,6 @@
                 "minecraft:granite"
             ]
         },
-        "textures/blocks/grass_side": {
-            "atlas": [
-                "minecraft:grass_carried",
-                "minecraft:grass_side"
-            ]
-        },
         "textures/blocks/grass_carried": {
             "atlas": [
                 "minecraft:grass_carried_top"
@@ -3462,7 +4450,8 @@
         },
         "textures/blocks/grass_top": {
             "atlas": [
-                "minecraft:grass_top"
+                "minecraft:grass_block_gray_top",
+                "minecraft:grass_top_gray"
             ]
         },
         "textures/blocks/gravel": {
@@ -3549,17 +4538,21 @@
         },
         "textures/blocks/honey_bottom": {
             "atlas": [
+                "minecraft:honey_block_bottom",
                 "minecraft:honey_bottom"
             ]
         },
         "textures/blocks/honey_side": {
             "atlas": [
+                "minecraft:honey_block",
+                "minecraft:honey_block_side",
                 "minecraft:honey",
                 "minecraft:honey_side"
             ]
         },
         "textures/blocks/honey_top": {
             "atlas": [
+                "minecraft:honey_block_top",
                 "minecraft:honey_top"
             ]
         },
@@ -3719,32 +4712,32 @@
         },
         "textures/blocks/leaves_oak": {
             "atlas": [
-                "minecraft:oak_leaves"
+                "minecraft:oak_leaves_gray"
             ]
         },
         "textures/blocks/leaves_spruce": {
             "atlas": [
-                "minecraft:spruce_leaves"
+                "minecraft:spruce_leaves_gray"
             ]
         },
         "textures/blocks/leaves_birch": {
             "atlas": [
-                "minecraft:birch_leaves"
+                "minecraft:birch_leaves_gray"
             ]
         },
         "textures/blocks/leaves_jungle": {
             "atlas": [
-                "minecraft:jungle_leaves"
+                "minecraft:jungle_leaves_gray"
             ]
         },
         "textures/blocks/leaves_acacia": {
             "atlas": [
-                "minecraft:acacia_leaves"
+                "minecraft:acacia_leaves_gray"
             ]
         },
         "textures/blocks/leaves_big_oak": {
             "atlas": [
-                "minecraft:dark_oak_leaves"
+                "minecraft:dark_oak_leaves_gray"
             ]
         },
         "textures/blocks/lectern_base": {
@@ -4002,6 +4995,7 @@
         },
         "textures/blocks/magma": {
             "atlas": [
+                "minecraft:magma_block",
                 "minecraft:magma"
             ]
         },
@@ -4100,6 +5094,8 @@
         },
         "textures/blocks/nether_brick": {
             "atlas": [
+                "minecraft:nether_brick_block",
+                "minecraft:nether_bricks_block",
                 "minecraft:nether_brick",
                 "minecraft:nether_bricks"
             ]
@@ -4496,6 +5492,7 @@
         "textures/blocks/quartz_block_bottom": {
             "atlas": [
                 "minecraft:smooth_quartz",
+                "minecraft:smooth_quartz_block",
                 "minecraft:quartz_block_bottom"
             ]
         },
@@ -4531,6 +5528,7 @@
         },
         "textures/blocks/quartz_ore": {
             "atlas": [
+                "minecraft:nether_quartz_ore",
                 "minecraft:quartz_ore"
             ]
         },
@@ -5992,7 +6990,7 @@
         },
         "textures/blocks/mangrove_leaves": {
             "atlas": [
-                "minecraft:mangrove_leaves"
+                "minecraft:mangrove_leaves_gray"
             ]
         },
         "textures/blocks/mangrove_leaves_carried": {
@@ -6207,6 +7205,76 @@
         }
     },
     "minecraft:item_texture": {
+        "textures/blocks/legacy": {
+            "atlas": [
+                "minecraft:legacy"
+            ]
+        },
+        "textures/blocks/debug_stage0": {
+            "atlas": [
+                "minecraft:debug_stage0"
+            ]
+        },
+        "textures/blocks/debug_stage1": {
+            "atlas": [
+                "minecraft:debug_stage1"
+            ]
+        },
+        "textures/blocks/debug_stage2": {
+            "atlas": [
+                "minecraft:debug_stage2"
+            ]
+        },
+        "textures/blocks/debug_stage3": {
+            "atlas": [
+                "minecraft:debug_stage3"
+            ]
+        },
+        "textures/blocks/debug_stage4": {
+            "atlas": [
+                "minecraft:debug_stage4"
+            ]
+        },
+        "textures/blocks/debug_stage5": {
+            "atlas": [
+                "minecraft:debug_stage5"
+            ]
+        },
+        "textures/blocks/debug_stage6": {
+            "atlas": [
+                "minecraft:debug_stage6"
+            ]
+        },
+        "textures/blocks/debug_stage7": {
+            "atlas": [
+                "minecraft:debug_stage7"
+            ]
+        },
+        "textures/blocks/debug_stage8": {
+            "atlas": [
+                "minecraft:debug_stage8"
+            ]
+        },
+        "textures/blocks/debug_stage9": {
+            "atlas": [
+                "minecraft:debug_stage9"
+            ]
+        },
+        "textures/blocks/debug": {
+            "atlas": [
+                "minecraft:debug"
+            ]
+        },
+        "textures/blocks/debug2": {
+            "atlas": [
+                "minecraft:debug2"
+            ]
+        },
+        "textures/items/trial_key": {
+            "atlas": [
+                "minecraft:trial_key"
+            ]
+        },
         "textures/items/angler_pottery_sherd": {
             "atlas": [
                 "minecraft:angler_pottery_sherd"
@@ -6442,16 +7510,6 @@
                 "minecraft:music_disc_relic",
                 "minecraft:pitcher_pod",
                 "minecraft:record_relic"
-            ]
-        },
-        "textures/blocks/debug": {
-            "atlas": [
-                "minecraft:debug"
-            ]
-        },
-        "textures/blocks/debug2": {
-            "atlas": [
-                "minecraft:debug2"
             ]
         },
         "textures/items/bamboo": {

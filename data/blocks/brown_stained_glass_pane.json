@@ -1,10 +1,12 @@
 {
+  "type": "glass_pane",
   "format_version": "1.20.30",
   "minecraft:block": {
     "description": {
       "identifier": "minecraft:brown_stained_glass_pane"
     },
     "components": {
+      "tag:glass_pane": {},
       "tag:minecraft:non_solid": {},
       "minecraft:light_dampening": 0,
       "minecraft:light_emission": 0,

@@ -1,4 +1,6 @@
-# Combines all items, blocks, and entites fies into one file for each type.type
+"""
+Combines all items, blocks, and entites fies into one file for each type.type
+"""
 import json
 import os
 import glob
@@ -26,18 +28,20 @@ def merge(dir:str, name:str):
     with open(os.path.join(PATH, name+'.json'), 'w') as w:
         w.write(json.dumps(obj))
 
-merge('blocks', 'block')
-merge('entities', 'entity')
-merge('items', 'item')
 
-print('Calculating contents...')
+if __name__ == '__main__':
+    merge('blocks', 'block')
+    merge('entities', 'entity')
+    merge('items', 'item')
 
-contents = []
-for path in glob.glob(PATH+'/**', recursive=True):
-    if os.path.isfile(path) and str(path).endswith('.json'):
-        contents.append({'path': path.replace(PATH+'\\', '').replace('\\', '/')})
+    print('Calculating contents...')
 
-with open(os.path.join(PATH, 'contents.json'), 'w') as wc:
-    wc.write(json.dumps({"content": contents}))
+    contents = []
+    for path in glob.glob(PATH+'/**', recursive=True):
+        if os.path.isfile(path) and str(path).endswith('.json'):
+            contents.append({'path': path.replace(PATH+'\\', '').replace('\\', '/')})
 
-print('Done!')
+    with open(os.path.join(PATH, 'contents.json'), 'w') as wc:
+        wc.write(json.dumps({"content": contents}))
+
+    print('Done!')

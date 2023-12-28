@@ -1,4 +1,4 @@
-# [<](./README) Block Textures
+# [<](.) Block Textures
 
 This page describes all the texture additions in the resource pack. Use the below IDs inside your block's material instance.
 
@@ -27,6 +27,90 @@ The below table lists all the texture definitions that are included in this vers
 
 | Name(s) | Path |
 |--|--|
+| `minecraft:grass_block`<br> `minecraft:grass_block_side`<br> `minecraft:grass_side`<br> `minecraft:grass_carried`<br> `minecraft:grass_block_gray`<br> `minecraft:grass_block_gray_side`<br> `minecraft:grass_side_gray` | `textures/blocks/grass_side` |
+| `minecraft:grass_block_top`<br> `minecraft:grass_top` | `textures/blocks/grass_top.tga` |
+| `minecraft:acacia_leaves` | `textures/blocks/acacia_leaves.tga` |
+| `minecraft:birch_leaves` | `textures/blocks/birch_leaves.tga` |
+| `minecraft:dark_oak_leaves` | `textures/blocks/dark_oak_leaves.tga` |
+| `minecraft:jungle_leaves` | `textures/blocks/jungle_leaves.tga` |
+| `minecraft:oak_leaves` | `textures/blocks/oak_leaves.tga` |
+| `minecraft:spruce_leaves` | `textures/blocks/spruce_leaves.tga` |
+| `minecraft:mangrove_leaves` | `textures/blocks/mangrove_leaves.tga` |
+| `minecraft:debug_stage0` | `textures/blocks/debug_stage0` |
+| `minecraft:debug_stage1` | `textures/blocks/debug_stage1` |
+| `minecraft:debug_stage2` | `textures/blocks/debug_stage2` |
+| `minecraft:debug_stage3` | `textures/blocks/debug_stage3` |
+| `minecraft:debug_stage4` | `textures/blocks/debug_stage4` |
+| `minecraft:debug_stage5` | `textures/blocks/debug_stage5` |
+| `minecraft:debug_stage6` | `textures/blocks/debug_stage6` |
+| `minecraft:debug_stage7` | `textures/blocks/debug_stage7` |
+| `minecraft:debug_stage8` | `textures/blocks/debug_stage8` |
+| `minecraft:debug_stage9` | `textures/blocks/debug_stage9` |
+| `minecraft:debug` | `textures/blocks/debug` |
+| `minecraft:debug2` | `textures/blocks/debug2` |
+| `minecraft:legacy` | `textures/blocks/legacy` |
+| `minecraft:trial_spawner_top_inactive` | `textures/blocks/minecraft:trial_spawner_top_inactive` |
+| `minecraft:trial_spawner_top_ejecting_reward` | `textures/blocks/minecraft:trial_spawner_top_ejecting_reward` |
+| `minecraft:trial_spawner_top_active` | `textures/blocks/minecraft:trial_spawner_top_active` |
+| `minecraft:trial_spawner_side_inactive` | `textures/blocks/minecraft:trial_spawner_side_inactive` |
+| `minecraft:trial_spawner_side_active` | `textures/blocks/minecraft:trial_spawner_side_active` |
+| `minecraft:trial_spawner_bottom` | `textures/blocks/minecraft:trial_spawner_bottom` |
+| `minecraft:crafter_west_triggered` | `textures/blocks/crafter_west_triggered` |
+| `minecraft:crafter_west_crafting` | `textures/blocks/crafter_west_crafting` |
+| `minecraft:crafter_west` | `textures/blocks/crafter_west` |
+| `minecraft:crafter_top_triggered` | `textures/blocks/crafter_top_triggered` |
+| `minecraft:crafter_top_crafting` | `textures/blocks/crafter_top_crafting` |
+| `minecraft:crafter_top` | `textures/blocks/crafter_top` |
+| `minecraft:crafter_south_triggered` | `textures/blocks/crafter_south_triggered` |
+| `minecraft:crafter_south` | `textures/blocks/crafter_south` |
+| `minecraft:crafter_north_crafting` | `textures/blocks/crafter_north_crafting` |
+| `minecraft:crafter_north` | `textures/blocks/crafter_north` |
+| `minecraft:crafter_east_triggered` | `textures/blocks/crafter_east_triggered` |
+| `minecraft:crafter_east_crafting` | `textures/blocks/crafter_east_crafting` |
+| `minecraft:crafter_east` | `textures/blocks/crafter_east` |
+| `minecraft:crafter_bottom` | `textures/blocks/crafter_bottom` |
+| `minecraft:chiseled_tuff` | `textures/blocks/chiseled_tuff` |
+| `minecraft:tuff_bricks`<br> `minecraft:tuff_brick` | `textures/blocks/tuff_bricks` |
+| `minecraft:polished_tuff` | `textures/blocks/polished_tuff` |
+| `minecraft:chiseled_tuff_top` | `textures/blocks/chiseled_tuff_top` |
+| `minecraft:chiseled_tuff_bricks_top`<br> `minecraft:chiseled_tuff_brick_top` | `textures/blocks/chiseled_tuff_bricks_top` |
+| `minecraft:chiseled_tuff_bricks`<br> `minecraft:chiseled_tuff_brick` | `textures/blocks/chiseled_tuff_bricks` |
+| `minecraft:weathered_copper_trapdoor` | `textures/blocks/weathered_copper_trapdoor` |
+| `minecraft:weathered_copper_grate` | `textures/blocks/weathered_copper_grate` |
+| `minecraft:weathered_copper_door_top` | `textures/blocks/weathered_copper_door_top` |
+| `minecraft:weathered_copper_door_bottom` | `textures/blocks/weathered_copper_door_bottom` |
+| `minecraft:weathered_copper_bulb_powered` | `textures/blocks/weathered_copper_bulb_powered` |
+| `minecraft:weathered_copper_bulb_lit_powered` | `textures/blocks/weathered_copper_bulb_lit_powered` |
+| `minecraft:weathered_copper_bulb_lit` | `textures/blocks/weathered_copper_bulb_lit` |
+| `minecraft:weathered_copper_bulb` | `textures/blocks/weathered_copper_bulb` |
+| `minecraft:weathered_chiseled_copper` | `textures/blocks/weathered_chiseled_copper` |
+| `minecraft:oxidized_copper_trapdoor` | `textures/blocks/oxidized_copper_trapdoor` |
+| `minecraft:oxidized_copper_grate` | `textures/blocks/oxidized_copper_grate` |
+| `minecraft:oxidized_copper_door_top` | `textures/blocks/oxidized_copper_door_top` |
+| `minecraft:oxidized_copper_door_bottom` | `textures/blocks/oxidized_copper_door_bottom` |
+| `minecraft:oxidized_copper_bulb_powered` | `textures/blocks/oxidized_copper_bulb_powered` |
+| `minecraft:oxidized_copper_bulb_lit_powered` | `textures/blocks/oxidized_copper_bulb_lit_powered` |
+| `minecraft:oxidized_copper_bulb_lit` | `textures/blocks/oxidized_copper_bulb_lit` |
+| `minecraft:oxidized_copper_bulb` | `textures/blocks/oxidized_copper_bulb` |
+| `minecraft:oxidized_chiseled_copper` | `textures/blocks/oxidized_chiseled_copper` |
+| `minecraft:exposed_copper_trapdoor` | `textures/blocks/exposed_copper_trapdoor` |
+| `minecraft:exposed_copper_grate` | `textures/blocks/exposed_copper_grate` |
+| `minecraft:exposed_copper_door_top` | `textures/blocks/exposed_copper_door_top` |
+| `minecraft:exposed_copper_door_bottom` | `textures/blocks/exposed_copper_door_bottom` |
+| `minecraft:exposed_copper_bulb_powered` | `textures/blocks/exposed_copper_bulb_powered` |
+| `minecraft:exposed_copper_bulb_lit_powered` | `textures/blocks/exposed_copper_bulb_lit_powered` |
+| `minecraft:exposed_copper_bulb_lit` | `textures/blocks/exposed_copper_bulb_lit` |
+| `minecraft:exposed_copper_bulb` | `textures/blocks/exposed_copper_bulb` |
+| `minecraft:exposed_chiseled_copper` | `textures/blocks/exposed_chiseled_copper` |
+| `minecraft:copper_trapdoor` | `textures/blocks/copper_trapdoor` |
+| `minecraft:copper_grate` | `textures/blocks/copper_grate` |
+| `minecraft:copper_door_top` | `textures/blocks/copper_door_top` |
+| `minecraft:copper_door_bottom` | `textures/blocks/copper_door_bottom` |
+| `minecraft:copper_bulb_powered` | `textures/blocks/copper_bulb_powered` |
+| `minecraft:copper_bulb_lit_powered` | `textures/blocks/copper_bulb_lit_powered` |
+| `minecraft:copper_bulb_lit` | `textures/blocks/copper_bulb_lit` |
+| `minecraft:copper_bulb` | `textures/blocks/copper_bulb` |
+| `minecraft:chiseled_copper` | `textures/blocks/chiseled_copper` |
 | `minecraft:bamboo_block`<br> `minecraft:bamboo_block_side` | `textures/blocks/bamboo_block` |
 | `minecraft:bamboo_block_top` | `textures/blocks/bamboo_block_top` |
 | `minecraft:bamboo_door_bottom` | `textures/blocks/bamboo_door_bottom` |
@@ -98,8 +182,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:torchflower_crop_stage_1` | `textures/blocks/torchflower_crop_stage_1` |
 | `minecraft:suspicious_gravel` | `textures/blocks/suspicious_gravel` |
 | `minecraft:suspicious_sand` | `textures/blocks/suspicious_sand` |
-| `minecraft:debug` | `textures/blocks/debug` |
-| `minecraft:debug2` | `textures/blocks/debug2` |
+| `minecraft:brick_block`<br> `minecraft:bricks_block`<br> `minecraft:bricks`<br> `minecraft:brick` | `textures/blocks/brick` |
 | `minecraft:stonebrick`<br> `minecraft:stone_bricks`<br> `minecraft:stone_brick`<br> `minecraft:stonebricks` | `textures/blocks/stonebrick` |
 | `minecraft:packed_ice`<br> `minecraft:ice_packed` | `textures/blocks/ice_packed` |
 | `minecraft:air` | `textures/blocks/air` |
@@ -181,7 +264,6 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:border_block` | `textures/blocks/border` |
 | `minecraft:brewing_stand` | `textures/blocks/brewing_stand` |
 | `minecraft:brewing_stand_base` | `textures/blocks/brewing_stand_base` |
-| `minecraft:brick` | `textures/blocks/brick` |
 | `minecraft:brown_candle` | `textures/blocks/candles/brown_candle` |
 | `minecraft:brown_candle_lit` | `textures/blocks/candles/brown_candle_lit` |
 | `minecraft:brown_glazed_terracotta` | `textures/blocks/glazed_terracotta_brown` |
@@ -257,7 +339,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:chorus_flower` | `textures/blocks/chorus_flower` |
 | `minecraft:chorus_flower_dead` | `textures/blocks/chorus_flower_dead` |
 | `minecraft:chorus_plant` | `textures/blocks/chorus_plant` |
-| `minecraft:clay` | `textures/blocks/clay` |
+| `minecraft:clay_block`<br> `minecraft:clay` | `textures/blocks/clay` |
 | `minecraft:coal_block` | `textures/blocks/coal_block` |
 | `minecraft:coal_ore` | `textures/blocks/coal_ore` |
 | `minecraft:cobbled_deepslate` | `textures/blocks/deepslate/cobbled_deepslate` |
@@ -440,7 +522,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:rose_top` | `textures/blocks/double_plant_rose_top` |
 | `minecraft:paeonia_top` | `textures/blocks/double_plant_paeonia_top` |
 | `minecraft:dragon_egg` | `textures/blocks/dragon_egg` |
-| `minecraft:dried_kelp_block_side_a` | `textures/blocks/dried_kelp_side_a` |
+| `minecraft:dried_kelp_block`<br> `minecraft:dried_kelp_block_side_a` | `textures/blocks/dried_kelp_side_a` |
 | `minecraft:dried_kelp_block_side_b` | `textures/blocks/dried_kelp_side_b` |
 | `minecraft:dried_kelp_block_top` | `textures/blocks/dried_kelp_top` |
 | `minecraft:dripstone_block` | `textures/blocks/dripstone_block` |
@@ -451,7 +533,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:enchanting_table_bottom` | `textures/blocks/enchanting_table_bottom` |
 | `minecraft:enchanting_table`<br> `minecraft:enchanting_table_side` | `textures/blocks/enchanting_table_side` |
 | `minecraft:enchanting_table_top` | `textures/blocks/enchanting_table_top` |
-| `minecraft:end_bricks` | `textures/blocks/end_bricks` |
+| `minecraft:end_brick`<br> `minecraft:end_stone_brick`<br> `minecraft:end_bricks`<br> `minecraft:end_stone_bricks` | `textures/blocks/end_bricks` |
 | `minecraft:end_gateway` | `textures/blocks/end_gateway` |
 | `minecraft:end_portal` | `textures/blocks/end_portal` |
 | `minecraft:end_rod` | `textures/blocks/end_rod` |
@@ -492,11 +574,10 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:gold_block` | `textures/blocks/gold_block` |
 | `minecraft:gold_ore` | `textures/blocks/gold_ore` |
 | `minecraft:granite` | `textures/blocks/stone_granite` |
-| `minecraft:grass_carried`<br> `minecraft:grass_side` | `textures/blocks/grass_side` |
 | `minecraft:grass_carried_top` | `textures/blocks/grass_carried` |
 | `minecraft:dirt_path`<br> `minecraft:dirt_path_side`<br> `minecraft:grass_path`<br> `minecraft:grass_path_side` | `textures/blocks/grass_path_side` |
 | `minecraft:dirt_path_top`<br> `minecraft:grass_path_top` | `textures/blocks/grass_path_top` |
-| `minecraft:grass_top` | `textures/blocks/grass_top` |
+| `minecraft:grass_block_gray_top`<br> `minecraft:grass_top_gray` | `textures/blocks/grass_top` |
 | `minecraft:gravel` | `textures/blocks/gravel` |
 | `minecraft:gray_candle` | `textures/blocks/candles/gray_candle` |
 | `minecraft:gray_candle_lit` | `textures/blocks/candles/gray_candle_lit` |
@@ -512,9 +593,9 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:hardened_clay`<br> `minecraft:terracotta` | `textures/blocks/hardened_clay` |
 | `minecraft:hayblock`<br> `minecraft:hayblock_side`<br> `minecraft:hay_block`<br> `minecraft:hay_block_side` | `textures/blocks/hay_block_side` |
 | `minecraft:hayblock_top`<br> `minecraft:hay_block_top` | `textures/blocks/hay_block_top` |
-| `minecraft:honey_bottom` | `textures/blocks/honey_bottom` |
-| `minecraft:honey`<br> `minecraft:honey_side` | `textures/blocks/honey_side` |
-| `minecraft:honey_top` | `textures/blocks/honey_top` |
+| `minecraft:honey_block_bottom`<br> `minecraft:honey_bottom` | `textures/blocks/honey_bottom` |
+| `minecraft:honey_block`<br> `minecraft:honey_block_side`<br> `minecraft:honey`<br> `minecraft:honey_side` | `textures/blocks/honey_side` |
+| `minecraft:honey_block_top`<br> `minecraft:honey_top` | `textures/blocks/honey_top` |
 | `minecraft:honeycomb_block` | `textures/blocks/honeycomb` |
 | `minecraft:hopper_inside` | `textures/blocks/hopper_inside` |
 | `minecraft:hopper_outside` | `textures/blocks/hopper_outside` |
@@ -545,12 +626,12 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:lapis_block` | `textures/blocks/lapis_block` |
 | `minecraft:lapis_ore` | `textures/blocks/lapis_ore` |
 | `minecraft:large_amethyst_bud` | `textures/blocks/large_amethyst_bud` |
-| `minecraft:oak_leaves` | `textures/blocks/leaves_oak` |
-| `minecraft:spruce_leaves` | `textures/blocks/leaves_spruce` |
-| `minecraft:birch_leaves` | `textures/blocks/leaves_birch` |
-| `minecraft:jungle_leaves` | `textures/blocks/leaves_jungle` |
-| `minecraft:acacia_leaves` | `textures/blocks/leaves_acacia` |
-| `minecraft:dark_oak_leaves` | `textures/blocks/leaves_big_oak` |
+| `minecraft:oak_leaves_gray` | `textures/blocks/leaves_oak` |
+| `minecraft:spruce_leaves_gray` | `textures/blocks/leaves_spruce` |
+| `minecraft:birch_leaves_gray` | `textures/blocks/leaves_birch` |
+| `minecraft:jungle_leaves_gray` | `textures/blocks/leaves_jungle` |
+| `minecraft:acacia_leaves_gray` | `textures/blocks/leaves_acacia` |
+| `minecraft:dark_oak_leaves_gray` | `textures/blocks/leaves_big_oak` |
 | `minecraft:lectern_base` | `textures/blocks/lectern_base` |
 | `minecraft:lectern_front` | `textures/blocks/lectern_front` |
 | `minecraft:lectern`<br> `minecraft:lectern_sides` | `textures/blocks/lectern_sides` |
@@ -601,7 +682,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:magenta_candle` | `textures/blocks/candles/magenta_candle` |
 | `minecraft:magenta_candle_lit` | `textures/blocks/candles/magenta_candle_lit` |
 | `minecraft:magenta_glazed_terracotta` | `textures/blocks/glazed_terracotta_magenta` |
-| `minecraft:magma` | `textures/blocks/magma` |
+| `minecraft:magma_block`<br> `minecraft:magma` | `textures/blocks/magma` |
 | `minecraft:medium_amethyst_bud` | `textures/blocks/medium_amethyst_bud` |
 | `minecraft:melon`<br> `minecraft:melon_side` | `textures/blocks/melon_side` |
 | `minecraft:melon_stem` | `textures/blocks/melon_stem_disconnected` |
@@ -619,7 +700,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:reinforced_deepslate_bottom` | `textures/blocks/reinforced_deepslate_bottom` |
 | `minecraft:mycelium`<br> `minecraft:mycelium_side` | `textures/blocks/mycelium_side` |
 | `minecraft:mycelium_top` | `textures/blocks/mycelium_top` |
-| `minecraft:nether_brick`<br> `minecraft:nether_bricks` | `textures/blocks/nether_brick` |
+| `minecraft:nether_brick_block`<br> `minecraft:nether_bricks_block`<br> `minecraft:nether_brick`<br> `minecraft:nether_bricks` | `textures/blocks/nether_brick` |
 | `minecraft:nether_gold_ore` | `textures/blocks/nether_gold_ore` |
 | `minecraft:nether_shroom_blue` | `textures/blocks/warped_fungus` |
 | `minecraft:nether_shroom_red` | `textures/blocks/crimson_fungus` |
@@ -695,13 +776,13 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:purpur_pillar`<br> `minecraft:purpur_pillar_side` | `textures/blocks/purpur_pillar` |
 | `minecraft:chiseled_quartz_block_top` | `textures/blocks/quartz_block_chiseled_top` |
 | `minecraft:chiseled_quartz_block` | `textures/blocks/quartz_block_chiseled` |
-| `minecraft:smooth_quartz`<br> `minecraft:quartz_block_bottom` | `textures/blocks/quartz_block_bottom` |
+| `minecraft:smooth_quartz`<br> `minecraft:smooth_quartz_block`<br> `minecraft:quartz_block_bottom` | `textures/blocks/quartz_block_bottom` |
 | `minecraft:quartz_block`<br> `minecraft:quartz`<br> `minecraft:quartz_block_top` | `textures/blocks/quartz_block_top` |
 | `minecraft:quartz_block_side` | `textures/blocks/quartz_block_side` |
 | `minecraft:quartz_pillar`<br> `minecraft:quartz_block_lines`<br> `minecraft:quartz_pillar_side` | `textures/blocks/quartz_block_lines` |
 | `minecraft:quartz_pillar_top` | `textures/blocks/quartz_block_lines_top` |
 | `minecraft:quartz_bricks`<br> `minecraft:quartz_brick` | `textures/blocks/quartz_bricks` |
-| `minecraft:quartz_ore` | `textures/blocks/quartz_ore` |
+| `minecraft:nether_quartz_ore`<br> `minecraft:quartz_ore` | `textures/blocks/quartz_ore` |
 | `minecraft:rail_activator` | `textures/blocks/rail_activator` |
 | `minecraft:rail_activator_powered` | `textures/blocks/rail_activator_powered` |
 | `minecraft:rail_detector` | `textures/blocks/rail_detector` |
@@ -985,7 +1066,7 @@ The below table lists all the texture definitions that are included in this vers
 | `minecraft:yellow_glazed_terracotta` | `textures/blocks/glazed_terracotta_yellow` |
 | `minecraft:mangrove_door_bottom` | `textures/blocks/mangrove_door_bottom` |
 | `minecraft:mangrove_door_top` | `textures/blocks/mangrove_door_top` |
-| `minecraft:mangrove_leaves` | `textures/blocks/mangrove_leaves` |
+| `minecraft:mangrove_leaves_gray` | `textures/blocks/mangrove_leaves` |
 | `minecraft:mangrove_leaves_carried` | `textures/blocks/mangrove_leaves_carried` |
 | `minecraft:mangrove_log`<br> `minecraft:mangrove_log_side` | `textures/blocks/mangrove_log_side` |
 | `minecraft:mangrove_log_top` | `textures/blocks/mangrove_log_top` |

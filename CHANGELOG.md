@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] (1.20.51) - 12/27/2023
+### General
+- Updated for 1.20.51
+
+### Added
+- Added debug_stageX textures 0-9
+- Added template_vertical_slab model
+- Replaced template_slab.inner and template_slab.outer with left and right rotations.
+- New terrain texture definitions for 1.21
+
 ## [1.5.0] (1.20.12) - 7-21-2023
 
 ### General
